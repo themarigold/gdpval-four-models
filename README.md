@@ -2,6 +2,8 @@
 
 I ran four models on a 20-task slice of GDPval, graded them, and then went through what three of them actually got wrong. This repository holds the runs, the grading, the failure classification and a one-page write-up of the findings.
 
+The findings page is online at https://themarigold.github.io/gdpval-four-models/.
+
 The short version: Claude Opus 5.5, gpt-6.1-sol, Claude Haiku 5.5 and gpt-6-luna all scored within 0.05 of each other and of the human experts under the judge that graded all of them. When every rubric item a judge had failed was checked against the files, between 43% and 91% of the lost points turned out not to be model failures. What was left is 53 real failures that lost points across three models, and 4 more that lost none. They fall into four gaps, and three of those are gaps a dataset can target.
 
 ## Where to start
