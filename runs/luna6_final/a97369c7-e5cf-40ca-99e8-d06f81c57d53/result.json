@@ -1,0 +1,118 @@
+{
+ "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "web_tools": true,
+ "web_search_calls": 13,
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "output_cap_recoveries": 0,
+ "api_calls": 1,
+ "seconds": 261.1,
+ "usage": {
+  "input_tokens": 133357,
+  "cached_tokens": 6696,
+  "cache_write_tokens": 0,
+  "output_tokens": 26062,
+  "reasoning_tokens": 21408
+ },
+ "cost_usd": 0.2758,
+ "cost_usd_upper_bound": 0.295,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Avalon_Delaware_Governance_Memo.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/rendered_memo_final/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo_final/Avalon_Delaware_Governance_Memo.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo_final/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo_final/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Avalon_Delaware_Governance_Memo.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4375aa09c819185e0b851754d556f.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4375a9f64819196454057dccec610.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4375aa1d88191b686f7ab9dcf52fd.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4375a9ddc8191ae5f7b5c7c00d46e.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo/Avalon_Delaware_Governance_Memo.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered_memo/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4376a4b308191945d1ef24574b28e.png",
+   "bytes": 237658,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4376a49ec8191981e236588c49fce.png",
+   "bytes": 268749,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4376a45fc8191905dc84b5c81786a.png",
+   "bytes": 244138,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo Refusal of Velridge Contract.docx"
+ ]
+}

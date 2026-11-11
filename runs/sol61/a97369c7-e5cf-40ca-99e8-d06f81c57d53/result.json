@@ -1,0 +1,136 @@
+{
+ "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+ "occupation": "Lawyers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 339.8,
+ "usage": {
+  "input_tokens": 37295,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 933,
+  "output_tokens": 13013,
+  "reasoning_tokens": 12916
+ },
+ "cost_usd": 0.3225,
+ "cost_usd_upper_bound": 0.4577,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Avalon_Legal_Memorandum.docx",
+  "Avalon_Legal_Memorandum.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af4141ced0881918026a0b640d69ec1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413f730a08191891ad180634d00ed.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render_final/Avalon_Legal_Memorandum.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render_final/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render_final/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render_final/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render_final/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/Avalon_Legal_Memorandum.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Avalon_Legal_Memorandum.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4141ceb8081918a77f8c3e0bed7e5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413f72d548191ab370cb2ee5454cc.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Avalon_Legal_Memorandum.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Avalon_Legal_Memorandum.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413f72f088191a31df2422d441c06.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4141ceff0819191a35846dcfd3bb0.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4141cee84819186982f30cbab81d7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413f7322c81919dd4cbff1f1f302e.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo Refusal of Velridge Contract.docx"
+ ]
+}

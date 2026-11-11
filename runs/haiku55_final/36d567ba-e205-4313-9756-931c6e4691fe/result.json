@@ -1,0 +1,24 @@
+{
+ "task_id": "36d567ba-e205-4313-9756-931c6e4691fe",
+ "occupation": "Compliance Officers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 183.3,
+ "usage": {
+  "input_tokens": 40,
+  "output_tokens": 28868,
+  "cache_creation_input_tokens": 42922,
+  "cache_read_input_tokens": 490625
+ },
+ "cost_usd": 0.0247,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Federal Applicant Risk Assessment Tool.docx"
+ ],
+ "delivered_files": [
+  "Federal Applicant - Risk Assessment Tool.docx"
+ ],
+ "error": null
+}

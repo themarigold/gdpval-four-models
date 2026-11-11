@@ -1,0 +1,375 @@
+{
+ "task_id": "5f6c57dd-feb6-4e70-b152-4969d92d1608",
+ "occupation": "Financial Managers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "failed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 569.6,
+ "usage": {
+  "input_tokens": 0,
+  "cached_tokens": 0,
+  "cache_write_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "cost_usd": 0.12,
+ "cost_usd_upper_bound": 0.12,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Branch_Performance_Reporting_2023_2024.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/test_recalc/Test_Branch.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/test_recalc/Test_Corporate.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Test_Branch.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Test_Corporate.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Branch_Performance_Reporting_2023_2024.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/Preview.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/recalc/Branch_Performance_Package.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c4fc82c8191827dc3de83b86fd9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/config/javasettings_Linux_X86_64.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/config/autotbl.fmt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/gallery/sg30.thm",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/gallery/sg30.sdv",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/config/autotbl.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/config/javasettings_Linux_X86_64.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/registrymodifications.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/ExtensionInfo.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/autotext/mytexts.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/database/biblio/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/database/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/Standard/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/Standard/Module1.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/Standard/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/autotext/mytexts.bau",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/registrymodifications.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/GraphicsRenderTests.log",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/database/biblio/biblio.dbf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/database/biblio/biblio.dbt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/database/biblio.odb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/dialog.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/Standard/Module1.xba",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/Standard/dialog.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/Standard/script.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/script.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/configmgr.ini",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu4528uk4.tmp/Paths.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu4528uk2.tmp/Filter.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu4528uk1.tmp/OptionsDialog.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend/unorc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/extensions.pmap",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/buildid",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/shared/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Branch_Performance_Package.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Preview.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c4fc708819198688236baf13080.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c49569c8191b3fce923d418f291.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c4fc5b881918c95bdfa69807e1a.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c53ceb88191b183b6464bc0c374.png",
+   "bytes": 296685,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c53cd7c8191aed44ed43f08d91c.png",
+   "bytes": 207867,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/002f096833b1f542488624eeda9a5c54-Raw_Data_for_Branch_Profitability_Final.xlsx",
+   "bytes": 41862,
+   "source": "user"
+  }
+ ],
+ "error": "failed: credit_balance_exhausted You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+ "reference_files": [
+  "Raw Data for Branch Profitability Final.xlsx"
+ ],
+ "expected_deliverables": []
+}

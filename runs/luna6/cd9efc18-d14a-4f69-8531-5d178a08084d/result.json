@@ -1,0 +1,158 @@
+{
+ "task_id": "cd9efc18-d14a-4f69-8531-5d178a08084d",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 233.2,
+ "usage": {
+  "input_tokens": 42622,
+  "cached_tokens": 1862,
+  "cache_write_tokens": 0,
+  "output_tokens": 22905,
+  "reasoning_tokens": 22780
+ },
+ "cost_usd": 0.1355,
+ "cost_usd_upper_bound": 0.1454,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Grace_J_Parsons_Last_Will_and_Testament.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af411be79288191b3879eb5af0df79a.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af411c98f688191a457a3b4e7d5fa18.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Grace_J_Parsons_Last_Will_and_Testament.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/Grace_J_Parsons_Will.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render2/page-8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Grace_J_Parsons_Will.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/Grace_J_Parsons_Will.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af411df2ce48191b7032dce3ed92147.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af411cb1eac8191a0126e1c282f31cc.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": []
+}

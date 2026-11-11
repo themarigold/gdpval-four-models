@@ -1,0 +1,78 @@
+{
+ "task_id": "4520f882-715a-482d-8e87-1cb3cbdfe975",
+ "occupation": "Financial Managers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "failed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 663.0,
+ "usage": {
+  "input_tokens": 0,
+  "cached_tokens": 0,
+  "cache_write_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "cost_usd": 0.12,
+ "cost_usd_upper_bound": 0.12,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Weekly_Musician_Payroll_Model.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/lo_recalc/weekly_musician_payroll_model.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/test_blank_premium.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/weekly_musician_payroll_model.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Weekly_Musician_Payroll_Model.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_test2/test_blank_premium.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/test_payroll_model.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_test/test_payroll_model.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/5e33ce259532f57f24ce89e22fecd771-CBA_excerpt.docx",
+   "bytes": 13763,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/03c5949a21a4dd91b2fe545f508433ea-Sample_roster_and_schedule.xlsx",
+   "bytes": 6503,
+   "source": "user"
+  }
+ ],
+ "error": "failed: credit_balance_exhausted You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+ "reference_files": [
+  "Sample roster and schedule.xlsx",
+  "CBA excerpt.docx"
+ ],
+ "expected_deliverables": [
+  "Theatre CBA.xlsx"
+ ]
+}

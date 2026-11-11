@@ -1,0 +1,6 @@
+I’ll prepare a Board report using the reference file, with explicit cash-flow assumptions for the directional NPV and IRR estimates. It will include a single-project recommendation, risk mitigation and contingency plans, and a staged allocation if the Board pursues both ventures. I’ll provide both Word and PDF versions.The draft recommends Project B, subject to technical, commercial and IP approval gates. Under the stated illustrative assumptions, its probability-adjusted NPV is about $25 million, versus about $8 million for Project A, but its 30% failure risk remains significant.
+
+If both proceed, the report proposes $55 million for A and $45 million for B, including $10 million in centrally held contingencies. It also flags the need to verify May cash availability and protect operating liquidity before committing funds. I’m completing the final layout and consistency checks now.Completed the **8-page Board report** with directional NPV/IRR estimates, a Project B recommendation, three priority risks with mitigation and contingency plans, and a $100 million allocation if both ventures proceed.
+
+- [Download the PDF report](sandbox:/mnt/data/outputs/Tiny_Rod_Hit_Board_Investment_Report.pdf)
+- [Download the editable Word report](sandbox:/mnt/data/outputs/Tiny_Rod_Hit_Board_Investment_Report.docx)

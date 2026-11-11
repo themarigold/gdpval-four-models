@@ -1,0 +1,4 @@
+rubric_item_id_first8,assigned_to,class,what_went_wrong,basis,expert_meets_item,rationale,mode,secondary_mode,severity,data_remedy,harness_aggravated,task,note
+cc0eb611,E3,,,,,,,,,,,,
+a836aa8c,E3,,,,,,,,,,,,
+,S-A-9,,The added 'March TB reference' tab carries no April 2025 period; the expert's file has no period on four tabs,fresh; reason restated 2026-11-11,,"The item is read as at Opus table review 3: it is met if each tab from 3a onward states the April 2025 period. Every tab does except the added March reference tab 20, which holds March data and no April period. The expert's file has no period text on 3a, 10, 11a and 11b, so the expert does not meet the item either (decision rule 4).",,,,,,,

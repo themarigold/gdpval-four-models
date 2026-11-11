@@ -1,0 +1,23 @@
+ANTHROPIC_API_KEY is set and takes precedence over the SDK's profile / federation auto-discovery; unset ANTHROPIC_API_KEY to use the auto-discovered credential.
+83d10b06 end_turn files=['Population v2 - Audit Testing.xlsx', 'Sample.xlsx'] $0.0898 err=None
+7b08cd4d end_turn files=['2024_Fall_Music_Tour_PL_Report_As_of_12-31-2024.xlsx'] $0.0372 err=None
+7d7fc9a7 end_turn files=['Aurisic_Prepaid_Amortization_Schedule_Jan-Apr2025.xlsx'] $0.0837 err=None
+43dc9778 end_turn files=['Smith_Bob_Lisa_2024_Form1040_Package_DRAFT_for_Review.pdf'] $0.339 err=None
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+ee09d943 end_turn files=['Aurisic_Financials_4-25-1.xlsx'] $0.4009 err=None
+36d567ba end_turn files=['Federal Applicant - Risk Assessment Tool.docx'] $0.0247 err=None
+7bbfcfe9 end_turn files=['SCRA_3937_3919_Audit_Test_Questions.xlsx'] $0.012 err=None
+2696757c end_turn files=['VASP_Bankruptcy_Testing_Template_Dec2024.pdf'] $0.0066 err=None
+dfb4e0cd end_turn files=['Spending_Rate_Analysis_as_of_2025-03-31.xlsx'] $0.0073 err=None
+4c18ebae end_turn files=['SAR_Draft_Golden_Apple_SIU.docx', 'SAR_Supporting_Transaction_Records.xlsx'] $0.0767 err=None
+a1963a68 end_turn files=['SuperK-T_Korea_Deep_Dive_Strategy_Presentation_May2024.pdf'] $0.1285 err=None
+5f6c57dd end_turn files=['Branch_Profitability_Reporting_Package.xlsx'] $0.1528 err=None
+b39a5aa7 end_turn files=['Renaissance_Orchestra_CBA_Compensation_Model.xlsx'] $0.0775 err=None
+b78fd844 end_turn files=['Tiny-Rod_Board_Memo_Project_A_vs_B.docx', 'Tiny-Rod_Board_Memo_Project_A_vs_B.pdf'] $0.0537 err=None
+4520f882 max_tokens files=[] $0.0334 err=None
+cd9efc18 end_turn files=['Last_Will_and_Testament_Grace_J_Parsons.pdf'] $0.0385 err=None
+a97369c7 end_turn files=['Avalon_Delaware_Law_Memo.docx'] $0.0357 err=None
+3f625cb2 end_turn files=['ABC_Father_YouTube_Privacy_Legal_Memo.pdf'] $0.0141 err=None
+aad21e4c max_tokens files=[] $0.0325 err=None
+8314d1b1 end_turn files=['Clarivon_Luminor_Standard_of_Review_Memo.docx'] $0.0316 err=None
+total cost $1.68

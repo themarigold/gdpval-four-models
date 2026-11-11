@@ -1,0 +1,25 @@
+{
+ "task_id": "4520f882-715a-482d-8e87-1cb3cbdfe975",
+ "occupation": "Financial Managers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "max_tokens",
+ "api_calls": 1,
+ "seconds": 301.1,
+ "usage": {
+  "input_tokens": 10,
+  "output_tokens": 64595,
+  "cache_creation_input_tokens": 7345,
+  "cache_read_input_tokens": 13533
+ },
+ "cost_usd": 0.0334,
+ "reference_files": [
+  "Sample roster and schedule.xlsx",
+  "CBA excerpt.docx"
+ ],
+ "expected_deliverables": [
+  "Theatre CBA.xlsx"
+ ],
+ "delivered_files": [],
+ "error": null
+}

@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>Four models on 20 professional tasks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #ffffff;
+    --wash: #f2f4f6;
+    --ink: #16202c;
+    --ink-2: #47525f;
+    --muted: #6f7b87;
+    --rule: #d7dde3;
+    --fail: #c2362b;
+    --noise: #9aa5b0;
+    --on-fail: #ffffff;
+    --on-noise: #16202c;
+    --font: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --nav-h: 3rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12161b; --wash: #1a2027; --ink: #e9edf1; --ink-2: #b9c1ca;
+      --muted: #8a95a1; --rule: #2c343d; --fail: #ee6a5f; --noise: #5d6975;
+      --on-fail: #12161b; --on-noise: #f1f4f7;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12161b; --wash: #1a2027; --ink: #e9edf1; --ink-2: #b9c1ca;
+    --muted: #8a95a1; --rule: #2c343d; --fail: #ee6a5f; --noise: #5d6975;
+    --on-fail: #12161b; --on-noise: #f1f4f7;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--nav-h) + 0.75rem); }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font); font-size: 1.0625rem; line-height: 1.48; }
+  .wrap { max-width: 72rem; margin: 0 auto; padding-left: max(1.25rem, env(safe-area-inset-left, 0px)); padding-right: max(1.25rem, env(safe-area-inset-right, 0px)); }
+  p { margin: 0; }
+  b, strong { font-weight: 660; }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+
+  .nav { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 1px solid var(--rule); }
+  .nav .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: var(--nav-h); }
+  .nav .name { font-stretch: 84%; font-weight: 720; white-space: nowrap; }
+  .nav ol { display: flex; gap: 0.25rem; list-style: none; margin: 0; padding: 0; overflow-x: auto; min-width: 0; scrollbar-width: none; }
+  .nav ol::-webkit-scrollbar { display: none; }
+  .nav a { display: block; padding: 0.35rem 0.6rem; text-decoration: none; color: var(--ink-2); font-size: 0.9375rem; white-space: nowrap; border-radius: 4px; }
+  .nav a kbd { font: inherit; color: var(--muted); margin-right: 0.35rem; font-variant-numeric: tabular-nums; }
+  .nav a[aria-current="true"] { color: var(--ink); background: var(--wash); font-weight: 620; }
+  .nav .keys { margin-left: auto; font-size: 0.8125rem; color: var(--muted); white-space: nowrap; }
+
+  .beat { padding-block: 2.25rem 2rem; border-top: 1px solid var(--rule); }
+  .beat:first-of-type { border-top: 0; padding-top: 2.75rem; }
+  h1 { font-stretch: 78%; font-weight: 780; font-size: clamp(1.8rem, 3.3vw, 2.6rem); line-height: 1.06; letter-spacing: -0.012em; margin: 0 0 1.2rem; text-wrap: balance; }
+  h2 { font-stretch: 82%; font-weight: 740; font-size: clamp(1.6rem, 2.6vw, 2.1rem); line-height: 1.1; margin: 0 0 0.35rem; text-wrap: balance; }
+  .sub { color: var(--ink-2); max-width: 90ch; margin-bottom: 1.1rem; }
+  h3 { font-size: 1.125rem; font-weight: 680; line-height: 1.25; margin: 0; }
+
+  .finding { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); column-gap: 3.5rem; align-items: start; }
+  .dek { font-size: 1.125rem; line-height: 1.42; color: var(--ink-2); max-width: 48ch; }
+  .dek b { color: var(--ink); }
+  .dek + .dek { margin-top: 0.7rem; }
+  .setup { font-size: 0.875rem; color: var(--ink-2); margin-top: 0.9rem; max-width: 60ch; }
+
+  figure.scores { margin: 0; max-width: 30rem; }
+  figure.scores figcaption { font-weight: 660; font-size: 0.9375rem; margin-bottom: 0.25rem; }
+  figure.scores figcaption small { display: block; font-weight: 400; font-size: 0.8125rem; color: var(--muted); }
+  figure.scores ul { list-style: none; margin: 0; padding: 0; }
+  figure.scores li { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) 3rem; column-gap: 0.8rem; align-items: center; padding: 0.12rem 0; font-size: 0.9375rem; }
+  figure.scores .bar { height: 0.55rem; }
+  .bar.ink { background: var(--ink-2); }
+
+  figure.split { margin: 1.5rem 0 0; }
+  figure.split figcaption { font-stretch: 84%; font-weight: 720; font-size: 1.1875rem; margin-bottom: 0.6rem; }
+  figure.split figcaption small { display: block; font-stretch: 100%; font-weight: 400; font-size: 0.875rem; color: var(--muted); }
+  .runs { list-style: none; margin: 0; padding: 0; }
+  .runs li { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr) 19rem; column-gap: 1rem; align-items: center; padding: 0.35rem 0; }
+  .runs .who { font-weight: 680; line-height: 1.2; }
+  .runs .who small, .runs .say small { display: block; font-weight: 400; font-size: 0.8125rem; color: var(--muted); }
+  .runs .strip { display: grid; column-gap: 2px; width: var(--w); height: 1.9rem; }
+  .runs .strip span { display: block; min-width: 3px; }
+  .runs .s-real { background: var(--fail); }
+  .runs .s-other { background: var(--noise); border-radius: 0 4px 4px 0; }
+  .runs .s-nofile, .bar.nofile, .sw-nofile { background: repeating-linear-gradient(135deg, var(--fail) 0 5px, var(--paper) 5px 7px); }
+  .runs .say { font-size: 0.9688rem; color: var(--ink-2); }
+  .runs .say b { font-stretch: 78%; font-weight: 780; font-size: 1.5rem; line-height: 1; color: var(--fail); font-variant-numeric: tabular-nums; margin-right: 0.15rem; }
+  .key { display: flex; flex-wrap: wrap; gap: 0.2rem 1.4rem; font-size: 0.875rem; color: var(--ink-2); margin: 0.3rem 0 0.2rem; }
+  .key .sw { display: inline-block; width: 0.8rem; height: 0.8rem; margin-right: 0.4rem; vertical-align: -0.08rem; border-radius: 2px; }
+  .cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 3.5rem; margin-top: 0.6rem; }
+  .cols > div { min-width: 0; }
+  .grp-h { font-weight: 660; margin: 0.5rem 0 0.2rem; }
+  .grp-h small { display: block; font-weight: 400; font-size: 0.875rem; color: var(--muted); }
+  .bar.fail { background: var(--fail); }
+  .bar.noise { background: var(--noise); }
+  ul.bars { list-style: none; margin: 0; padding: 0; }
+  ul.bars li { display: grid; grid-template-columns: minmax(0, 1fr) 10rem 2.4rem; align-items: center; column-gap: 0.9rem; padding: 0.24rem 0; border-bottom: 1px solid var(--rule); }
+  .lab { font-size: 0.9375rem; line-height: 1.25; }
+  .lab small { display: block; font-size: 0.8125rem; color: var(--muted); }
+  .bar { display: block; height: 0.85rem; width: var(--w); min-width: 3px; border-radius: 0 4px 4px 0; }
+  .val { text-align: right; font-weight: 660; font-variant-numeric: tabular-nums; }
+  .scope { font-size: 0.9063rem; color: var(--ink-2); max-width: 100ch; margin: 0.5rem 0 0.4rem; }
+  .scope b { color: var(--ink); }
+
+  .gaps-head, .gap { display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 1.15fr) minmax(0, 1fr); column-gap: 2.25rem; }
+  .gaps-head { font-size: 0.875rem; font-weight: 640; color: var(--muted); padding-bottom: 0.4rem; }
+  .gap { padding: 0.7rem 0; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.42; }
+  .gap h3 { padding-left: 0.8rem; border-left: 4px solid var(--fail); margin-bottom: 0.25rem; }
+  .gap .tally { font-size: 0.875rem; color: var(--muted); padding-left: calc(0.8rem + 4px); }
+  .gap .verdict { font-weight: 680; }
+  .gap h3.weak { border-left-style: dashed; }
+
+  .needs { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 3.5rem; }
+  .needs h3 { font-stretch: 84%; font-weight: 720; font-size: 1.1875rem; padding-top: 0.7rem; border-top: 2px solid var(--ink); }
+  .needs h3 span { font-stretch: 100%; font-weight: 400; font-size: 0.9375rem; color: var(--ink-2); }
+  .needs ul { list-style: none; margin: 0.5rem 0 0; padding: 0; }
+  .needs li { padding: 0.7rem 0; border-top: 1px solid var(--rule); }
+  .needs li b { display: block; font-weight: 620; }
+  .needs li span { display: block; color: var(--ink-2); font-size: 0.9688rem; margin-top: 0.15rem; }
+  .needs li.not b { font-weight: 500; color: var(--ink-2); }
+
+  .record { margin-top: 1.6rem; padding: 1rem 1.4rem 1.1rem; background: var(--wash); border-radius: 6px; }
+  .record h3 span { display: block; font-weight: 400; font-size: 0.9375rem; color: var(--ink-2); }
+  .record ol { list-style: none; margin: 0.7rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); column-gap: 1.6rem; }
+  .record li { font-size: 0.9375rem; line-height: 1.4; color: var(--ink-2); border-top: 2px solid var(--ink); padding-top: 0.5rem; }
+  .record li b { display: block; color: var(--ink); margin-bottom: 0.15rem; }
+  .record .pilot { margin-top: 0.9rem; max-width: 100ch; color: var(--ink-2); }
+  .record .pilot b { color: var(--ink); }
+
+  .lens-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-bottom: 1.2rem; }
+  .seg { display: inline-flex; border: 1px solid var(--ink); border-radius: 6px; overflow: hidden; }
+  .seg button { font: inherit; font-size: 0.9375rem; padding: 0.4rem 0.9rem; background: var(--paper); color: var(--ink); border: 0; border-left: 1px solid var(--ink); cursor: pointer; }
+  .seg button:first-child { border-left: 0; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); font-weight: 620; }
+  .seg button:focus-visible { outline-offset: -4px; outline-color: var(--fail); }
+  .lens-bar .hint { font-size: 0.8125rem; color: var(--muted); }
+  .lenses { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 3.5rem; }
+  .lens h3 { font-stretch: 84%; font-weight: 720; font-size: 1.1875rem; padding-top: 0.7rem; border-top: 2px solid var(--ink); }
+  .lens h3 span { display: block; font-stretch: 100%; font-weight: 400; font-size: 0.9375rem; color: var(--ink-2); }
+  .lens ul { list-style: none; margin: 0.5rem 0 0; padding: 0; }
+  .lens li { padding: 0.7rem 0; border-top: 1px solid var(--rule); color: var(--ink-2); }
+  .lens li b { color: var(--ink); }
+  body[data-lens="openai"] .lens[data-for="anthropic"],
+  body[data-lens="anthropic"] .lens[data-for="openai"] { display: none; }
+  body[data-lens="openai"] .lenses, body[data-lens="anthropic"] .lenses { grid-template-columns: minmax(0, 1fr); }
+  body[data-lens="openai"] .lens li, body[data-lens="anthropic"] .lens li { display: grid; grid-template-columns: minmax(0, 19rem) minmax(0, 1fr); column-gap: 2.5rem; font-size: 1.0625rem; }
+
+  .limits ul { list-style: none; margin: 0; padding: 1.1rem 1.4rem; background: var(--wash); border-radius: 6px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0.7rem 3rem; }
+  .limits li { color: var(--ink-2); }
+  .limits li b { color: var(--ink); }
+
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9688rem; }
+  th, td { text-align: left; vertical-align: top; padding: 0.5rem 1rem 0.5rem 0; border-top: 1px solid var(--rule); }
+  th:last-child, td:last-child { padding-right: 0; }
+  thead th { border-top: 0; font-weight: 640; font-size: 0.875rem; color: var(--muted); }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  details { border-top: 1px solid var(--rule); }
+  details:last-of-type { border-bottom: 1px solid var(--rule); }
+  summary { cursor: pointer; padding: 0.8rem 0; font-weight: 650; }
+  details > div { padding: 0.2rem 0 1.3rem; }
+  details p { max-width: 76ch; margin-bottom: 0.6rem; }
+  details h4 { font-size: 1rem; font-weight: 680; margin: 1rem 0 0.2rem; }
+  details ol, details ul { margin: 0 0 0.75rem; padding-left: 1.2rem; max-width: 80ch; }
+  details li { margin-bottom: 0.35rem; }
+  .sev-m, .sev-s, .sev-n { white-space: nowrap; }
+  .sev-m::before, .sev-s::before, .sev-n::before { content: ""; display: inline-block; width: 0.55rem; height: 0.55rem; margin-right: 0.4rem; border-radius: 50%; border: 1.5px solid var(--fail); }
+  .sev-m::before { background: var(--fail); }
+  .sev-s::before { background: linear-gradient(90deg, var(--fail) 50%, transparent 50%); }
+
+  footer { padding-block: 1.5rem 3rem; font-size: 0.875rem; color: var(--muted); }
+
+  @media (max-width: 62rem) {
+    .finding { grid-template-columns: minmax(0, 1fr); row-gap: 0.5rem; }
+    .cols { grid-template-columns: minmax(0, 1fr); }
+    .runs li { grid-template-columns: 9.5rem minmax(0, 1fr); row-gap: 0.1rem; }
+    .record ol { grid-template-columns: minmax(0, 1fr); row-gap: 0.7rem; }
+    .runs .say { grid-column: 1 / -1; }
+    ul.bars li { grid-template-columns: minmax(0, 1fr) minmax(4rem, 14rem) 2.4rem; }
+    .gaps-head { display: none; }
+    .gap { grid-template-columns: minmax(0, 1fr); row-gap: 0.5rem; }
+    .needs, .lenses, .limits ul { grid-template-columns: minmax(0, 1fr); }
+    .needs > div + div, .lens + .lens { margin-top: 1.5rem; }
+    body[data-lens="openai"] .lens li, body[data-lens="anthropic"] .lens li { display: block; font-size: inherit; }
+    .nav .keys, .lens-bar .hint { display: none; }
+  }
+  @media (max-width: 40rem) {
+    .nav .name { display: none; }
+    .beat { padding-block: 2.25rem 2rem; }
+    ul.bars li { grid-template-columns: minmax(0, 1fr) 2.4rem; row-gap: 0.2rem; }
+    .lab { grid-column: 1 / -1; }
+  }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  @media print {
+    @page { margin: 12mm 13mm; }
+    html { font-size: 8.8pt; }
+    body { font-size: 1rem; }
+    .nav, .lens-bar, #detail { display: none; }
+    footer { padding-block: 6pt 0; break-before: avoid; }
+    .wrap { max-width: none; padding: 0; }
+    .beat { padding-block: 10pt 8pt; }
+    h1 { font-size: 22pt; } h2 { font-size: 13.5pt; }
+    .lens, body[data-lens] .lens { display: block !important; }
+    .gap, ul.bars li, .needs li, .lens li, tr { break-inside: avoid; }
+    .record li, .limits li { break-inside: avoid; }
+    .bar, .sw, .runs .strip span, .gap h3, .limits ul, .record, .seg button { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <span class="name">Four models on 20 professional tasks</span>
+    <ol>
+      <li><a href="#finding"><kbd>1</kbd>Finding</a></li>
+      <li><a href="#gaps"><kbd>2</kbd>Gaps</a></li>
+      <li><a href="#dataset"><kbd>3</kbd>Dataset</a></li>
+      <li><a href="#limits"><kbd>4</kbd>Limits</a></li>
+      <li><a href="#labs"><kbd>5</kbd>Two labs</a></li>
+      <li><a href="#detail"><kbd>6</kbd>Evidence</a></li>
+    </ol>
+    <span class="keys">Keys: 1 to 6 jump, ← → step</span>
+  </div>
+</nav>
+
+<main>
+
+  <section class="beat" id="finding" data-beat>
+    <div class="wrap">
+      <header class="finding">
+        <div>
+          <h1>The scores say four models match the human experts. The files say where they don't.</h1>
+          <figure class="scores">
+            <figcaption>Mean rubric score, 0 to 1 <small>19 tasks, all graded by the Claude Opus 5.5 judge. Experts: the 16 with an expert file.</small></figcaption>
+            <ul>
+              <li><span>Opus 5.5</span><span class="track"><span class="bar ink" style="--w:85.6%"></span></span><span class="val">0.856</span></li>
+              <li><span>gpt-6.1-sol</span><span class="track"><span class="bar ink" style="--w:85.2%"></span></span><span class="val">0.852</span></li>
+              <li><span>Haiku 5.5</span><span class="track"><span class="bar ink" style="--w:81.5%"></span></span><span class="val">0.815</span></li>
+              <li><span>gpt-6-luna</span><span class="track"><span class="bar ink" style="--w:81.4%"></span></span><span class="val">0.814</span></li>
+              <li><span>Human experts</span><span class="track"><span class="bar ink" style="--w:80.9%"></span></span><span class="val">0.809</span></li>
+            </ul>
+          </figure>
+        </div>
+        <div>
+          <p class="dek">On 20 GDPval tasks, four models scored within 0.05 of the human experts. Every rubric item a judge failed was then checked against the files, for three of the models.</p>
+          <p class="dek"><b>Between 43% and 91% of the points a judge marked lost were not model failures.</b> The real ones fall into four gaps, and three are gaps a dataset can target.</p>
+          <p class="setup">GDPval is OpenAI's public benchmark of real professional tasks. Each task has a rubric of weighted points (1,849 on these 20 tasks) and, for 17 of them, an expert's own deliverable. November 2026: Claude Opus 5.5 and Haiku 5.5 from Anthropic, gpt-6.1-sol and gpt-6-luna from OpenAI, on tasks in accounting, finance, compliance and law, one run per task. Review agents checked each failed item and I ruled on the disputed calls. API cost: $160.16 recorded, about $161 with early calibration. By model, with the judging of its files: Opus 5.5 $99.47, gpt-6.1-sol $22.49, Haiku 5.5 $15.74, gpt-6-luna $14.36; grading the experts' files $8.10. A small sample, so these are patterns, not rates: see the <a href="#limits">limits</a>.</p>
+        </div>
+      </header>
+
+      <figure class="split">
+        <figcaption>Rubric points a judge marked lost, and how many were real failures <small>Drawn to one scale. Under each name is the judge whose failed items were checked.</small></figcaption>
+        <ul class="runs">
+          <li><span class="who">Opus 5.5<small>gpt-6.1-sol judge</small></span><span class="strip" style="--w:71.5%; grid-template-columns: 30fr 314fr"><span class="s-real"></span><span class="s-other"></span></span><span class="say"><b>30</b> of 344 points were real (9%)<small>11 failures: 0 material, 2 send back, 9 minor</small></span></li>
+          <li><span class="who">gpt-6.1-sol<small>Claude Opus 5.5 judge</small></span><span class="strip" style="--w:56.8%; grid-template-columns: 52fr 221fr"><span class="s-real"></span><span class="s-other"></span></span><span class="say"><b>52</b> of 273 points were real (19%)<small>15 failures: 1 material, 2 send back, 12 minor</small></span></li>
+          <li><span class="who">Haiku 5.5<small>gpt-6.1-sol judge</small></span><span class="strip" style="--w:100%; grid-template-columns: 175fr 98fr 208fr"><span class="s-real s-nofile"></span><span class="s-real"></span><span class="s-other"></span></span><span class="say"><b>273</b> of 481 points were real (57%)<small>27 failures: 4 material, 3 send back, 20 minor</small></span></li>
+        </ul>
+        <p class="key"><span><span class="sw" style="background:var(--fail)"></span>Real model failure</span><span><span class="sw sw-nofile"></span>Real, but one task with no file (Haiku, 175 points)</span><span><span class="sw" style="background:var(--noise)"></span>Not a model failure: rubric, judge, setup or a reasonable choice</span></p>
+        <p class="scope"><b>Compare the split, not the totals.</b> The Claude judge fails fewer items than the gpt-6.1-sol judge, so gpt-6.1-sol's list is shorter to begin with, and items a judge passed were not re-checked. gpt-6-luna was scored but not checked. 46 of the 175 hatched points are rubric faults for the other two models. <b>Material</b> changes the advice, the numbers or the decision a client relies on; <b>send back</b> is what a supervisor would return before release; <b>minor</b> is noted but not blocking.</p>
+        <div class="cols">
+          <div class="c-real">
+            <p class="grp-h">The 53 real failures that lost points, by gap <small>Rubric points, three models. 4 more failures lost no points.</small></p>
+            <ul class="bars">
+              <li><span class="lab">Short of what an expert's file contains <small>38 failures</small></span><span class="track"><span class="bar fail" style="--w:59.5%"></span></span><span class="val">119</span></li>
+              <li><span class="lab">Too sure, or not sure enough, for the evidence <small>9 failures</small></span><span class="track"><span class="bar fail" style="--w:23.5%"></span></span><span class="val">47</span></li>
+              <li><span class="lab">A checkable fact is missing or wrong <small>5 failures</small></span><span class="track"><span class="bar fail" style="--w:7.0%"></span></span><span class="val">14</span></li>
+              <li><span class="lab">A long task ended with no file <small>1 failure</small></span><span class="track"><span class="bar nofile" style="--w:87.5%"></span></span><span class="val">175</span></li>
+            </ul>
+          </div>
+          <div class="c-other">
+            <p class="grp-h">The 743 points that were not model failures, by reason <small>Rubric points, three models, on the same scale.</small></p>
+            <ul class="bars">
+              <li><span class="lab">The judge failed an item that is met <small>e.g. it was not shown the source files</small></span><span class="track"><span class="bar noise" style="--w:100%"></span></span><span class="val">200</span></li>
+              <li><span class="lab">A reasonable choice the rubric doesn't accept <small>e.g. a contract clause read another way</small></span><span class="track"><span class="bar noise" style="--w:97.5%"></span></span><span class="val">195</span></li>
+              <li><span class="lab">The rubric doesn't match the task <small>e.g. different question IDs</small></span><span class="track"><span class="bar noise" style="--w:71.5%"></span></span><span class="val">143</span></li>
+              <li><span class="lab">The rubric or the expert's file is wrong <small>e.g. wage rates $1 above the contract</small></span><span class="track"><span class="bar noise" style="--w:70.5%"></span></span><span class="val">141</span></li>
+              <li><span class="lab">The expert's own file misses it too <small>e.g. a roster with no musician ID</small></span><span class="track"><span class="bar noise" style="--w:27.5%"></span></span><span class="val">55</span></li>
+              <li><span class="lab">The setup made it impossible <small>e.g. an input file missing from the dataset</small></span><span class="track"><span class="bar noise" style="--w:4.5%"></span></span><span class="val">9</span></li>
+            </ul>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="beat" id="gaps" data-beat>
+    <div class="wrap">
+      <h2>Where the models fell short</h2>
+      <p class="sub">Four gaps, across three models from two vendors. Five failures appear in all three models: precise NPVs from invented inputs, a regional comparison missing gross-margin and SG&amp;A percentages, an unexplained "injunction" in a plain-language memo, a suspicious activity report with no per-account summary, and a will that only asks the executor to consider the client's written wishes (it cost Haiku no points, because its judge passed the item).</p>
+
+      <div class="gaps-head" aria-hidden="true"><span>The gap</span><span>What happened</span><span>Can data close it?</span></div>
+
+      <div class="gap">
+        <div>
+          <h3>Short of what an expert's file contains</h3>
+          <p class="tally">38 failures, 119 points, all three models, 2 material</p>
+        </div>
+        <p>29 are content left out, 5 are instructions not followed, 3 are wrong rules and 1 is a file defect. Most are small: a case summary without its key facts, sources with no links. Two are not. Haiku never considered a sales-tax deduction, and its share agreement makes the client pay full price for anti-dilution shares.</p>
+        <p><span class="verdict">Yes, where an expert file exists.</span> An expert-written deliverable shows what a finished file contains. 12 of the 38 are on the three tasks that have no expert file.</p>
+      </div>
+
+      <div class="gap">
+        <div>
+          <h3>Too sure, or not sure enough, for the evidence</h3>
+          <p class="tally">9 failures, 47 points, all three models, 2 material</p>
+        </div>
+        <p>Asked for directional estimates, all three models invented revenues and margins and reported precise NPVs. gpt-6.1-sol read the bill synopsis that settles a veto question and still called it "materially uncertain". Haiku called a board's exposure "curable through documentation" where the expert concludes a likely breach.</p>
+        <p><span class="verdict">The most direct target.</span> A professional's answer set beside the model's, with the reason, shows how firmly or how precisely to commit. Whether training on such pairs works was not tested here.</p>
+      </div>
+
+      <div class="gap">
+        <div>
+          <h3>A checkable fact is missing or wrong</h3>
+          <p class="tally">5 failures, 14 points, Haiku and gpt-6.1-sol</p>
+        </div>
+        <p>With web search on, Haiku still put amounts on the wrong lines of its tax forms, and gpt-6.1-sol left out a fee comparison it never searched for. Without web access, in my first pass, sources the models could not reach cost them 122 points.</p>
+        <p><span class="verdict">Partly.</span> Tasks that ship a dated source and reward checking it would train the habit. Search access alone did not.</p>
+      </div>
+
+      <div class="gap">
+        <div>
+          <h3 class="weak">A long task ended with no file</h3>
+          <p class="tally">1 failure, 175 points, material</p>
+        </div>
+        <p>On a payroll workbook, Haiku 5.5 used its whole 64,000-token output limit four turns in a row and wrote no file. Three of those turns came after a note saying the last one had hit the limit. Five other runs stopped with nothing in my first pass or on a first attempt, and all five finished after a setup change or a plain retry.</p>
+        <p><span class="verdict">Not shown by this evidence.</span> One event in one model, and the setup fixed every other stop. This is the weakest case for a dataset and I would not rest a recommendation on it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="beat" id="dataset" data-beat>
+    <div class="wrap">
+      <h2>What the dataset would need to contain</h2>
+      <p class="sub">Each requirement comes from something that went wrong in these runs. None has been tested by training.</p>
+      <div class="needs">
+        <div>
+          <h3>To train on <span>(the 53 real failures that lost points)</span></h3>
+          <ul>
+            <li><b>An expert-written deliverable for every task</b><span>38 of the 53 failures (119 points) are things an expert's finished file gets right, 29 of them content the model left out. Three of the 20 tasks have no expert file.</span></li>
+            <li><b>A professional's answer beside a rejected one, with the reason: firm or hedged, directional or precise</b><span>9 failures (47 points), in all three models. One gold file can't show the alternative that was rejected.</span></li>
+            <li><b>A dated copy of every source a task relies on, with rubric items that reward checking it</b><span>5 failures with search available (14 points); 122 points across three models without it.</span></li>
+            <li class="not"><b>Not on this list: long-task working traces</b><span>One run ended with no file (175 points). Five other stops went away with a setup change or a retry, so these runs do not show a data gap there.</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>To evaluate with <span>(the points that were not model failures)</span></h3>
+          <ul>
+            <li><b>Rubrics tested against the task, the expert's own file and current law</b><span>Rubric faults cost Opus 126 points, gpt-6.1-sol 102 and Haiku 56. One rubric uses wage rates $1 above the contract; another leaves local sales tax out of a deduction. The experts' own files scored 0.809.</span></li>
+            <li><b>More than one expert deliverable per task, and a severity on every rubric item</b><span>17 to 18 reasonable choices per model (root causes) failed against one expert's choices. A hedge on a memo's main question cost 12 of 1,849 points; a clause that makes the client pay full price cost 2.</span></li>
+            <li><b>A grader that sees source files, footnotes and rendered pages, with its agreement against hand labels published</b><span>Judge errors cost Opus 82 points, gpt-6.1-sol 33 and Haiku 85. One judge's "not met" verdicts were right 10 times in 20. Three of the causes are faults in my own grading setup, not in GDPval.</span></li>
+            <li><b>Kept private</b><span>GDPval is public. On one task, web search returned links to the benchmark's own expert file and to another model's answer. Neither model opened them.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="record">
+        <h3>One training record, built from a failure all three models share <span>an illustration of the second requirement, using the real task and files</span></h3>
+        <ol>
+          <li><b>Task and inputs</b><span>A board asks which of two projects to fund and wants "directional estimates, not exact calculations". The inputs give capital cost, growth rates, durations and a 30% chance of failure. They give no revenues.</span></li>
+          <li><b>Model's answer</b><span>Invents revenue bases and margins, then reports an expected NPV of "about +$47M" and a base-case IRR of "about 15–16%". The recommendation rests on those figures.</span></li>
+          <li><b>Expert's answer</b><span>Stays directional: one project has "a potentially positive and relatively stable NPV", the other "a substantial probability of a negative NPV" if it fails and "a massive positive NPV" if it succeeds.</span></li>
+          <li><b>Preference and reason</b><span>The expert's answer is preferred. The inputs cannot support a point estimate, and the board asked for direction.</span></li>
+          <li><b>Check, with severity</b><span>The report states direction and gives no invented point estimate. Send back: a supervisor would return a recommendation built on invented numbers.</span></li>
+        </ol>
+        <p class="pilot"><b>A test either lab could run.</b> Hold out a set of tasks with private variants. Train or prompt with expert deliverables and with records like this one, run the model again, and count real failures by gap with the same audit. The claim fails if the first two gaps do not shrink.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="beat limits" id="limits" data-beat>
+    <div class="wrap">
+      <h2>Limits: these are patterns, not rates</h2>
+      <p class="sub">How far to trust the numbers on this page.</p>
+      <ul>
+        <li><b>Small sample.</b> 20 tasks, one run each, three models checked. Two runs that stopped at the output limit finished when simply run again.</li>
+        <li><b>Scores can't rank the models.</b> Four models and the experts sit within 0.05 of each other. This sample does not establish a ranking, and the expert mean covers the 16 scored tasks that have an expert file.</li>
+        <li><b>Corrected after the fact.</b> My first pass had no web access and no context handling. Eight tasks were re-run once it showed those limits. Every model was re-run on the web tasks, but the choice of tasks was not blind.</li>
+        <li><b>Two judges, neither neutral.</b> The first agreed with hand labels on 72.5% of 40 items (kappa 0.45); 30 of the items were from Opus and 10 from expert files. The second agreed on 92.5% (0.81), but it is a Claude model grading Claude models and was checked on Opus items only.</li>
+        <li><b>The hand labels had help.</b> I graded those 40 items from the files with an AI summary of the evidence and a suggested reading beside each one. Only the judges' verdicts were hidden, so the second judge's 92.5% is not fully independent.</li>
+        <li><b>Different starting lists.</b> Opus's and Haiku's failures start from the stricter judge's fails, gpt-6.1-sol's from the more lenient one. Items a judge passed were not re-checked; comparing the three models' will clauses side by side turned up one failure a judge had passed.</li>
+        <li><b>Agents did most of the reading.</b> Claude agents, and OpenAI's codex for part of gpt-6.1-sol's second check, did the first pass and a blind second check, which agreed on real failure or not 78% to 88% of the time. I decided the disagreements that needed a new call, after seeing a proposed resolution; where a rule I had already approved covered the case, it was applied and logged. I read every row counted as a real failure, but not every failed item.</li>
+        <li><b>One task carries Haiku's total.</b> 175 of its 273 points are the payroll workbook it never delivered. 46 of those are rubric faults for the other two models; they stay with Haiku because it delivered nothing to excuse.</li>
+        <li><b>A leak.</b> On one task web search returned links to copies of the benchmark's own files. That task is out of the scores. For the GPT models I can only show that no such page was opened.</li>
+        <li><b>Remedies untested.</b> I trained nothing, so "data can close it" is my reading of the failures.</li>
+        <li><b>Cost.</b> About $161 in API calls: $107 of model runs, $53 of judging, about $1 of early calibration. The review agents ran on subscriptions and are not in it, and nor is my time. By model in the <a href="#d-cost">detail</a>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="beat" id="labs" data-beat>
+    <div class="wrap">
+      <h2>The same evidence, for two labs</h2>
+      <div class="lens-bar">
+        <div class="seg" role="group" aria-label="Audience view">
+          <button type="button" id="lens-both" data-lens="both" aria-pressed="true">Both</button>
+          <button type="button" id="lens-openai" data-lens="openai" aria-pressed="false">OpenAI</button>
+          <button type="button" id="lens-anthropic" data-lens="anthropic" aria-pressed="false">Anthropic</button>
+        </div>
+        <span class="hint">Keys: O, A, B</span>
+      </div>
+      <div class="lenses">
+        <div class="lens" data-for="openai" id="for-openai">
+          <h3>For a researcher at OpenAI <span>GDPval is your benchmark, and your model was both under test and a judge.</span></h3>
+          <ul>
+            <li><b>What the audit found in the benchmark itself.</b> <span>Rubric faults account for 102 of the 273 points gpt-6.1-sol was marked down. One rubric uses wage rates $1 above the contract (46 points), one enforces the expert's question IDs over the task's (17), and one leaves local sales tax out of a deduction (12). The experts' own files scored 0.809. And the public copy is reachable: on one task a web search returned a link to the expert's file.</span></li>
+            <li><b>gpt-6.1-sol scored level with Opus 5.5, and above the experts.</b> <span>0.852 against 0.856 and 0.809. It has 15 real failures and one material: after reading the bill synopsis that settles the question, it still called a veto right's enforceability "materially uncertain". Its list starts from the more lenient judge, so 15 is not a count to set against the Claude models'.</span></li>
+            <li><b>Five of its failures are shared with both Claude models.</b> <span>Precise NPVs from invented inputs, no gross-margin or SG&amp;A percentages, an unexplained "injunction", no per-account summary, a softened will clause. That is a cross-vendor pattern, and worth testing on your models.</span></li>
+            <li><b>As a judge, gpt-6.1-sol held up when it passed an item and half the time when it failed one.</b> <span>On 40 items graded against hand labels, 19 of its 20 "met" verdicts held and 10 of its 20 "not met" verdicts held. Part of that is my setup, which gave it extracted text and no source files.</span></li>
+            <li><b>gpt-6-luna scored 0.814 and was not audited.</b> <span>Your usage-policy filter refused two ordinary professional prompts, a tax return and a privacy memo. Both went through on an unchanged retry.</span></li>
+            <li><b>What I would test with you.</b> <span>Two things. Records like the worked example, on the two commitment failures: does the model stay directional when inputs are thin, and commit when the source settles it, on private variants? And the rubric audit as an evaluation product: your GDPval runs re-scored with the faulty items removed.</span></li>
+          </ul>
+        </div>
+        <div class="lens" data-for="anthropic" id="for-anthropic">
+          <h3>For a researcher at Anthropic <span>Two of the four models are yours, and a Claude model did most of the judging and reviewing.</span></h3>
+          <ul>
+            <li><b>Haiku 5.5 is where the failures are: 27, four of them material.</b> <span>It never considered a sales-tax deduction and made no search about it. Its share agreement makes the client pay the full round price for anti-dilution shares. It understated a board's exposure, and it never wrote one payroll workbook. The rubric score put it only 0.04 behind Opus.</span></li>
+            <li><b>Opus 5.5: no material failure among the items its judge failed.</b> <span>Eleven failures, two that a supervisor would send back: precise NPVs from invented inputs, and selectors that differ between tabs under a cover note that says they don't. Items the judge passed were not re-checked.</span></li>
+            <li><b>My first pass said Opus was far worse, and my setup made it so.</b> <span>Twice it filled a 1M-token context and delivered nothing; twice it asserted a fact it had no way to look up, which I still counted as real failures made worse by the setup. Those four cost 229 of the 257 points my first pass counted against it. Context compaction and web search removed all four.</span></li>
+            <li><b>Read the Claude-judged numbers with care.</b> <span>The Claude judge agreed with hand labels on 37 of 40 items, but it was checked on Opus items only and it grades its own family. Claude agents also did most of the failure review, and gpt-6.1-sol's failure list comes from that judge.</span></li>
+            <li><b>What I would test with you.</b> <span>Expert deliverables against Haiku's completeness gap: 16 of its 27 failures are professional content left out. Records like the worked example for both models on commitment. And long-task execution measured on its own, since these runs do not show it is a data problem.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="beat" id="detail" data-beat>
+    <div class="wrap">
+      <h2>The evidence behind this page</h2>
+      <p class="sub">Open any of these. Every row is also in the repository's tables, with its reason.</p>
+
+      <details id="d-failures">
+        <summary>Every real failure, model by model</summary>
+        <div>
+          <p><b>Material</b> changes the advice, the tax or the decision a client relies on. <b>Send back</b> is what a supervising professional would return before release. <b>Minor</b> is a gap a reviewer would note but not block on. Rows with 0 points are real failures the judge did not charge: a flaw no rubric item covers, or an item the judge passed.</p>
+          <h4>Opus 5.5: 11 failures that lost points (30 points), none material, and 2 that lost none</h4>
+        </div>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>What went wrong</th><th>Task</th><th>Type</th><th>Severity</th><th class="num">Points</th><th>Expert got it right?</th></tr></thead>
+            <tbody>
+              <!--GEN:failures-opus55-->
+              <tr><td>Invented revenues and margins, then precise NPVs/IRRs, despite &#x27;directional estimates, not exact calculations&#x27;</td><td>Board report</td><td>Instruction adherence</td><td class="sev-s">Send back</td><td class="num">8</td><td>Yes</td></tr>
+              <tr><td>Dropdowns not uniform: the Regional tab offers regions, not a branch or the company; Ranking has no company-wide option</td><td>Branch workbook</td><td>Instruction adherence</td><td class="sev-s">Send back</td><td class="num">8</td><td>No expert file</td></tr>
+              <tr><td>Regional view has EBITDA % but no gross margin % or SG&amp;A %, so regions of different size are hard to compare</td><td>Branch workbook</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">4</td><td>No expert file</td></tr>
+              <tr><td>California-law section doesn&#x27;t say why California law applies to YouTube or offer the do-not-sell option (the expert memo has both)</td><td>Privacy memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>SAR narrative has no per-account summary by transaction category with count, minimum, maximum and total</td><td>Suspicious activity report</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>Will&#x27;s personal-effects memo clause softened to &#x27;may consider ... not binding&#x27;</td><td>Will</td><td>Calibration of commitment</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>Legal jargon (&#x27;injunctions&#x27;) left unexplained despite the plain-language instruction</td><td>Privacy memo</td><td>Instruction adherence</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>Two dollar formats mixed across the workbook</td><td>Branch workbook</td><td>Agentic execution and craft</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>SAR calls Tavery the owner and 100% beneficial owner of Bluehaven but never says he manages it</td><td>Suspicious activity report</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>No representation that NoxaPulse is solvent</td><td>Share subscription agreement</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>Sources appendix gives publisher, date and topic but no URL for any source and no title for several</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>Loosened legal standards: COPPA &#x27;knew (or should have known)&#x27;; CCPA suits &#x27;only for data breaches&#x27;</td><td>Privacy memo</td><td>Domain knowledge</td><td class="sev-n">Minor</td><td class="num">0</td><td>n/a</td></tr>
+              <tr><td>16 summary cells display ####### in Excel (column too narrow)</td><td>Prepaid expenses workbook</td><td>Agentic execution and craft</td><td class="sev-n">Minor</td><td class="num">0</td><td>n/a</td></tr>
+              <!--/GEN:failures-opus55-->
+            </tbody>
+          </table>
+        </div>
+        <div><h4>gpt-6.1-sol: 15 failures (52 points), 1 material</h4></div>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>What went wrong</th><th>Task</th><th>Type</th><th>Severity</th><th class="num">Points</th><th>Expert got it right?</th></tr></thead>
+            <tbody>
+              <!--GEN:failures-sol61-->
+              <tr><td>Will not conclude that the &#x27;exclusively managed&#x27; charter clause is a general board-authority recitation that leaves the veto enforceable under the 2024 statute; calls enforceability &#x27;materially uncertain&#x27;</td><td>Stockholder-veto memo</td><td>Calibration of commitment</td><td class="sev-m">Material</td><td class="num">12</td><td>Yes</td></tr>
+              <tr><td>Invented revenue bases, cash margins, timing and a 10-year horizon, then reported point NPVs and IRRs, despite &#x27;directional estimates, not exact calculations&#x27;</td><td>Board report</td><td>Instruction adherence</td><td class="sev-s">Send back</td><td class="num">8</td><td>Yes</td></tr>
+              <tr><td>Electric bass classed as an &#x27;electronic instrument&#x27;: the bass player gets a 25% all-work premium ($590.86) on top of the chair premium and doubling</td><td>Payroll workbook</td><td>Domain knowledge</td><td class="sev-s">Send back</td><td class="num">6</td><td>Yes</td></tr>
+              <tr><td>Regional comparison shows only the four named dollar metrics: no EBITDA %, SG&amp;A % or GM %, no direct costs and no percentage view</td><td>Branch workbook</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">7</td><td>No expert file</td></tr>
+              <tr><td>Standards of review explained more thinly than the expert&#x27;s: never says entire fairness is the most demanding standard, or that business-judgment deference gives way to fraud or waste</td><td>Controller-transaction memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">6</td><td>Yes</td></tr>
+              <tr><td>SAR narrative has no per-account summary by transaction category with count, minimum, maximum and total</td><td>Suspicious activity report</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>Summary of the 2019 FTC case leaves out that the data was used for targeted advertising and that parents&#x27; class actions followed</td><td>Privacy memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>Never says the 2024 statute was enacted in response to Moelis</td><td>Stockholder-veto memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>&#x27;Injunction&#x27; used twice with no plain-language explanation</td><td>Privacy memo</td><td>Instruction adherence</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>Capitalization representation omits that prior issuances violated no pre-emptive or similar rights</td><td>Share subscription agreement</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>Personal-effects list or letter declared &#x27;advisory only&#x27;; no request that it be honored</td><td>Will</td><td>Calibration of commitment</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>No executor power over digital accounts, assets and devices</td><td>Will</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>No driver age distribution, although the model searched the Korea Transportation Safety Authority&#x27;s site</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>No fee or commission comparison with a competitor</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>Payment localisation is generic: &#x27;local-card and wallet pilot&#x27; with no named Korean payment or ecosystem partner</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <!--/GEN:failures-sol61-->
+            </tbody>
+          </table>
+        </div>
+        <div><h4>Haiku 5.5: 27 failures that lost points (273 points), 4 material, and 2 that lost none</h4></div>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>What went wrong</th><th>Task</th><th>Type</th><th>Severity</th><th class="num">Points</th><th>Expert got it right?</th></tr></thead>
+            <tbody>
+              <!--GEN:failures-haiku55-->
+              <tr><td>No deliverable: four turns in a row each spent the whole 64,000-token output limit without writing a file, three of them after a note saying the last turn had hit the limit</td><td>Payroll workbook</td><td>Agentic execution and craft</td><td class="sev-m">Material</td><td class="num">175</td><td>n/a</td></tr>
+              <tr><td>Never considered the optional state sales-tax deduction, so took the $29,200 standard deduction and filed no Schedule A; itemizing gives $30,973 (expert) or $31,692 (IRS worksheet with local tax)</td><td>Tax return</td><td>Domain knowledge</td><td class="sev-m">Material</td><td class="num">22</td><td>Yes</td></tr>
+              <tr><td>Board&#x27;s exposure understated: no loyalty or bad-faith theory for the directors; risk described as &#x27;curable through documentation&#x27;, with &#x27;most of the exposure&#x27; on Marcus</td><td>Stockholder-veto memo</td><td>Calibration of commitment</td><td class="sev-m">Material</td><td class="num">5</td><td>Yes</td></tr>
+              <tr><td>Top-up is a right to buy shares at the full price of the diluting round, not an issue at no or nominal cost</td><td>Share subscription agreement</td><td>Domain knowledge</td><td class="sev-m">Material</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>Invented revenue bases, margins, a 15-year horizon and spend phasing, then reported point NPVs and IRRs, despite &#x27;directional estimates, not exact calculations&#x27;</td><td>Board report</td><td>Instruction adherence</td><td class="sev-s">Send back</td><td class="num">8</td><td>Yes</td></tr>
+              <tr><td>Self-drawn forms do not follow the official 2024 forms: Form 8959 line 18 holds withholding, Schedule 8812 has no line 14, Form 8995 deduction is on line 10, Schedule D has no qualified-opportunity-fund question, and the third-party designee &#x27;No&#x27; box is unmarked</td><td>Tax return</td><td>Domain knowledge</td><td class="sev-s">Send back</td><td class="num">8</td><td>Yes</td></tr>
+              <tr><td>Deck sets aside the brief&#x27;s &#x27;aggressive market share growth&#x27;: market share is not named as a priority and no demand target falls before Q2 2025</td><td>Strategy deck</td><td>Instruction adherence</td><td class="sev-s">Send back</td><td class="num">3</td><td>No expert file</td></tr>
+              <tr><td>Common-law section omits what partial compliance does: one protection only shifts the burden (Lynch), and missing any MFW element means entire fairness</td><td>Controller-transaction memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">10</td><td>Yes</td></tr>
+              <tr><td>Regional tab&#x27;s dropdown picks a region and only highlights it; no branch or company selection and no output depends on it; selector lists differ across tabs</td><td>Branch workbook</td><td>Instruction adherence</td><td class="sev-n">Minor</td><td class="num">6</td><td>No expert file</td></tr>
+              <tr><td>Regional view has EBITDA margin % but no gross margin % or SG&amp;A % for either year</td><td>Branch workbook</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">4</td><td>No expert file</td></tr>
+              <tr><td>SAR subject table drops task-supplied onboarding details: Tavery as manager of Bluehaven, and the stated service lines of both LLCs</td><td>Suspicious activity report</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">3</td><td>Yes</td></tr>
+              <tr><td>California-law section doesn&#x27;t say why California law applies to YouTube or offer the do-not-sell option (the expert memo has both)</td><td>Privacy memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">3</td><td>Yes</td></tr>
+              <tr><td>Never says Avalon&#x27;s bylaw clause cannot disable the 2024 statute</td><td>Stockholder-veto memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">3</td><td>Yes</td></tr>
+              <tr><td>No statement that stockholders generally owe no fiduciary duties unless they are controllers</td><td>Stockholder-veto memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">3</td><td>Yes</td></tr>
+              <tr><td>SAR narrative has no systematic transaction summary: no per-account count, minimum, maximum and total by transaction category, and no complete per-subject totals and counts</td><td>Suspicious activity report</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>2019 YouTube precedent described without the targeted-advertising use or the follow-up parent class actions</td><td>Privacy memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>Does not say the 2024 statute was enacted in response to Moelis</td><td>Stockholder-veto memo</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>No nationwide taxi count and no driver age distribution, although the task named the two bodies that publish them and web search was available</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">2</td><td>No expert file</td></tr>
+              <tr><td>Added a presumed $3,406.43 excess retirement deferral into Form 1040 line 1a, which then reads 330,409.04 and not the W-2 box 1 total of 327,003</td><td>Tax return</td><td>Domain knowledge</td><td class="sev-n">Minor</td><td class="num">2</td><td>Yes</td></tr>
+              <tr><td>OSINT indicators are listed with a disclaimer and never tied to suspected illicit activity at the 6903 Oakridge Way parlor</td><td>Suspicious activity report</td><td>Calibration of commitment</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>No bond waiver for the permanent guardian of the person (waived for every other fiduciary)</td><td>Will</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>&#x27;Injunction&#x27; used without a plain-language explanation</td><td>Privacy memo</td><td>Instruction adherence</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>No representation that NoxaPulse is solvent</td><td>Share subscription agreement</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>Fee comparison is one-sided: Kakao&#x27;s commission is cited, SuperK-T&#x27;s own fee is given no figure</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>Source register gives publisher, date and topic but no URLs and almost no titles</td><td>Strategy deck</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>No expert file</td></tr>
+              <tr><td>The notice question (SCRA-12d) leaves out orders extending service; no cell in the workbook mentions them</td><td>Servicemember-law audit questions</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>No clause awarding legal fees to the prevailing party; attorneys&#x27; fees appear only inside the general definition of Losses for the breach indemnities</td><td>Share subscription agreement</td><td>Professional completeness</td><td class="sev-n">Minor</td><td class="num">1</td><td>Yes</td></tr>
+              <tr><td>COPPA knowledge test loosened to &#x27;knew, or had reason to know&#x27;</td><td>Privacy memo</td><td>Domain knowledge</td><td class="sev-n">Minor</td><td class="num">0</td><td>n/a</td></tr>
+              <tr><td>Will only asks the executor to &#x27;consider&#x27; written wishes about personal effects; no request that they be honored</td><td>Will</td><td>Calibration of commitment</td><td class="sev-n">Minor</td><td class="num">0</td><td>No expert file</td></tr>
+              <!--/GEN:failures-haiku55-->
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <details id="d-classes">
+        <summary>Where each model's lost points went</summary>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>Rubric points a judge marked lost, by what they turned out to be</th><th class="num">Opus 5.5</th><th class="num">gpt-6.1-sol</th><th class="num">Haiku 5.5</th></tr></thead>
+            <tbody>
+              <!--GEN:classes-->
+              <tr><td>Real model failure</td><td class="num">30</td><td class="num">52</td><td class="num">273</td></tr>
+              <tr><td>A reasonable choice the rubric doesn&#x27;t accept</td><td class="num">83</td><td class="num">71</td><td class="num">41</td></tr>
+              <tr><td>The judge failed an item that is met</td><td class="num">82</td><td class="num">33</td><td class="num">85</td></tr>
+              <tr><td>The rubric or the expert&#x27;s file is wrong</td><td class="num">67</td><td class="num">65</td><td class="num">9</td></tr>
+              <tr><td>The rubric doesn&#x27;t match the task</td><td class="num">59</td><td class="num">37</td><td class="num">47</td></tr>
+              <tr><td>The expert&#x27;s own file misses it too</td><td class="num">20</td><td class="num">12</td><td class="num">23</td></tr>
+              <tr><td>The setup made it impossible</td><td class="num">3</td><td class="num">3</td><td class="num">3</td></tr>
+              <tr><td><b>All points a judge marked lost</b></td><td class="num">344</td><td class="num">273</td><td class="num">481</td></tr>
+              <!--/GEN:classes-->
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <ul>
+            <li>All 20 tasks, out of 1,849 rubric points. Opus's and Haiku's lists start from the gpt-6.1-sol judge; gpt-6.1-sol's starts from the Claude Opus 5.5 judge, which fails fewer items.</li>
+            <li>gpt-6-luna was scored but its failures were not classified.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="d-scores">
+        <summary>Scores</summary>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>Mean rubric score</th><th class="num">Experts</th><th class="num">Opus 5.5</th><th class="num">gpt-6.1-sol</th><th class="num">Haiku 5.5</th><th class="num">gpt-6-luna</th></tr></thead>
+            <tbody>
+              <!--GEN:scores-->
+              <tr><td>19 tasks, Claude Opus 5.5 judge</td><td class="num">0.809</td><td class="num">0.856</td><td class="num">0.852</td><td class="num">0.815</td><td class="num">0.814</td></tr>
+              <tr><td>Accountants and Auditors</td><td class="num">0.75</td><td class="num">0.86</td><td class="num">0.87</td><td class="num">0.84</td><td class="num">0.81</td></tr>
+              <tr><td>Compliance Officers</td><td class="num">0.85</td><td class="num">0.80</td><td class="num">0.80</td><td class="num">0.86</td><td class="num">0.78</td></tr>
+              <tr><td>Financial Managers</td><td class="num">0.85</td><td class="num">0.83</td><td class="num">0.83</td><td class="num">0.71</td><td class="num">0.78</td></tr>
+              <tr><td>Lawyers</td><td class="num">0.80</td><td class="num">0.92</td><td class="num">0.90</td><td class="num">0.87</td><td class="num">0.88</td></tr>
+              <tr><td>All 20 tasks, Claude Opus 5.5 judge</td><td class="num">0.817</td><td class="num">0.866</td><td class="num">0.862</td><td class="num">0.827</td><td class="num">0.826</td></tr>
+              <tr><td>19 tasks, gpt-6.1-sol judge</td><td class="num">0.735</td><td class="num">0.811</td><td class="num">own family</td><td class="num">0.762</td><td class="num">own family</td></tr>
+              <!--/GEN:scores-->
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <ul>
+            <li>The headline scores cover 19 tasks. The twentieth is left out because web search returned copies of the benchmark's own files for it. Including it moves each score by about 0.01 and changes no order.</li>
+            <li>Expert scores cover the tasks that have an expert file: 16 of the 19. A task with no deliverable counts as 0; Haiku has one.</li>
+            <li>The task left out has one rubric item worth minus 2 points. My scoring takes it off the total, so a file that meets every other item scores 41 of 39 on that task. It affects the "all 20 tasks" row only. The 1,849 points quoted on this page count the positive items.</li>
+            <li>The gpt-6.1-sol judge did not grade its own family.</li>
+            <li>These are rubric scores, not GDPval's pairwise expert-preference win rates, so they can't be compared with the paper's numbers.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="d-cost">
+        <summary>What it cost, by model</summary>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>API cost in US dollars</th><th class="num">Opus 5.5</th><th class="num">gpt-6.1-sol</th><th class="num">Haiku 5.5</th><th class="num">gpt-6-luna</th><th class="num">Experts' files</th><th class="num">All</th></tr></thead>
+            <tbody>
+              <!--GEN:cost-->
+              <tr><td>Model runs, first pass</td><td class="num">54.38</td><td class="num">7.92</td><td class="num">1.68</td><td class="num">2.75</td><td class="num">0.00</td><td class="num">66.73</td></tr>
+              <tr><td>Model runs, corrected</td><td class="num">23.16</td><td class="num">3.36</td><td class="num">1.01</td><td class="num">1.31</td><td class="num">0.00</td><td class="num">28.82</td></tr>
+              <tr><td>Attempts stopped by the provider</td><td class="num">0.00</td><td class="num">1.89</td><td class="num">0.00</td><td class="num">1.41</td><td class="num">0.00</td><td class="num">3.30</td></tr>
+              <tr><td>Smoke tests and probes</td><td class="num">7.87</td><td class="num">0.00</td><td class="num">0.06</td><td class="num">0.24</td><td class="num">0.00</td><td class="num">8.18</td></tr>
+              <tr><td>Judging by the gpt-6.1-sol judge</td><td class="num">3.70</td><td class="num">0.00</td><td class="num">3.37</td><td class="num">0.00</td><td class="num">1.99</td><td class="num">9.05</td></tr>
+              <tr><td>Judging by the Claude Opus 5.5 judge</td><td class="num">10.36</td><td class="num">9.32</td><td class="num">9.63</td><td class="num">8.65</td><td class="num">6.11</td><td class="num">44.07</td></tr>
+              <tr><td><b>Total recorded</b></td><td class="num"><b>99.47</b></td><td class="num"><b>22.49</b></td><td class="num"><b>15.74</b></td><td class="num"><b>14.36</b></td><td class="num"><b>8.10</b></td><td class="num"><b>160.16</b></td></tr>
+              <tr><td>The final 20-task set, model runs only</td><td class="num">60.41</td><td class="num">9.55</td><td class="num">2.09</td><td class="num">3.27</td><td class="num"></td><td class="num">75.31</td></tr>
+              <tr><td>The same, per task</td><td class="num">3.02</td><td class="num">0.48</td><td class="num">0.10</td><td class="num">0.16</td><td class="num"></td><td class="num">3.77</td></tr>
+              <!--/GEN:cost-->
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <ul>
+            <li>A model's judging rows are the cost of grading that model's files, whichever judge did it. The experts' column is the cost of grading the experts' deliverables.</li>
+            <li>The total is what the API usage fields on disk add up to. About $1.10 of early judge calibration left no file, which makes about $161.</li>
+            <li>The first pass and the corrected runs overlap: the final 20-task set uses a corrected run where one exists. Its cost is the second-last row.</li>
+            <li>Three Opus requests that overflowed the context returned no usage and count as $0; I have not checked whether they were billed. Prices are list prices, and the gpt-6.1-sol judge's price comes from secondary sources.</li>
+            <li>The review agents and outside reviewers ran on subscriptions and are not in these figures, and nor is my time.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="d-firstpass">
+        <summary>The first pass, and what the corrected runs changed</summary>
+        <div>
+          <p>My first pass ran every model with no web access, no handling for a full context and no recovery from an output-limit stop. On eight tasks those limits shaped the result, so I ran them again with the limits removed: web search on five tasks for every model, context compaction for Opus on two, and a retry after an output-limit stop for Haiku on two. Everything above uses the corrected runs for those tasks. The first-pass runs and tables are kept.</p>
+        </div>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>Real failures that lost points (root causes / points)</th><th class="num">First pass</th><th class="num">Corrected</th></tr></thead>
+            <tbody>
+              <tr><td>Opus 5.5</td><td class="num">12 / 257</td><td class="num">11 / 30</td></tr>
+              <tr><td>gpt-6.1-sol</td><td class="num">15 / 84</td><td class="num">15 / 52</td></tr>
+              <tr><td>Haiku 5.5</td><td class="num">23 / 432</td><td class="num">27 / 273</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <ul>
+            <li><b>Opus:</b> both tasks that had ended with no file were delivered. With web search it looked up the tax table and the bill synopsis it had recalled wrongly.</li>
+            <li><b>gpt-6.1-sol:</b> fixed its tax return. It read the bill synopsis and still would not commit.</li>
+            <li><b>Haiku:</b> delivered one of its two missing files, which added failures of its own. With search on, it still never looked up the deduction it missed.</li>
+            <li><b>gpt-6-luna:</b> two prompts refused by the usage-policy filter and one run stopped at the output limit all went through on a second attempt.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details id="d-method">
+        <summary>How the failures were classified</summary>
+        <div>
+          <ol>
+            <li><b>A check of the judges against hand labels.</b> I graded 40 rubric items (30 from Opus, 10 from expert files) from the actual files under ten written rules (listed in the next section), with an AI summary of the evidence and a suggested reading beside each and the judges' verdicts hidden. The first judge agreed on 29, the second on 37.</li>
+            <li><b>First pass.</b> Review agents checked every item a judge failed against the deliverable, the source files and the expert's file, and grouped the items by root cause. On the re-run tasks each reviewer saw all three models on the same task, so one rubric item was read one way.</li>
+            <li><b>Blind second check.</b> Fresh reviewers re-judged the items the conclusions depend on, without seeing the first pass: 51 to 66 items per round. OpenAI's codex did part of gpt-6.1-sol's.</li>
+            <li><b>My decisions.</b> I settled the disagreements that needed a new call, after seeing both readings and a proposed resolution. Where a rule I had already approved covered a disagreement, it was applied and logged. The reasons are written down rule by rule.</li>
+            <li><b>Expert comparison.</b> A missing element counts against the model only if the expert's deliverable includes it. Objective errors always count.</li>
+            <li><b>Consistency pass.</b> Rulings that reviewers had flagged as uneven between models were re-read by two further readers each and settled in one batch.</li>
+          </ol>
+          <p>Each real failure has one type (domain knowledge, calibration of commitment, instruction adherence, professional completeness, or agentic execution and craft), a severity and a data remedy.</p>
+        </div>
+      </details>
+
+      <details id="d-tasks">
+        <summary>The 20 tasks</summary>
+        <div>
+          <p>Every GDPval gold task in four occupations, five each. The full prompts, rubrics and expert files are GDPval's own, in the repository's <code>data/</code> folder.</p>
+        </div>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>Task</th><th>Occupation</th><th>GDPval id</th><th class="num">Rubric items</th><th>Notes</th></tr></thead>
+            <tbody>
+              <!--GEN:tasks-->
+              <tr><td>Tax return</td><td>Accountants and Auditors</td><td><code>43dc9778</code></td><td class="num">67</td><td>one of the eight run again</td></tr>
+              <tr><td>Tour profit and loss report</td><td>Accountants and Auditors</td><td><code>7b08cd4d</code></td><td class="num">59</td><td></td></tr>
+              <tr><td>Prepaid expenses workbook</td><td>Accountants and Auditors</td><td><code>7d7fc9a7</code></td><td class="num">56</td><td></td></tr>
+              <tr><td>Audit sample of risk metrics</td><td>Accountants and Auditors</td><td><code>83d10b06</code></td><td class="num">38</td><td></td></tr>
+              <tr><td>April month-end package</td><td>Accountants and Auditors</td><td><code>ee09d943</code></td><td class="num">44</td><td></td></tr>
+              <tr><td>VA servicing test questions</td><td>Compliance Officers</td><td><code>2696757c</code></td><td class="num">25</td><td>one of the eight run again; left out of the headline scores</td></tr>
+              <tr><td>Federal applicant risk-assessment tool</td><td>Compliance Officers</td><td><code>36d567ba</code></td><td class="num">27</td><td></td></tr>
+              <tr><td>Suspicious activity report</td><td>Compliance Officers</td><td><code>4c18ebae</code></td><td class="num">50</td><td>one of the eight run again</td></tr>
+              <tr><td>Servicemember-law audit questions</td><td>Compliance Officers</td><td><code>7bbfcfe9</code></td><td class="num">40</td><td>one of the eight run again</td></tr>
+              <tr><td>Grant spending-rate analysis</td><td>Compliance Officers</td><td><code>dfb4e0cd</code></td><td class="num">26</td><td></td></tr>
+              <tr><td>Payroll workbook</td><td>Financial Managers</td><td><code>4520f882</code></td><td class="num">88</td><td>one of the eight run again</td></tr>
+              <tr><td>Branch workbook</td><td>Financial Managers</td><td><code>5f6c57dd</code></td><td class="num">137</td><td>no expert file</td></tr>
+              <tr><td>Strategy deck</td><td>Financial Managers</td><td><code>a1963a68</code></td><td class="num">48</td><td>no expert file; one of the eight run again</td></tr>
+              <tr><td>Orchestra contract cost model</td><td>Financial Managers</td><td><code>b39a5aa7</code></td><td class="num">32</td><td></td></tr>
+              <tr><td>Board report</td><td>Financial Managers</td><td><code>b78fd844</code></td><td class="num">51</td><td></td></tr>
+              <tr><td>Privacy memo</td><td>Lawyers</td><td><code>3f625cb2</code></td><td class="num">64</td><td></td></tr>
+              <tr><td>Controller-transaction memo</td><td>Lawyers</td><td><code>8314d1b1</code></td><td class="num">43</td><td></td></tr>
+              <tr><td>Stockholder-veto memo</td><td>Lawyers</td><td><code>a97369c7</code></td><td class="num">44</td><td>one of the eight run again</td></tr>
+              <tr><td>Share subscription agreement</td><td>Lawyers</td><td><code>aad21e4c</code></td><td class="num">84</td><td>one of the eight run again</td></tr>
+              <tr><td>Will</td><td>Lawyers</td><td><code>cd9efc18</code></td><td class="num">67</td><td>no expert file</td></tr>
+              <!--/GEN:tasks-->
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <details id="d-rules">
+        <summary>The rules every item was graded by</summary>
+        <div>
+          <p>The same rules were applied to every model and to the experts' own files.</p>
+          <h4>Is the rubric item met?</h4>
+          <ol>
+            <li>A required element that is missing or wrong is not met.</li>
+            <li>A softened commitment is not met when the item asks for a firm statement or step: "may consider", "consider", a bracketed either/or, "uncertain".</li>
+            <li>Loose wording with every element present is met: a paraphrase, a synonym, a missing case name when the substance is there.</li>
+            <li>A name or position that only says where to look is graded on the content it points to: a sheet name, a column header, a row range.</li>
+            <li>Cosmetic characters don't fail an item, for example an en dash in place of a hyphen.</li>
+            <li>Formatting is judged on the rendered file. A specific format item is strict; an "overall formatting" item is judged as a whole.</li>
+            <li>The item is graded as written. If a number differs, the item is not met, even when the different choice is defensible. Whether that is a model failure is decided separately.</li>
+            <li>A hedge the item asks for is correct.</li>
+            <li>An item that restates a task instruction carries that instruction's exceptions.</li>
+            <li>"Each" and "every" items are checked row by row against the source, using the values Excel calculates.</li>
+          </ol>
+          <h4>If it is not met, is it a model failure?</h4>
+          <p>Each unmet item gets the first answer that fits, facts before judgement.</p>
+          <ol>
+            <li>The item itself is at fault: it contradicts the task, or it is wrong against the sources. Not a model failure.</li>
+            <li>The setup made it impossible and the model left the point open. Not a model failure.</li>
+            <li>The expert's own file misses the same element. Not a model failure. The three tasks with no expert file skip this step.</li>
+            <li>The expert's file has it. Then substance a professional would include is a real failure, and a style convention or a reasonable, stated choice is not.</li>
+          </ol>
+          <p>Objective errors always count, whatever the expert's file shows: a wrong fact or number, a broken explicit instruction, a defect in the file, no file at all.</p>
+          <p>Each real failure then gets one type, a severity and the kind of data that would address it. The full scheme, with its tie-break rules, is in the repository.</p>
+        </div>
+      </details>
+
+      <details id="d-grading">
+        <summary>What the grading got wrong, with examples</summary>
+        <div>
+          <ul>
+            <li><b>The judges never saw the source files,</b> so they failed "matches the source" items they could not check. All 41 invoices in one workbook and all 53 award records in another match their sources.</li>
+            <li><b>The text extractor dropped Word footnotes,</b> which is where legal memos put their citations.</li>
+            <li><b>In the first pass, two copies of one memo (Word and PDF) were read as one document,</b> so a 2,970-word memo failed a 3,000-word limit.</li>
+            <li><b>A rubric contradicts its task.</b> The task says a cost increase must show as negative; the rubric's formula would show it as positive.</li>
+            <li><b>A rubric copies an error.</b> Its legal-expense balance repeats a double count in a source spreadsheet. Opus reported the correct figure and flagged the bug.</li>
+            <li><b>An expert file is wrong.</b> One expert classed 74 awards as slow-spending by rounding before applying a 75% cutoff. Opus's 51 is the correct set.</li>
+            <li><b>A rubric figure is incomplete.</b> The tax return's sales-tax deduction leaves out local sales tax, which the IRS worksheet adds. Opus and gpt-6.1-sol added it and failed six lines.</li>
+            <li><b>A rubric is out of date.</b> With web search, all three models applied a 2025 statute that the expert's memo predates.</li>
+          </ul>
+          <p>The first three are faults in my own grading harness, not in GDPval. They can be fixed, but I did not fix them and re-grade.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Every number on this page comes from these runs: scores from the judges' verdicts, counts from the failure tables, and costs from the API usage fields. A script in the repository recomputes them and checks this page against them.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var beats = Array.prototype.slice.call(document.querySelectorAll('[data-beat]'));
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a'));
+  var buttons = Array.prototype.slice.call(document.querySelectorAll('.seg button'));
+  var navH = function () { return document.querySelector('.nav').offsetHeight + 12; };
+
+  function current() {
+    var y = window.scrollY + navH() + 4, idx = 0;
+    beats.forEach(function (b, i) { if (b.offsetTop <= y) idx = i; });
+    return idx;
+  }
+  function go(i) {
+    if (i < 0 || i >= beats.length) return;
+    window.scrollTo({ top: beats[i].offsetTop - navH() + 12 });
+  }
+  function mark() {
+    var i = current();
+    links.forEach(function (a, k) { if (k === i) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+  }
+  function setLens(name, quiet) {
+    if (name === 'both') delete document.body.dataset.lens; else document.body.dataset.lens = name;
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lens === name)); });
+    if (!quiet) {
+      var hash = name === 'both' ? '#labs' : '#for-' + name;
+      try { history.replaceState(null, '', hash); } catch (e) {}
+    }
+  }
+  function fromHash() {
+    var h = location.hash;
+    if (h === '#for-openai') setLens('openai', true);
+    else if (h === '#for-anthropic') setLens('anthropic', true);
+    else if (/^#d-[a-z]+$/.test(h)) { var d = document.getElementById(h.slice(1)); if (d) d.open = true; }
+  }
+
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setLens(b.dataset.lens); }); });
+  window.addEventListener('hashchange', fromHash);
+  window.addEventListener('scroll', mark, { passive: true });
+  document.addEventListener('keydown', function (e) {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    var t = e.target.tagName;
+    if (t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT') return;
+    var k = e.key.toLowerCase();
+    if (k >= '1' && k <= '6') { go(Number(k) - 1); }
+    else if (k === 'arrowright' || k === 'j') { go(current() + 1); }
+    else if (k === 'arrowleft' || k === 'k') { go(current() - 1); }
+    else if (k === 'o' || k === 'a' || k === 'b') {
+      setLens(k === 'o' ? 'openai' : k === 'a' ? 'anthropic' : 'both');
+      go(beats.findIndex(function (b) { return b.id === 'labs'; }));
+    }
+  });
+  fromHash();
+  mark();
+})();
+</script>
+</body>
+</html>

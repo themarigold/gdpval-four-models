@@ -1,0 +1,125 @@
+{
+ "task_id": "aad21e4c-1d43-45fc-899a-97754a1b1b63",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 263.5,
+ "usage": {
+  "input_tokens": 37268,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 518,
+  "output_tokens": 20281,
+  "reasoning_tokens": 20136
+ },
+ "cost_usd": 0.1338,
+ "cost_usd_upper_bound": 0.1424,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "NoxaPulse_Share_Subscription_Agreement.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/docx_render/page-13.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-11.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-12.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/NoxaPulse_Share_Subscription_Agreement.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-10.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af411a9dc4c819196b0b6da3bf49d74.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af411d244b88191bff65edc9f212d0f.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af411f777fc81919ea4cf9e6f973b1e.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/NoxaPulse_Share_Subscription_Agreement.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/contact.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Share Subscription Agreement (Draft).docx"
+ ]
+}

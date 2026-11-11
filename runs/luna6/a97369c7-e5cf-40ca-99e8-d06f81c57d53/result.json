@@ -1,0 +1,70 @@
+{
+ "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 324.2,
+ "usage": {
+  "input_tokens": 31157,
+  "cached_tokens": 2322,
+  "cache_write_tokens": 0,
+  "output_tokens": 19778,
+  "reasoning_tokens": 19733
+ },
+ "cost_usd": 0.1328,
+ "cost_usd_upper_bound": 0.1406,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "avalon_delaware_memo.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/docx_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/avalon_delaware_memo.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4123a1cec819194c1c235b6120621.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/avalon_delaware_memo.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41217766081919f344ac8d851b2cc.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo Refusal of Velridge Contract.docx"
+ ]
+}

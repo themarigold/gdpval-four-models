@@ -1,0 +1,4 @@
+ANTHROPIC_API_KEY is set and takes precedence over the SDK's profile / federation auto-discovery; unset ANTHROPIC_API_KEY to use the auto-discovered credential.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+ee09d943 end_turn files=['Aurisic_Financials_4-25-1.xlsx'] $7.6114 err=None
+total cost $7.61

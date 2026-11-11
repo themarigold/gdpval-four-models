@@ -1,0 +1,22 @@
+{
+ "task_id": "cd9efc18-d14a-4f69-8531-5d178a08084d",
+ "occupation": "Lawyers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 331.0,
+ "usage": {
+  "input_tokens": 26,
+  "output_tokens": 28324,
+  "cache_creation_input_tokens": 800744,
+  "cache_read_input_tokens": 4124952
+ },
+ "cost_usd": 5.3953,
+ "reference_files": [],
+ "expected_deliverables": [],
+ "delivered_files": [
+  "Last_Will_and_Testament_Grace_J_Parsons.pdf"
+ ],
+ "error": null
+}

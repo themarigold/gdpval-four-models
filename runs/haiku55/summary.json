@@ -1,0 +1,535 @@
+[
+ {
+  "task_id": "83d10b06-26d1-4636-a32c-23f92c57f30b",
+  "occupation": "Accountants and Auditors",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 2,
+  "seconds": 413.8,
+  "usage": {
+   "input_tokens": 108,
+   "output_tokens": 70897,
+   "cache_creation_input_tokens": 119941,
+   "cache_read_input_tokens": 3938107
+  },
+  "cost_usd": 0.0898,
+  "reference_files": [
+   "Population v2.xlsx"
+  ],
+  "expected_deliverables": [
+   "Sample v2.xlsx"
+  ],
+  "delivered_files": [
+   "Population v2 - Audit Testing.xlsx",
+   "Sample.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "7b08cd4d-df60-41ae-9102-8aaa49306ba2",
+  "occupation": "Accountants and Auditors",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 246.9,
+  "usage": {
+   "input_tokens": 42,
+   "output_tokens": 42223,
+   "cache_creation_input_tokens": 68647,
+   "cache_read_input_tokens": 747778
+  },
+  "cost_usd": 0.0372,
+  "reference_files": [
+   "Fall Music Tour Ref File.xlsx"
+  ],
+  "expected_deliverables": [
+   "Fall Music Tour Output.xlsx"
+  ],
+  "delivered_files": [
+   "2024_Fall_Music_Tour_PL_Report_As_of_12-31-2024.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "7d7fc9a7-21a7-4b83-906f-416dea5ad04f",
+  "occupation": "Accountants and Auditors",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 435.9,
+  "usage": {
+   "input_tokens": 84,
+   "output_tokens": 80997,
+   "cache_creation_input_tokens": 115556,
+   "cache_read_input_tokens": 2878293
+  },
+  "cost_usd": 0.0837,
+  "reference_files": [
+   "COA.xlsx",
+   "Aurisic_Prepaid_Expenses_Apr25.pdf",
+   "Aurisic_Prepaid_Expenses_Mar25.pdf",
+   "Aurisic_Prepaid_Expenses_Feb25.pdf",
+   "Aurisic_Prepaid_Expenses_Jan25.pdf",
+   "Aurisic_Prepaid_Insurance.pdf"
+  ],
+  "expected_deliverables": [
+   "Aurisic_Amortization_4-25.xlsx"
+  ],
+  "delivered_files": [
+   "Aurisic_Prepaid_Amortization_Schedule_Jan-Apr2025.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "43dc9778-450b-4b46-b77e-b6d82b202035",
+  "occupation": "Accountants and Auditors",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 631.5,
+  "usage": {
+   "input_tokens": 72,
+   "output_tokens": 102025,
+   "cache_creation_input_tokens": 776919,
+   "cache_read_input_tokens": 19086400
+  },
+  "cost_usd": 0.339,
+  "reference_files": [
+   "2024 Childcare Statement.pdf",
+   "Bob & Lisa SMITH LTC PREMIUMS PAID 2024.pdf",
+   "BOB 1099-INT.pdf",
+   "Bob and Lisa 2024 Estimated Taxes Paid.pdf",
+   "COMPLETED 2024 Client Intake Form - Bob and Lisa Smith.pdf",
+   "MORTGAGE INTEREST FORM.pdf",
+   "BOB 1099-B edit.pdf",
+   "BOB 1099-INT Rose Edit.pdf",
+   "BOB W2 COMPANY X edit.pdf",
+   "BOB W2 COMPANY Z edit.pdf",
+   "LISA 1099-B edit.pdf",
+   "LISA 1099-DIV edit.pdf",
+   "LISA 1099-INT Rose edit.pdf",
+   "LISA STUDENT LOAN INTEREST edit.pdf",
+   "LISA W2 COMPRESS MIDDLE SCHOOL edit.pdf"
+  ],
+  "expected_deliverables": [
+   "ROBERT & LISA SMITH 2024 COMPLETED 1040 PAGES 1&2.pdf",
+   "ROBERT & LISA SMITH 2024 COMPLETED TAX FORMS AND SCHEDULES REQUIRED FOR E-FILING edits.PDF"
+  ],
+  "delivered_files": [
+   "Smith_Bob_Lisa_2024_Form1040_Package_DRAFT_for_Review.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "ee09d943-5a11-430a-b7a2-971b4e9b01b5",
+  "occupation": "Accountants and Auditors",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 2,
+  "seconds": 1347.5,
+  "usage": {
+   "input_tokens": 158,
+   "output_tokens": 277524,
+   "cache_creation_input_tokens": 574371,
+   "cache_read_input_tokens": 19031761
+  },
+  "cost_usd": 0.4009,
+  "reference_files": [
+   "Aurisic_Final_TB_4-25-1.txt",
+   "Aurisic_Prepaid_Expenses_4-25-1.xlsx",
+   "Legal_Dump-1.xlsx",
+   "Outstanding_CKs_4-30-25-1.xlsx",
+   "PPD1250-1.xlsx",
+   "Prof_Fee_Dump-1.xlsx",
+   "Accr2011-1.xlsx",
+   "AccrBonus-1.xlsx",
+   "AR_Accrual-1.xlsx",
+   "Aurisic_Corp_Payrolls_April_2025-1.xlsx",
+   "Payroll-1.xlsx",
+   "Rebates-1.xlsx",
+   "Aurisic_Financials_3-25-1.xlsx",
+   "Good Insurance Co - Loan II.xlsx",
+   "Good Insurance Co - Loan.xlsx",
+   "AccrMisc-1.xlsx",
+   "PPD1251-1.xlsx"
+  ],
+  "expected_deliverables": [
+   "Aurisic_Financials_4-25-1.xlsx"
+  ],
+  "delivered_files": [
+   "Aurisic_Financials_4-25-1.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "36d567ba-e205-4313-9756-931c6e4691fe",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 183.3,
+  "usage": {
+   "input_tokens": 40,
+   "output_tokens": 28868,
+   "cache_creation_input_tokens": 42922,
+   "cache_read_input_tokens": 490625
+  },
+  "cost_usd": 0.0247,
+  "reference_files": [],
+  "expected_deliverables": [
+   "Federal Applicant Risk Assessment Tool.docx"
+  ],
+  "delivered_files": [
+   "Federal Applicant - Risk Assessment Tool.docx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 80.6,
+  "usage": {
+   "input_tokens": 8,
+   "output_tokens": 18087,
+   "cache_creation_input_tokens": 21753,
+   "cache_read_input_tokens": 25153
+  },
+  "cost_usd": 0.012,
+  "reference_files": [],
+  "expected_deliverables": [
+   "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+  ],
+  "delivered_files": [
+   "SCRA_3937_3919_Audit_Test_Questions.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "2696757c-1f8a-4959-8f0d-f5597b9e70fc",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 47.0,
+  "usage": {
+   "input_tokens": 14,
+   "output_tokens": 9148,
+   "cache_creation_input_tokens": 13000,
+   "cache_read_input_tokens": 37183
+  },
+  "cost_usd": 0.0066,
+  "reference_files": [],
+  "expected_deliverables": [
+   "VASP Ch7 BK Test Questions.pdf"
+  ],
+  "delivered_files": [
+   "VASP_Bankruptcy_Testing_Template_Dec2024.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "dfb4e0cd-a0b7-454e-b943-0dd586c2764c",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 51.8,
+  "usage": {
+   "input_tokens": 22,
+   "output_tokens": 8171,
+   "cache_creation_input_tokens": 18615,
+   "cache_read_input_tokens": 88644
+  },
+  "cost_usd": 0.0073,
+  "reference_files": [
+   "Award Data Report.xlsx"
+  ],
+  "expected_deliverables": [
+   "Time Elapsed vs Funds Spent Analysis 2025.03.31.xlsx"
+  ],
+  "delivered_files": [
+   "Spending_Rate_Analysis_as_of_2025-03-31.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "4c18ebae-dfaa-4b76-b10c-61fcdf26734c",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 437.0,
+  "usage": {
+   "input_tokens": 56,
+   "output_tokens": 85373,
+   "cache_creation_input_tokens": 122256,
+   "cache_read_input_tokens": 1869349
+  },
+  "cost_usd": 0.0767,
+  "reference_files": [
+   "Transactions Final.xlsx"
+  ],
+  "expected_deliverables": [
+   "Transactions Final Output.xlsx",
+   "Suspicious Activity Report (SAR).docx"
+  ],
+  "delivered_files": [
+   "SAR_Draft_Golden_Apple_SIU.docx",
+   "SAR_Supporting_Transaction_Records.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "a1963a68-1bea-4bb1-b7e0-145c92a57449",
+  "occupation": "Financial Managers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 537.2,
+  "usage": {
+   "input_tokens": 58,
+   "output_tokens": 98572,
+   "cache_creation_input_tokens": 280907,
+   "cache_read_input_tokens": 4404716
+  },
+  "cost_usd": 0.1285,
+  "reference_files": [],
+  "expected_deliverables": [],
+  "delivered_files": [
+   "SuperK-T_Korea_Deep_Dive_Strategy_Presentation_May2024.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "5f6c57dd-feb6-4e70-b152-4969d92d1608",
+  "occupation": "Financial Managers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 685.7,
+  "usage": {
+   "input_tokens": 92,
+   "output_tokens": 133040,
+   "cache_creation_input_tokens": 195609,
+   "cache_read_input_tokens": 6182775
+  },
+  "cost_usd": 0.1528,
+  "reference_files": [
+   "Raw Data for Branch Profitability Final.xlsx"
+  ],
+  "expected_deliverables": [],
+  "delivered_files": [
+   "Branch_Profitability_Reporting_Package.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "b39a5aa7-cd1b-47ad-b249-90afd22f8f21",
+  "occupation": "Financial Managers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 433.7,
+  "usage": {
+   "input_tokens": 60,
+   "output_tokens": 84820,
+   "cache_creation_input_tokens": 109443,
+   "cache_read_input_tokens": 2145024
+  },
+  "cost_usd": 0.0775,
+  "reference_files": [
+   "Orchestra assumptions and roster.xlsx"
+  ],
+  "expected_deliverables": [
+   "Orchestra_Compensation.xlsx"
+  ],
+  "delivered_files": [
+   "Renaissance_Orchestra_CBA_Compensation_Model.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "b78fd844-db76-448e-a783-5e9877cb74c2",
+  "occupation": "Financial Managers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 370.7,
+  "usage": {
+   "input_tokens": 46,
+   "output_tokens": 66564,
+   "cache_creation_input_tokens": 87271,
+   "cache_read_input_tokens": 952511
+  },
+  "cost_usd": 0.0537,
+  "reference_files": [
+   "Tiny Rod Hit Inc Reference.pdf"
+  ],
+  "expected_deliverables": [
+   "Tiny Rod Hit Inc Report.pdf"
+  ],
+  "delivered_files": [
+   "Tiny-Rod_Board_Memo_Project_A_vs_B.docx",
+   "Tiny-Rod_Board_Memo_Project_A_vs_B.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "4520f882-715a-482d-8e87-1cb3cbdfe975",
+  "occupation": "Financial Managers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "max_tokens",
+  "api_calls": 1,
+  "seconds": 301.1,
+  "usage": {
+   "input_tokens": 10,
+   "output_tokens": 64595,
+   "cache_creation_input_tokens": 7345,
+   "cache_read_input_tokens": 13533
+  },
+  "cost_usd": 0.0334,
+  "reference_files": [
+   "Sample roster and schedule.xlsx",
+   "CBA excerpt.docx"
+  ],
+  "expected_deliverables": [
+   "Theatre CBA.xlsx"
+  ],
+  "delivered_files": [],
+  "error": null
+ },
+ {
+  "task_id": "cd9efc18-d14a-4f69-8531-5d178a08084d",
+  "occupation": "Lawyers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 250.5,
+  "usage": {
+   "input_tokens": 20,
+   "output_tokens": 53883,
+   "cache_creation_input_tokens": 62129,
+   "cache_read_input_tokens": 374143
+  },
+  "cost_usd": 0.0385,
+  "reference_files": [],
+  "expected_deliverables": [],
+  "delivered_files": [
+   "Last_Will_and_Testament_Grace_J_Parsons.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+  "occupation": "Lawyers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 243.5,
+  "usage": {
+   "input_tokens": 18,
+   "output_tokens": 51496,
+   "cache_creation_input_tokens": 57313,
+   "cache_read_input_tokens": 273624
+  },
+  "cost_usd": 0.0357,
+  "reference_files": [],
+  "expected_deliverables": [
+   "DRAFT Memo Refusal of Velridge Contract.docx"
+  ],
+  "delivered_files": [
+   "Avalon_Delaware_Law_Memo.docx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "3f625cb2-f40e-4ead-8a97-6924356d5989",
+  "occupation": "Lawyers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 103.3,
+  "usage": {
+   "input_tokens": 14,
+   "output_tokens": 20119,
+   "cache_creation_input_tokens": 25801,
+   "cache_read_input_tokens": 84924
+  },
+  "cost_usd": 0.0141,
+  "reference_files": [],
+  "expected_deliverables": [
+   "Legal Concerns Regarding VueVid Collection of Child Personal Information.pdf"
+  ],
+  "delivered_files": [
+   "ABC_Father_YouTube_Privacy_Legal_Memo.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "aad21e4c-1d43-45fc-899a-97754a1b1b63",
+  "occupation": "Lawyers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "max_tokens",
+  "api_calls": 1,
+  "seconds": 296.9,
+  "usage": {
+   "input_tokens": 4,
+   "output_tokens": 64000,
+   "cache_creation_input_tokens": 4006,
+   "cache_read_input_tokens": 0
+  },
+  "cost_usd": 0.0325,
+  "reference_files": [],
+  "expected_deliverables": [
+   "Share Subscription Agreement (Draft).docx"
+  ],
+  "delivered_files": [],
+  "error": null
+ },
+ {
+  "task_id": "8314d1b1-5b0f-42a4-b5d5-91c0867b0913",
+  "occupation": "Lawyers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 215.3,
+  "usage": {
+   "input_tokens": 14,
+   "output_tokens": 46715,
+   "cache_creation_input_tokens": 50617,
+   "cache_read_input_tokens": 192251
+  },
+  "cost_usd": 0.0316,
+  "reference_files": [],
+  "expected_deliverables": [
+   "DRAFT Memo re Clarivon x Luminor Transaction.docx"
+  ],
+  "delivered_files": [
+   "Clarivon_Luminor_Standard_of_Review_Memo.docx"
+  ],
+  "error": null
+ }
+]

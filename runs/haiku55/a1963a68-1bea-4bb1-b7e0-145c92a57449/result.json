@@ -1,0 +1,22 @@
+{
+ "task_id": "a1963a68-1bea-4bb1-b7e0-145c92a57449",
+ "occupation": "Financial Managers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 537.2,
+ "usage": {
+  "input_tokens": 58,
+  "output_tokens": 98572,
+  "cache_creation_input_tokens": 280907,
+  "cache_read_input_tokens": 4404716
+ },
+ "cost_usd": 0.1285,
+ "reference_files": [],
+ "expected_deliverables": [],
+ "delivered_files": [
+  "SuperK-T_Korea_Deep_Dive_Strategy_Presentation_May2024.pdf"
+ ],
+ "error": null
+}

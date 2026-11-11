@@ -1,0 +1,47 @@
+{
+ "task_id": "dfb4e0cd-a0b7-454e-b943-0dd586c2764c",
+ "occupation": "Compliance Officers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 95.2,
+ "usage": {
+  "input_tokens": 16040,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 499,
+  "output_tokens": 6749,
+  "reasoning_tokens": 6628
+ },
+ "cost_usd": 0.1249,
+ "cost_usd_upper_bound": 0.128,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Award_Spending_Rate_Analysis_2025-03-31.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/recalc/Award_Spending_Rate_Analysis_2025-03-31.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Award_Spending_Rate_Analysis_2025-03-31.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/05a4024b3722889d970245cc7e93c888-Award_Data_Report.xlsx",
+   "bytes": 206210,
+   "source": "user"
+  }
+ ],
+ "error": null,
+ "reference_files": [
+  "Award Data Report.xlsx"
+ ],
+ "expected_deliverables": [
+  "Time Elapsed vs Funds Spent Analysis 2025.03.31.xlsx"
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "task_id": "b78fd844-db76-448e-a783-5e9877cb74c2",
+ "occupation": "Financial Managers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "failed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 507.9,
+ "usage": {
+  "input_tokens": 0,
+  "cached_tokens": 0,
+  "cache_write_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "cost_usd": 0.12,
+ "cost_usd_upper_bound": 0.12,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Tiny_Rod_Hit_Board_Report.docx",
+  "Tiny_Rod_Hit_Board_Report.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af40d9b44788191a86d1c20e234623b.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40da3916c819185e52e1bfefb7b8c.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40d52519481918043de789f26f9a3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40dab359c8191a580d0bf4aa96d78.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/Tiny_Rod_Hit_Board_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v3/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-11.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/Tiny_Rod_Hit_Board_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-12.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-10.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Tiny_Rod_Hit_Board_Report.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/Tiny_Rod_Hit_Board_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/final_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-7.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/Tiny_Rod_Hit_Board_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered_v2/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40dab33e08191a0befd735766c625.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40da38fc4819199473db905f45eca.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40dd0d9ec8191824ea2e63e560617.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40dab37288191b496c564dd6cce43.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40d9b425c8191870d2c0d38d025e5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40dd0dbc08191a4b83f9104742ea8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40d7644e88191b070a09371fc2854.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Tiny_Rod_Hit_Board_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Tiny_Rod_Hit_Board_Report.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/614d326d156b77f7dbf9fb236db3a143-Tiny_Rod_Hit_Inc_Reference.pdf",
+   "bytes": 94294,
+   "source": "user"
+  }
+ ],
+ "error": "failed: credit_balance_exhausted You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+ "reference_files": [
+  "Tiny Rod Hit Inc Reference.pdf"
+ ],
+ "expected_deliverables": [
+  "Tiny Rod Hit Inc Report.pdf"
+ ]
+}

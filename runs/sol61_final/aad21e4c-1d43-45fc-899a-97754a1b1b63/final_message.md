@@ -1,0 +1,3 @@
+[Download the Word agreement](sandbox:/mnt/data/outputs/NoxaPulse_Share_Subscription_Agreement.docx)
+
+The draft includes capitalization schedules, information and inspection rights, 10% ownership-floor and top-up mechanics, pro rata participation rights, and extraordinary-action consent rights—without a board or observer seat. Bracketed terms and stated capitalization assumptions should be completed and verified before signing.

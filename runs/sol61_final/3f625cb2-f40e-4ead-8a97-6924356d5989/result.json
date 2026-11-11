@@ -1,0 +1,85 @@
+{
+ "task_id": "3f625cb2-f40e-4ead-8a97-6924356d5989",
+ "occupation": "Lawyers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 263.0,
+ "usage": {
+  "input_tokens": 23350,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 201,
+  "output_tokens": 10623,
+  "reasoning_tokens": 10565
+ },
+ "cost_usd": 0.2704,
+ "cost_usd_upper_bound": 0.3672,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "ABC_Father_Legal_Memorandum.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/work/page_5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/page_4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/ABC_Father_Legal_Memorandum.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/page_6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/page_2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/page_3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/page_1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/ABC_Father_Legal_Memorandum.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413e248c481919634a3a97bb9c4f4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413e5a3188191a2e569538eb8fb00.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af413e5a4ac8191bbd39d4e706b2534.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Legal Concerns Regarding VueVid Collection of Child Personal Information.pdf"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "task_id": "3f625cb2-f40e-4ead-8a97-6924356d5989",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "failed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 155.9,
+ "usage": {
+  "input_tokens": 0,
+  "cached_tokens": 0,
+  "cache_write_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "cost_usd": 0.12,
+ "cost_usd_upper_bound": 0.12,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "ABC_Father_YouTube_Privacy_Memo.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/_memo_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_memo_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_memo_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40ca2877481919ccfa01634b4de61.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40ca28a688191b5baac57d20adc9b.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/ABC_Father_YouTube_Privacy_Memo.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40ca289008191a4cb6be4b8e87e4b.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": "failed: credit_balance_exhausted You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+ "reference_files": [],
+ "expected_deliverables": [
+  "Legal Concerns Regarding VueVid Collection of Child Personal Information.pdf"
+ ]
+}

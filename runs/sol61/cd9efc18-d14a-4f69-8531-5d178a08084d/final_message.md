@@ -1,0 +1,3 @@
+I’ll draft the Will with execution and self-proving affidavit pages. I’ll also flag an instruction conflict for attorney review: a trust capped at 21 years cannot always defer final distribution until age 25. The draft will make the 21-year cap controlling and explain that choice in a separate review note.[Download the draft Will (PDF)](sandbox:/mnt/data/outputs/Grace_J_Parsons_Last_Will_and_Testament_Draft.pdf)
+
+The 10-page PDF includes the Will, execution and self-proving affidavit pages, and a separate attorney-review note. The note explains the age-25/21-year conflict; the draft makes the 21-year cap controlling, subject to client approval and supervising-attorney review before signing.

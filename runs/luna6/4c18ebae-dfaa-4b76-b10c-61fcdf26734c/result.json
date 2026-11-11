@@ -1,0 +1,74 @@
+{
+ "task_id": "4c18ebae-dfaa-4b76-b10c-61fcdf26734c",
+ "occupation": "Compliance Officers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 326.8,
+ "usage": {
+  "input_tokens": 44766,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 823,
+  "output_tokens": 16948,
+  "reasoning_tokens": 16843
+ },
+ "cost_usd": 0.1328,
+ "cost_usd_upper_bound": 0.1414,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "SAR_Draft_For_Management_Review.docx",
+  "Supporting_Transaction_Records.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af40b8390788191acb61f607a52bde2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Supporting_Transaction_Records.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/SAR_Draft_For_Management_Review.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered/SAR_Draft_For_Management_Review.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/rendered/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40b8393588191bd31a8dce99d3ab6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/22e3c4c1e3fbc17dfb39f670c4fa0d55-Transactions_Final.xlsx",
+   "bytes": 55026,
+   "source": "user"
+  }
+ ],
+ "error": null,
+ "reference_files": [
+  "Transactions Final.xlsx"
+ ],
+ "expected_deliverables": [
+  "Transactions Final Output.xlsx",
+  "Suspicious Activity Report (SAR).docx"
+ ]
+}

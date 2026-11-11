@@ -1,0 +1,26 @@
+check_id,met,class,confidence,reason
+C11,N,rubric_task_error,med,2018 amendments not in the 2015 text the task linked
+C12,N,real_model_failure,med,court relief 'not materially affected' standard missing
+C13,N,defensible_alternative,high,para (4) omitted deliberately as insurer-only; 6-question cap
+C14,N,rubric_task_error,high,tab not required by task
+C15,N,rubric_task_error,high,task mandates SCRA-13..18 IDs
+C16,N,rubric_task_error,high,task scopes UG citations to topics 6-10
+C17,N,harness_limitation,high,handbook only via unreachable URL
+C18,N,harness_limitation,med,omitted-language finding only as bracketed option
+C19,N,harness_limitation,med,Ch 9 date only in unreachable PDF
+C20,N,defensible_alternative,med,inclusive day count; ~0.08pp
+C21,N,defensible_alternative,med,'exclusively' argument; unsettled point
+C22,N,defensible_alternative,med,opposite conclusion on unsettled point
+C23,N,real_model_failure,med,fairness opinion hedged ('consider')
+C24,N,real_model_failure,high,CCPA section never defines PI
+C25,N,real_model_failure,high,no internal-operations exception
+C26,N,defensible_alternative,med,Short Answer format; no roadmap not required
+C32,N,real_model_failure,high,'injunction' not explained
+C34,N,rubric_task_error,high,rubric names from different task version
+C35,N,rubric_task_error,med,YouTube terms have no arbitration clause
+C27,N,real_model_failure,med,vote exclusion of controller/affiliates not stated
+C28,N,real_model_failure,med,gross negligence not applied
+C29,N,real_model_failure,med,Avalon never stated as Delaware corporation
+C30,N,real_model_failure,low,conclusion omits uncoerced/fully informed/say no
+C31,N,defensible_alternative,med,softened memo clause fits sole-discretion instruction
+C33,N,rubric_task_error,med,task's 21-year max applied literally

@@ -1,0 +1,142 @@
+{
+ "task_id": "3f625cb2-f40e-4ead-8a97-6924356d5989",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "web_tools": false,
+ "web_search_calls": 0,
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 279.2,
+ "usage": {
+  "input_tokens": 37883,
+  "cached_tokens": 0,
+  "cache_write_tokens": 1590,
+  "output_tokens": 30321,
+  "reasoning_tokens": 14987
+ },
+ "cost_usd": 0.139,
+ "cost_usd_upper_bound": 0.1502,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "ABC_Father_YouTube_Privacy_Memo.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af42e6e39808191920498284b1460e5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_verified/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_verified/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_verified/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42ea3ebcc81918918a3ffefb390e9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42e3a1cd48191977e4ec4b4d6ee83.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42e3a1de88191bedccacb126bc054.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_2026/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_2026/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_2026/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42e6e382481919e0f62e4dfef6b6a.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/ABC_Father_YouTube_Privacy_Memo.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42e3a1ba48191a1ab7577bc487d50.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42ea3ed088191b34de8d0e28286e4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42e6e3a908191a17e92d7ff79cdca.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42ea3ee18819191110ba9a17b7df0.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_final/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_final/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/_renders_memo_final/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Legal Concerns Regarding VueVid Collection of Child Personal Information.pdf"
+ ]
+}

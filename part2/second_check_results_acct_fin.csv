@@ -1,0 +1,27 @@
+check_id,met,class,confidence,reason
+C01,N,harness_limitation,med,sales tax estimate wrong (4488 vs IRS 2246); offline
+C02,N,harness_limitation,med,line 15 differs only via C01 cascade
+C03,N,defensible_alternative,high,rounds total per IRS; rubric rounds each W-2
+C04,N,defensible_alternative,high,Other Costs split is judgement call
+C05,N,defensible_alternative,med,comma style without $; expert also no-$
+C06,N,defensible_alternative,med,inserted column; task and source conflict
+C07,N,defensible_alternative,med,kept final TB; proposed write-off
+C08,N,rubric_task_error,high,rubric copies source double count
+C09,N,rubric_task_error,high,AP_TB-1 not provided
+C10,N,real_model_failure,high,tabs lack April 2025 period text in rows 1-10
+C36,N,rubric_task_error,med,rates $1 above CBA; doubling base defensible
+C37,N,rubric_task_error,high,rubric figure matches neither CBA rate nor 150% rule
+C38,N,defensible_alternative,low,positional slot linking; ID column unused
+C39,N,defensible_alternative,med,applies CBA 7.5/7.1 not per-day total
+C40,N,rubric_task_error,med,rubric sign contradicts task
+C41,N,real_model_failure,med,Tab 4 dropdown is region not branch/aggregate
+C42,N,defensible_alternative,med,Corporate SG&A kept separate
+C43,N,rubric_task_error,low,SG&A % not asked by task
+C44,N,real_model_failure,med,inconsistent currency format
+C45,N,real_model_failure,med,no conditional formatting on variances
+C46,N,rubric_task_error,med,Name/Instrument not in source
+C47,N,real_model_failure,med,fixed rows; cannot add musician
+C48,N,real_model_failure,high,invented NPV point estimates
+C49,N,real_model_failure,high,IRR point estimates
+C50,N,harness_limitation,low,no titles/URLs without internet
+C51,N,real_model_failure,low,no advertising lever

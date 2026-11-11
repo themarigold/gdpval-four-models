@@ -1,0 +1,168 @@
+{
+ "task_id": "b78fd844-db76-448e-a783-5e9877cb74c2",
+ "occupation": "Financial Managers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 265.0,
+ "usage": {
+  "input_tokens": 66707,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 335,
+  "output_tokens": 21411,
+  "reasoning_tokens": 21264
+ },
+ "cost_usd": 0.1373,
+ "cost_usd_upper_bound": 0.1491,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Tiny_Rod_Hit_Board_Investment_Report.docx",
+  "Tiny_Rod_Hit_Board_Investment_Report.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af40c17baf08191a59791b64de77ab9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c6d68a88191bb5c65c727b92e85.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c1e498c8191ae2dc1ce00bda740.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/Tiny_Rod_Hit_Board_Investment_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c221e608191a6dfec774d4ef7b8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c64ba6881918408299bd3415f0d.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c143ee48191a8789ddf8f326cec.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c7bb7b48191aec3508400d0672e.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c25073c8191b275e5e2bb307379.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/pdf_render/page-5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/pdf_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/pdf_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/pdf_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/pdf_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c88277c819196798caf986a5d4d.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/montage.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c2e5f6481918490e096435387c5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Tiny_Rod_Hit_Board_Investment_Report.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Tiny_Rod_Hit_Board_Investment_Report.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c29f28c8191b67f120a6a249539.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/Tiny_Rod_Hit_Board_Investment_Report.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/614d326d156b77f7dbf9fb236db3a143-Tiny_Rod_Hit_Inc_Reference.pdf",
+   "bytes": 94294,
+   "source": "user"
+  }
+ ],
+ "error": null,
+ "reference_files": [
+  "Tiny Rod Hit Inc Reference.pdf"
+ ],
+ "expected_deliverables": [
+  "Tiny Rod Hit Inc Report.pdf"
+ ]
+}

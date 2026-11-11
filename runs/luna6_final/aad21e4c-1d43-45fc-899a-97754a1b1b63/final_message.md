@@ -1,0 +1,3 @@
+The draft agreement is ready: [Download the NoxaPulse Share Subscription Agreement](sandbox:/mnt/data/outputs/NoxaPulse_Share_Subscription_Agreement.docx).
+
+It reflects the $500,000 investment for 1,000,000 shares and shows Alan at 16.67% post-closing on the stated capitalization assumptions. The draft uses placeholders for unknown information and includes a disclosure schedule. Assumptions to confirm include the 600,000-share employee-plan carve-out, the $250,000 indebtedness consent threshold, and the 5% ownership threshold for certain investor rights; the 10% ownership protection is subject to the stated exempt-issuance carve-outs.

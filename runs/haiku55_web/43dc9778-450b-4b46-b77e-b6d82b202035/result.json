@@ -1,0 +1,46 @@
+{
+ "task_id": "43dc9778-450b-4b46-b77e-b6d82b202035",
+ "occupation": "Accountants and Auditors",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "web_tools": true,
+ "compact_at": 0,
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 726.5,
+ "usage": {
+  "input_tokens": 76,
+  "output_tokens": 113792,
+  "cache_creation_input_tokens": 217074,
+  "cache_read_input_tokens": 3077816,
+  "web_search_requests": 7,
+  "compactions": 0
+ },
+ "cost_usd": 0.1848,
+ "reference_files": [
+  "2024 Childcare Statement.pdf",
+  "Bob & Lisa SMITH LTC PREMIUMS PAID 2024.pdf",
+  "BOB 1099-INT.pdf",
+  "Bob and Lisa 2024 Estimated Taxes Paid.pdf",
+  "COMPLETED 2024 Client Intake Form - Bob and Lisa Smith.pdf",
+  "MORTGAGE INTEREST FORM.pdf",
+  "BOB 1099-B edit.pdf",
+  "BOB 1099-INT Rose Edit.pdf",
+  "BOB W2 COMPANY X edit.pdf",
+  "BOB W2 COMPANY Z edit.pdf",
+  "LISA 1099-B edit.pdf",
+  "LISA 1099-DIV edit.pdf",
+  "LISA 1099-INT Rose edit.pdf",
+  "LISA STUDENT LOAN INTEREST edit.pdf",
+  "LISA W2 COMPRESS MIDDLE SCHOOL edit.pdf"
+ ],
+ "expected_deliverables": [
+  "ROBERT & LISA SMITH 2024 COMPLETED 1040 PAGES 1&2.pdf",
+  "ROBERT & LISA SMITH 2024 COMPLETED TAX FORMS AND SCHEDULES REQUIRED FOR E-FILING edits.PDF"
+ ],
+ "delivered_files": [
+  "Smith_2024_Form1040_Package.pdf",
+  "Smith_2024_Preparer_Review_Memo.pdf"
+ ],
+ "error": null
+}

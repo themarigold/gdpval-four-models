@@ -1,0 +1,11 @@
+run,root_cause,unreachable_source,what_the_model_did
+opus55,A-R1,IRS optional sales-tax table,Put an invented table amount on the return and flagged it
+opus55,L-R13,SB 313 synopsis (linked by the task),Called enforceability uncertain; leaned the wrong way
+haiku55,H-A-5,Blank IRS forms,Drew its own forms and numbered several lines wrongly
+haiku55,H-L-14,SB 313 synopsis (linked by the task),Leaned the right way but would not commit
+haiku55,H-L-15,Sears decision (linked by the task),Left out the controller's duty of care and did not conclude
+haiku55,H-C-6,Statute text of 50 U.S.C. 3919 (linked by the task),Wrote two questions on duties the section does not contain
+haiku55,H-C-5,Statute text of 50 U.S.C. 3937 (linked by the task),Covered only part of the section from memory
+sol61,S-A-1,IRS optional sales-tax table,Left the amount open and filed the standard deduction its own note pointed away from
+sol61,S-A-2,Blank IRS forms,Drew its own forms and numbered Schedule 2 lines one too low
+sol61,S-L-10,SB 313 synopsis (linked by the task),Concluded the veto is likely unenforceable

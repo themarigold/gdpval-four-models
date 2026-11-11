@@ -1,0 +1,65 @@
+{
+ "task_id": "36d567ba-e205-4313-9756-931c6e4691fe",
+ "occupation": "Compliance Officers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 139.9,
+ "usage": {
+  "input_tokens": 19235,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 442,
+  "output_tokens": 5066,
+  "reasoning_tokens": 4997
+ },
+ "cost_usd": 0.2067,
+ "cost_usd_upper_bound": 0.267,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Federal_Applicant_Risk_Assessment_Tool.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af4091e86dc81919b15a3fbc1301986.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Federal_Applicant_Risk_Assessment_Tool.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4091e850c8191bce8f692e4a5aa4c.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/Federal_Applicant_Risk_Assessment_Tool.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Federal_Applicant_Risk_Assessment_Tool.docx",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Federal Applicant Risk Assessment Tool.docx"
+ ]
+}

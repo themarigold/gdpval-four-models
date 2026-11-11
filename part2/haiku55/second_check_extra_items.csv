@@ -1,0 +1,24 @@
+rubric_item_id_first8,why_included
+b21e8652,first pass: right amount on a wrong line number (real or judge error)
+8204401e,first pass: simplified tables judged not to be the IRS form
+67e8e193,first pass: sample-size method (defensible or real)
+60c5eadc,first pass: bank reconciliation left pending (defensible or judge error)
+27491bb6,first pass: reserved tabs listed in the contents (shared with expert or met)
+1dd70014,first pass: period label on every tab (met on a lenient standard)
+b2a8e838,first pass: proof-of-service rule from the linked edition (defensible or real)
+ab802499,first pass: site named but not described (met on a lenient standard)
+12859cda,first pass: yes/no part missing on the exempt topic (met or rubric error)
+e56d9d22,first pass: six questions on the section (met on a generous reading)
+8f3bf826,first pass: six questions on the section (met on a generous reading)
+a66918a3,first pass: board memo section graded on content (met or style)
+2a3a9b1e,first pass: board memo section graded on content (met or style)
+a836aa8c,first pass: board memo item graded on content
+bd20578e,first pass: board memo item graded on content
+b58145a4,first pass: presumption explained without the fraud or waste wording
+328838da,first pass: common-law conclusion (met only on one reading)
+c3d07db1,first pass: statute cited as amended without the amendment's name
+764e44ea,first pass: consent before collecting; using and disclosing not repeated
+c559f5ce,first pass: digital assets clause without devices
+a443caa5,first pass: names the bill but not its synopsis
+20209d38,first pass: charter-consistency conclusion (close call inside a real row)
+ceb29d64,first pass: burden shift implied but not stated

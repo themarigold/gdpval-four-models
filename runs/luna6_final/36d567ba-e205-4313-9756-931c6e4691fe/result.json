@@ -1,0 +1,85 @@
+{
+ "task_id": "36d567ba-e205-4313-9756-931c6e4691fe",
+ "occupation": "Compliance Officers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 140.2,
+ "usage": {
+  "input_tokens": 45280,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 442,
+  "output_tokens": 13455,
+  "reasoning_tokens": 13397
+ },
+ "cost_usd": 0.1311,
+ "cost_usd_upper_bound": 0.1389,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Federal_Applicant_Risk_Assessment_Tool.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/work/Federal_Applicant_Risk_Assessment_Tool.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/rendered/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409bb29808191a4acfe0563838812.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Federal_Applicant_Risk_Assessment_Tool.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409d2a8548191b32c9aa1381d54f1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409ddf624819190d081deba5095e5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409d2a67c8191ab24670f34a96a0c.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409ddf7f08191aa05d0810eb29b4f.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409bb2b708191bcc8a3444f54ed7c.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af409ea7d948191a5ac385f3d33302c.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Federal Applicant Risk Assessment Tool.docx"
+ ]
+}

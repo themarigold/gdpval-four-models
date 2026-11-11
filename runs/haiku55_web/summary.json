@@ -1,0 +1,158 @@
+[
+ {
+  "task_id": "43dc9778-450b-4b46-b77e-b6d82b202035",
+  "occupation": "Accountants and Auditors",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "web_tools": true,
+  "compact_at": 0,
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 726.5,
+  "usage": {
+   "input_tokens": 76,
+   "output_tokens": 113792,
+   "cache_creation_input_tokens": 217074,
+   "cache_read_input_tokens": 3077816,
+   "web_search_requests": 7,
+   "compactions": 0
+  },
+  "cost_usd": 0.1848,
+  "reference_files": [
+   "2024 Childcare Statement.pdf",
+   "Bob & Lisa SMITH LTC PREMIUMS PAID 2024.pdf",
+   "BOB 1099-INT.pdf",
+   "Bob and Lisa 2024 Estimated Taxes Paid.pdf",
+   "COMPLETED 2024 Client Intake Form - Bob and Lisa Smith.pdf",
+   "MORTGAGE INTEREST FORM.pdf",
+   "BOB 1099-B edit.pdf",
+   "BOB 1099-INT Rose Edit.pdf",
+   "BOB W2 COMPANY X edit.pdf",
+   "BOB W2 COMPANY Z edit.pdf",
+   "LISA 1099-B edit.pdf",
+   "LISA 1099-DIV edit.pdf",
+   "LISA 1099-INT Rose edit.pdf",
+   "LISA STUDENT LOAN INTEREST edit.pdf",
+   "LISA W2 COMPRESS MIDDLE SCHOOL edit.pdf"
+  ],
+  "expected_deliverables": [
+   "ROBERT & LISA SMITH 2024 COMPLETED 1040 PAGES 1&2.pdf",
+   "ROBERT & LISA SMITH 2024 COMPLETED TAX FORMS AND SCHEDULES REQUIRED FOR E-FILING edits.PDF"
+  ],
+  "delivered_files": [
+   "Smith_2024_Form1040_Package.pdf",
+   "Smith_2024_Preparer_Review_Memo.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "2696757c-1f8a-4959-8f0d-f5597b9e70fc",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "web_tools": true,
+  "compact_at": 0,
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 59.9,
+  "usage": {
+   "input_tokens": 12,
+   "output_tokens": 12757,
+   "cache_creation_input_tokens": 53260,
+   "cache_read_input_tokens": 115862,
+   "web_search_requests": 3,
+   "compactions": 0
+  },
+  "cost_usd": 0.0442,
+  "reference_files": [],
+  "expected_deliverables": [
+   "VASP Ch7 BK Test Questions.pdf"
+  ],
+  "delivered_files": [
+   "VASP_Bankruptcy_Testing_Template_Dec2024.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+  "occupation": "Compliance Officers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "web_tools": true,
+  "compact_at": 0,
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 133.4,
+  "usage": {
+   "input_tokens": 24,
+   "output_tokens": 27394,
+   "cache_creation_input_tokens": 51340,
+   "cache_read_input_tokens": 267048,
+   "web_search_requests": 2,
+   "compactions": 0
+  },
+  "cost_usd": 0.0428,
+  "reference_files": [],
+  "expected_deliverables": [
+   "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+  ],
+  "delivered_files": [
+   "SCRA_3937_3919_Audit_Test_Questions.xlsx"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "a1963a68-1bea-4bb1-b7e0-145c92a57449",
+  "occupation": "Financial Managers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "web_tools": true,
+  "compact_at": 0,
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 482.8,
+  "usage": {
+   "input_tokens": 44,
+   "output_tokens": 105468,
+   "cache_creation_input_tokens": 270729,
+   "cache_read_input_tokens": 3928497,
+   "web_search_requests": 18,
+   "compactions": 0
+  },
+  "cost_usd": 0.3059,
+  "reference_files": [],
+  "expected_deliverables": [],
+  "delivered_files": [
+   "SuperK-Taxi_Korea_Deep_Dive_Strategy_May2024.pdf"
+  ],
+  "error": null
+ },
+ {
+  "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+  "occupation": "Lawyers",
+  "model": "claude-haiku-5-5",
+  "effort": "high",
+  "web_tools": true,
+  "compact_at": 0,
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 306.2,
+  "usage": {
+   "input_tokens": 24,
+   "output_tokens": 67203,
+   "cache_creation_input_tokens": 222968,
+   "cache_read_input_tokens": 1159269,
+   "web_search_requests": 13,
+   "compactions": 0
+  },
+  "cost_usd": 0.2031,
+  "reference_files": [],
+  "expected_deliverables": [
+   "DRAFT Memo Refusal of Velridge Contract.docx"
+  ],
+  "delivered_files": [
+   "Avalon_Delaware_Fiduciary_Memo.docx"
+  ],
+  "error": null
+ }
+]

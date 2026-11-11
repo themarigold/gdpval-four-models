@@ -1,0 +1,67 @@
+check_id,first_pass_unit,first_pass_class,why_included
+S01,H-A-1,real,real-failure root cause
+S02,H-A-1,real,real-failure root cause
+S03,H-A-2,real,real-failure root cause
+S04,H-A-2,real,real-failure root cause
+S05,H-A-3,real,real-failure root cause
+S06,H-A-3,real,real-failure root cause
+S07,H-A-4,real,real-failure root cause
+S08,H-A-5,real,real-failure root cause
+S09,H-A-5,real,real-failure root cause
+S10,H-A-6,E2,rubric/expert-wrong claim
+S11,H-A-14,E2,rubric/expert-wrong claim
+S12,H-A-5,real,first pass: right amount on a wrong line number (real or judge error)
+S13,H-A-9,E5,first pass: sample-size method (defensible or real)
+S14,E3,E3,first pass: period label on every tab (met on a lenient standard)
+S15,H-A-11,E6,first pass: reserved tabs listed in the contents (shared with expert or met)
+S16,H-A-13,E5,first pass: bank reconciliation left pending (defensible or judge error)
+S17,H-C-5,real,real-failure root cause
+S18,H-C-5,real,real-failure root cause
+S19,H-C-6,real,real-failure root cause
+S20,H-C-6,real,real-failure root cause
+S21,H-C-10,real,real-failure root cause
+S22,H-C-10,real,real-failure root cause
+S23,H-C-11,real,real-failure root cause
+S24,H-C-12,real,real-failure root cause
+S25,H-C-12,real,real-failure root cause
+S26,E3,E3,first pass: yes/no part missing on the exempt topic (met or rubric error)
+S27,E3,E3,first pass: site named but not described (met on a lenient standard)
+S28,H-C-8,E5,first pass: proof-of-service rule from the linked edition (defensible or real)
+S29,E3,E3,first pass: six questions on the section (met on a generous reading)
+S30,E3,E3,first pass: six questions on the section (met on a generous reading)
+S31,H-F-2,real,real-failure root cause
+S32,H-F-2,real,real-failure root cause
+S33,H-F-3,real,real-failure root cause
+S34,H-F-3,real,real-failure root cause
+S35,H-F-10,real,real-failure root cause
+S36,H-F-10,real,real-failure root cause
+S37,H-F-14,real,real-failure root cause
+S38,E3,E3,first pass: board memo section graded on content (met or style)
+S39,E3,E3,first pass: board memo section graded on content (met or style)
+S40,E3,E3,first pass: board memo item graded on content
+S41,E3,E3,first pass: board memo item graded on content
+S42,H-L-1,real,real-failure root cause
+S43,H-L-8,real,real-failure root cause
+S44,H-L-8,real,real-failure root cause
+S45,H-L-9,real,real-failure root cause
+S46,H-L-9,real,real-failure root cause
+S47,H-L-10,real,real-failure root cause
+S48,H-L-11,real,real-failure root cause
+S49,H-L-11,real,real-failure root cause
+S50,H-L-14,real,real-failure root cause
+S51,H-L-14,real,real-failure root cause
+S52,H-L-15,real,real-failure root cause
+S53,H-L-15,real,real-failure root cause
+S54,H-L-16,real,real-failure root cause
+S55,E3,E3,first pass: consent before collecting; using and disclosing not repeated
+S56,E3,E3,first pass: statute cited as amended without the amendment's name
+S57,E3,E3,first pass: presumption explained without the fraud or waste wording
+S58,E3,E3,first pass: common-law conclusion (met only on one reading)
+S59,E3,E3,first pass: names the bill but not its synopsis
+S60,E3,E3,first pass: digital assets clause without devices
+S61,E3,E3,first pass says met; both automated judges say not met
+S62,E3,E3,first pass says met; both automated judges say not met
+S63,E3,E3,first pass says met; both automated judges say not met
+S64,E3,E3,first pass says met; both automated judges say not met
+S65,E3,E3,first pass says met; both automated judges say not met
+S66,E3,E3,first pass says met; both automated judges say not met

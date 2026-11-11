@@ -1,0 +1,5 @@
+.env
+.venv/
+runs/**/raw/
+__pycache__/
+.DS_Store

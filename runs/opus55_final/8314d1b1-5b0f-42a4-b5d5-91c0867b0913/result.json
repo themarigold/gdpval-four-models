@@ -1,0 +1,24 @@
+{
+ "task_id": "8314d1b1-5b0f-42a4-b5d5-91c0867b0913",
+ "occupation": "Lawyers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 397.1,
+ "usage": {
+  "input_tokens": 28,
+  "output_tokens": 37056,
+  "cache_creation_input_tokens": 857984,
+  "cache_read_input_tokens": 2861330
+ },
+ "cost_usd": 5.6034,
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo re Clarivon x Luminor Transaction.docx"
+ ],
+ "delivered_files": [
+  "Veynor_Memo_Clarivon_Luminor_Standard_of_Review.docx"
+ ],
+ "error": null
+}

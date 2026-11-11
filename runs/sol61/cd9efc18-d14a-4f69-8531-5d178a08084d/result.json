@@ -1,0 +1,108 @@
+{
+ "task_id": "cd9efc18-d14a-4f69-8531-5d178a08084d",
+ "occupation": "Lawyers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 537.2,
+ "usage": {
+  "input_tokens": 29760,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 473,
+  "output_tokens": 20517,
+  "reasoning_tokens": 20355
+ },
+ "cost_usd": 0.3823,
+ "cost_usd_upper_bound": 0.5408,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Grace_J_Parsons_Last_Will_and_Testament_Draft.pdf"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af41455b540819184e9e8e1d987bfed.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41476762081919cf49a0bc7a161bd.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Grace_J_Parsons_Last_Will_and_Testament_Draft.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Grace_J_Parsons_Last_Will_Draft.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/create_will.py",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_03.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_07.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_05.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_10.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_01.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_04.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_09.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_08.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_02.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/renders/page_06.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4147674d4819196d42627219008c2.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": []
+}

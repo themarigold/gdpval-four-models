@@ -1,0 +1,23 @@
+ANTHROPIC_API_KEY is set and takes precedence over the SDK's profile / federation auto-discovery; unset ANTHROPIC_API_KEY to use the auto-discovered credential.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+83d10b06 end_turn files=['Population v2 - Audit Workings.xlsx', 'Sample.xlsx'] $1.5223 err=None
+7b08cd4d end_turn files=['2024 Fall Music Tour - P&L Summary (As of 12-31-2024).xlsx'] $3.7531 err=None
+7d7fc9a7 end_turn files=['Aurisic_Prepaid_Amortization_Schedule_Apr2025.xlsx'] $1.3946 err=None
+43dc9778 end_turn files=['Smith_2024_Form_1040_DRAFT.pdf', 'Smith_2024_Preparer_Review_Notes.pdf'] $6.7065 err=None
+ee09d943 None files=[] $0.0 err=BadRequestError: 400 Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Cannot add more than 16 files to a session at once.'}, 'request_id': 'req_011Cgtj6y7zCgdHtapM9HH6n'}
+36d567ba end_turn files=['Federal_Applicant_Risk_Assessment_Tool.docx'] $0.7822 err=None
+7bbfcfe9 end_turn files=['SCRA_3937_3919_Test_Questions.xlsx'] $2.4877 err=None
+2696757c end_turn files=['VASP_Bankruptcy_Testing_Template_Dec2024.pdf'] $1.3407 err=None
+dfb4e0cd end_turn files=['Spending Rate Analysis - Award Data as of 03-31-2025.xlsx'] $0.3437 err=None
+4c18ebae None files=[] $0.0 err=APIStatusError: 200 {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'prompt is too long: 1007409 tokens > 1000000 maximum'}, 'request_id': 'req_011CgtjcKiXsrDET44bvBcfJ'}
+a1963a68 end_turn files=['SuperK-Taxi_Korea_Deep_Dive_Strategy_May2024.pdf'] $4.3229 err=None
+5f6c57dd end_turn files=['Branch_Profitability_Reporting_Package.xlsx'] $2.4051 err=None
+b39a5aa7 end_turn files=['RPO_Musician_CBA_Cost_Model.xlsx'] $1.0285 err=None
+b78fd844 end_turn files=['Tiny-Rod_Hit_Board_Report_Investment_Evaluation.docx', 'Tiny-Rod_Hit_Board_Report_Investment_Evaluation.pdf'] $1.404 err=None
+4520f882 end_turn files=['Local_Musician_Weekly_Payroll.xlsx'] $4.9958 err=None
+cd9efc18 end_turn files=['Last_Will_and_Testament_Grace_J_Parsons.pdf'] $5.3953 err=None
+a97369c7 end_turn files=['Avalon_Memo_Delaware_Law_Analysis.docx', 'Avalon_Memo_Delaware_Law_Analysis.pdf'] $2.2699 err=None
+3f625cb2 end_turn files=['Legal_Memo_YouTube_Child_Privacy.pdf'] $1.0118 err=None
+aad21e4c None files=[] $0.0 err=APIStatusError: 200 {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'prompt is too long: 1431341 tokens > 1000000 maximum'}, 'request_id': 'req_011CgtksyB5NYVKCMYv7g83P'}
+8314d1b1 end_turn files=['Veynor_Memo_Clarivon_Luminor_Standard_of_Review.docx'] $5.6034 err=None
+total cost $46.77

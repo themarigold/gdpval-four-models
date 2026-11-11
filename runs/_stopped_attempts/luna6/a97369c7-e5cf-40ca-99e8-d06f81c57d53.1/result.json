@@ -1,0 +1,80 @@
+{
+ "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "failed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 156.5,
+ "usage": {
+  "input_tokens": 0,
+  "cached_tokens": 0,
+  "cache_write_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "cost_usd": 0.12,
+ "cost_usd_upper_bound": 0.12,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Avalon_Delaware_Legal_Memorandum.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af40c7fee508191bb6efdc45ba0c55d.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/Avalon_Delaware_Legal_Memorandum.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c7febc08191bd12e507e9c4c0dc.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c7fef848191a74eb5af7908ea49.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Avalon_Delaware_Legal_Memorandum.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40c7fed188191a49b4d419def779e.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": "failed: credit_balance_exhausted You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo Refusal of Velridge Contract.docx"
+ ]
+}

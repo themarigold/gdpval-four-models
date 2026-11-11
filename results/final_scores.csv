@@ -1,0 +1,9 @@
+run,judge,tasks,mean,tasks_all,mean_all,points_not_met,points_not_met_all,Accountants and Auditors,Compliance Officers,Financial Managers,Lawyers
+Expert deliverables,claude-opus-5-5,16,0.809,17,0.817,260,264,0.75,0.85,0.85,0.8
+Expert deliverables,gpt-6.1-sol,16,0.735,17,0.74,351,360,0.68,0.69,0.77,0.82
+Claude Opus 5.5,claude-opus-5-5,19,0.856,20,0.866,259,259,0.86,0.8,0.83,0.92
+Claude Opus 5.5,gpt-6.1-sol,19,0.811,20,0.817,339,344,0.82,0.72,0.79,0.89
+gpt-6.1-sol,claude-opus-5-5,19,0.852,20,0.862,273,273,0.87,0.8,0.83,0.9
+Claude Haiku 5.5,claude-opus-5-5,19,0.815,20,0.827,392,392,0.84,0.86,0.71,0.87
+Claude Haiku 5.5,gpt-6.1-sol,19,0.762,20,0.776,481,481,0.8,0.79,0.67,0.8
+gpt-6-luna,claude-opus-5-5,19,0.814,20,0.826,354,354,0.81,0.78,0.78,0.88

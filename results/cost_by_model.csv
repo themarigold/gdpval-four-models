@@ -1,0 +1,7 @@
+model,first pass,corrected runs,stopped attempts,smoke tests and probes,gpt-6.1-sol judge,Claude judge,total
+Opus 5.5,54.38,23.16,0.0,7.87,3.7,10.36,99.47
+Haiku 5.5,1.68,1.01,0.0,0.06,3.37,9.63,15.74
+gpt-6.1-sol,7.92,3.36,1.89,0.0,0.0,9.32,22.49
+gpt-6-luna,2.75,1.31,1.41,0.24,0.0,8.65,14.36
+Experts' files,0.0,0.0,0.0,0.0,1.99,6.11,8.1
+All,66.73,28.82,3.3,8.18,9.05,44.07,160.16

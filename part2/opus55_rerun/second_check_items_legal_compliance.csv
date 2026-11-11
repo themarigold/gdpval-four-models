@@ -1,0 +1,7 @@
+check_id,task_id,occupation,rubric_item_id,points,criterion,web_tools
+S01,a97369c7-e5cf-40ca-99e8-d06f81c57d53,Lawyers,76568365-1fcb-4477-ab44-6d03440dc1bb,3,"The memorandum states that even if not intentional harm, refusing to consider the merits of a highly beneficial transaction can constitute grossly negligent conduct by a controller.",yes
+S02,4c18ebae-dfaa-4b76-b10c-61fcdf26734c,Compliance Officers,412a4c7b-500b-477c-a5fd-660132b37443,1,The SAR states that Owen Tavery is the 100% beneficial owner and manager of Bluehaven Collective LLC,no
+S03,4c18ebae-dfaa-4b76-b10c-61fcdf26734c,Compliance Officers,eb1cc1c2-99ea-4448-a6ac-7b5240036aae,2,"The SAR narrative provides a suspicious transaction summary per account that includes total number of transactions, minimum and maximum amounts, and total amount per transaction category",no
+S04,aad21e4c-1d43-45fc-899a-97754a1b1b63,Lawyers,b80e815a-6f71-4e73-985a-aa75b6e29f09,1,NoxaPulse represents that it is solvent.,no
+S06,4c18ebae-dfaa-4b76-b10c-61fcdf26734c,Compliance Officers,93886f60-a945-4b9a-81d2-18bfa3279eda,2,Total suspicious transaction count is reproducible from Excel using a flag/filter or a suspicious-only tab.,no
+S07,aad21e4c-1d43-45fc-899a-97754a1b1b63,Lawyers,ab8840e9-ac1e-4d4d-b51a-ba65bc95e499,2,Provides a top‑up mechanism obligating NoxaPulse to issue additional shares at no cost to Alan Gane if his ownership would otherwise fall below 10% on a fully diluted basis (excluding Exempt Issuances).,no

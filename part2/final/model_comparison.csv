@@ -1,0 +1,4 @@
+model,list_from_judge,real_root_causes,real_points,no_file_root_causes,no_file_points,unreachable_source_root_causes,unreachable_source_points,other_root_causes,other_points,mode_K,mode_C,mode_I,mode_P,mode_A,severity_material,severity_send_back,severity_minor,real_root_causes_with_no_points
+Claude Opus 5.5,gpt-6.1-sol,11,30,0,0,0,0,11,30,0,1,3,6,1,0,2,9,2
+Claude Haiku 5.5,gpt-6.1-sol,27,273,1,175,0,0,26,98,4,2,4,16,1,4,3,20,2
+gpt-6.1-sol,Claude Opus 5.5,15,52,0,0,0,0,15,52,1,2,2,10,0,1,2,12,0

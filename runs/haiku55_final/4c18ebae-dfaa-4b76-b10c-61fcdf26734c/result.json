@@ -1,0 +1,28 @@
+{
+ "task_id": "4c18ebae-dfaa-4b76-b10c-61fcdf26734c",
+ "occupation": "Compliance Officers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 437.0,
+ "usage": {
+  "input_tokens": 56,
+  "output_tokens": 85373,
+  "cache_creation_input_tokens": 122256,
+  "cache_read_input_tokens": 1869349
+ },
+ "cost_usd": 0.0767,
+ "reference_files": [
+  "Transactions Final.xlsx"
+ ],
+ "expected_deliverables": [
+  "Transactions Final Output.xlsx",
+  "Suspicious Activity Report (SAR).docx"
+ ],
+ "delivered_files": [
+  "SAR_Draft_Golden_Apple_SIU.docx",
+  "SAR_Supporting_Transaction_Records.xlsx"
+ ],
+ "error": null
+}

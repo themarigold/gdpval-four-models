@@ -1,0 +1,29 @@
+{
+ "task_id": "aad21e4c-1d43-45fc-899a-97754a1b1b63",
+ "occupation": "Lawyers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "web_tools": false,
+ "compact_at": 0,
+ "output_cap_recoveries": 0,
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 580.9,
+ "usage": {
+  "input_tokens": 28,
+  "output_tokens": 125191,
+  "cache_creation_input_tokens": 130270,
+  "cache_read_input_tokens": 1197961,
+  "web_search_requests": 0,
+  "compactions": 0
+ },
+ "cost_usd": 0.0909,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Share Subscription Agreement (Draft).docx"
+ ],
+ "delivered_files": [
+  "NoxaPulse_Share_Subscription_Agreement.docx"
+ ],
+ "error": null
+}

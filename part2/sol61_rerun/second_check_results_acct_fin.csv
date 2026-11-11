@@ -1,0 +1,8 @@
+check_id,met,class,confidence,reason
+S07,N,real,high,SuperK_Taxi_Korea_Deep_Dive_Strategy.pdf pp.1–12 contains vehicle-supply statistics but no driver-age distribution or citation for one; the task's expert directory is empty.
+S08,N,real,high,SuperK_Taxi_Korea_Deep_Dive_Strategy.pdf p.10 explicitly labels monetization yields as assumptions rather than actual commissions; no cited SuperK-T versus competitor fee comparison appears anywhere; no expert file exists.
+S09,N,real,med,SuperK_Taxi_Korea_Deep_Dive_Strategy.pdf p.4 proposes a generic local-card and wallet pilot but names no Korean payment or ecosystem integration; TABA is described as a competing app; no expert file exists.
+S10,Y,met,med,"SuperK_Taxi_Korea_Deep_Dive_Strategy.pdf p.2 prioritizes Seoul microzones and p.8 expressly gives Seoul density as the rationale, satisfying the demand-density alternative."
+S11,Y,met,med,"SuperK_Taxi_Korea_Deep_Dive_Strategy.pdf p.4 recommends hotel/eSIM/OTA referral channels and targets 50 hotel partners for inbound travellers, satisfying the item's similar high-demand channels alternative."
+S15,N,E2,med,"Smith_2024_Federal_Return_DRAFT.pdf p.2 line 37 is $14,781, reproducible using its disclosed local-tax assumption; the expert's COMPLETED 1040 PAGES 1&2.pdf p.2 shows $14,953 but includes an unsupported $1 Medicare withholding credit and omits local sales tax."
+S16,N,E2,high,"Smith_2024_Federal_Return_DRAFT.pdf p.19 line 24 is $0; all three reference W-2 box 6 amounts total $5,124.43, matching regular Medicare tax; the expert's COMPLETED TAX FORMS AND SCHEDULES REQUIRED FOR E-FILING edits.PDF p.16 incorrectly totals withholding as $5,125 and reports $1."

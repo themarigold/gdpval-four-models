@@ -1,0 +1,22 @@
+{
+ "task_id": "aad21e4c-1d43-45fc-899a-97754a1b1b63",
+ "occupation": "Lawyers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": null,
+ "api_calls": 0,
+ "seconds": 804.9,
+ "usage": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0
+ },
+ "cost_usd": 0.0,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Share Subscription Agreement (Draft).docx"
+ ],
+ "delivered_files": [],
+ "error": "APIStatusError: 200 {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'prompt is too long: 1431341 tokens > 1000000 maximum'}, 'request_id': 'req_011CgtksyB5NYVKCMYv7g83P'}"
+}

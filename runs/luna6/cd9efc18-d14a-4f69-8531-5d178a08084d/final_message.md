@@ -1,0 +1,3 @@
+[Download the 9-page Last Will and Testament PDF](sandbox:/mnt/data/outputs/Grace_J_Parsons_Last_Will_and_Testament.pdf)
+
+The Will includes signature lines for Grace J. Parsons and the two named witnesses, plus a self-proving affidavit for the notary to complete on May 13, 2025. The trust clause makes the 21-year limit an absolute cap: if it arrives before a beneficiary turns 25, the trust ends then and the remaining property is distributed outright. Please have the supervising Texas attorney review the draft and execution procedure before signing.

@@ -1,0 +1,28 @@
+{
+ "task_id": "2696757c-1f8a-4959-8f0d-f5597b9e70fc",
+ "occupation": "Compliance Officers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "web_tools": true,
+ "compact_at": 0,
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 59.9,
+ "usage": {
+  "input_tokens": 12,
+  "output_tokens": 12757,
+  "cache_creation_input_tokens": 53260,
+  "cache_read_input_tokens": 115862,
+  "web_search_requests": 3,
+  "compactions": 0
+ },
+ "cost_usd": 0.0442,
+ "reference_files": [],
+ "expected_deliverables": [
+  "VASP Ch7 BK Test Questions.pdf"
+ ],
+ "delivered_files": [
+  "VASP_Bankruptcy_Testing_Template_Dec2024.pdf"
+ ],
+ "error": null
+}

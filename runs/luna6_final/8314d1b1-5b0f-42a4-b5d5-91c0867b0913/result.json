@@ -1,0 +1,140 @@
+{
+ "task_id": "8314d1b1-5b0f-42a4-b5d5-91c0867b0913",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 246.9,
+ "usage": {
+  "input_tokens": 38303,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 553,
+  "output_tokens": 19849,
+  "reasoning_tokens": 19764
+ },
+ "cost_usd": 0.1336,
+ "cost_usd_upper_bound": 0.1423,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Clarivon_Luminor_Delaware_Review_Memo.docx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af41259db708191b589443646b64e2b.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41259ddb881918e56b0fdecf9b900.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4124a8fbc8191818f366fd797f764.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Clarivon_Luminor_Delaware_Review_Memo.docx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41228fbd88191a75a084967a37fd2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41228fe30819191ce891f84e6ede1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/Clarivon_Luminor_Delaware_Review_Memo.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/docx_render/page-1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4124a91908191b86057d1a4018022.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af412094b188191a2cc63e2abe14c41.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41228fd0481918a696bb40e25257e.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4124a8c688191ad37d92a98e0481b.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41259da308191bea28444634d72e9.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41209468c819181280098561f5306.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41228fa1881918224dc5cf5850859.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41259dc988191a3d81ce512c0ed19.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af41209481c8191876682414a4eea1f.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af412094974819184ccc8e75d3922cb.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4124a8e108191b0c753333ea87d2d.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo re Clarivon x Luminor Transaction.docx"
+ ]
+}

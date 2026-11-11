@@ -1,0 +1,17 @@
+check_id,first_pass_unit,first_pass_class,why_included
+S01,S2-L-1,real,real-failure root cause
+S02,S2-L-1,real,real-failure root cause
+S03,S2-L-2,real,real-failure root cause
+S04,S2-L-3,real,real-failure root cause
+S05,E3,E3,first-pass reviewer flagged a close call
+S06,S2-L-4,E5,first-pass reviewer flagged a close call
+S07,S2-F-1,real,real-failure root cause
+S08,S2-F-2,real,real-failure root cause
+S09,S2-F-3,real,real-failure root cause
+S10,E3,E3,first-pass reviewer flagged a close call
+S11,S2-F-5,E5,first-pass reviewer flagged a close call
+S12,S2-C-4,E5,first-pass reviewer flagged a close call
+S13,S2-C-4,E5,first-pass reviewer flagged a close call
+S14,E3,E3,first-pass reviewer flagged a close call
+S15,S2-A-1,E2,rubric/expert-wrong claim
+S16,S2-A-2,E2,rubric/expert-wrong claim

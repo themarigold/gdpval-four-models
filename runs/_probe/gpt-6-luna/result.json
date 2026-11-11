@@ -1,0 +1,34 @@
+{
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 18.8,
+ "usage": {
+  "input_tokens": 2182,
+  "cached_tokens": 0,
+  "cache_write_tokens": 1481,
+  "output_tokens": 533,
+  "reasoning_tokens": 383
+ },
+ "cost_usd": 0.1205,
+ "cost_usd_upper_bound": 0.1207,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "probe.txt"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/outputs/probe.txt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/e5b1f5eb726dbf6cec47f6e221fe6ae3-probe_reference.txt",
+   "bytes": 37,
+   "source": "user"
+  }
+ ],
+ "error": null
+}

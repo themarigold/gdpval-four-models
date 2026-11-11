@@ -1,0 +1,5 @@
+**Completed:** [Download the 8-page Texas Last Will and Testament PDF](sandbox:/mnt/data/outputs/Grace_Parsons_Last_Will_and_Testament.pdf)
+
+Before execution, have a Texas estate-planning attorney review the draft and confirm the client’s property, marital and family circumstances. The draft assumes Travis County for the Austin signing and venue; confirm that is accurate.
+
+One provision needs particular attention: the **21-year maximum trust term controls** if a beneficiary has not reached age 25 by then. A beneficiary who is younger than four when Grace dies could therefore receive the remaining trust property before age 25. Guardian nominations are subject to court appointment and applicable parental rights. For execution, Grace and both eligible witnesses should sign as stated in the Will; the notary’s role is to notarize the self-proving affidavit, not replace the witnesses.

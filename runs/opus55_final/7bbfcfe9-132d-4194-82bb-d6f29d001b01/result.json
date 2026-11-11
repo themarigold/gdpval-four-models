@@ -1,0 +1,28 @@
+{
+ "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+ "occupation": "Compliance Officers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "web_tools": true,
+ "compact_at": 0,
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 390.9,
+ "usage": {
+  "input_tokens": 32,
+  "output_tokens": 37949,
+  "cache_creation_input_tokens": 309887,
+  "cache_read_input_tokens": 973017,
+  "web_search_requests": 2,
+  "compactions": 0
+ },
+ "cost_usd": 2.5231,
+ "reference_files": [],
+ "expected_deliverables": [
+  "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+ ],
+ "delivered_files": [
+  "SCRA_3937_3919_Test_Questions.xlsx"
+ ],
+ "error": null
+}

@@ -1,0 +1,690 @@
+[
+ {
+  "task_id": "43dc9778-450b-4b46-b77e-b6d82b202035",
+  "occupation": "Accountants and Auditors",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "web_tools": true,
+  "web_search_calls": 11,
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "output_cap_recoveries": 0,
+  "api_calls": 1,
+  "seconds": 503.7,
+  "usage": {
+   "input_tokens": 150455,
+   "cached_tokens": 5920,
+   "cache_write_tokens": 0,
+   "output_tokens": 40372,
+   "reasoning_tokens": 40081
+  },
+  "cost_usd": 0.2647,
+  "cost_usd_upper_bound": 0.2893,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Smith_2024_Individual_Tax_Return_Review_Copy.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/ocr/2b37cbf69ec5567a1556f27740a95d03-LISA_1099-B_edit/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ocr/c5cef0e57065a790e78b53d5ad5db9ae-BOB_1099-INT/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ocr/ebad70b4cfe789daf268425c40fbd149-BOB_1099-B_edit/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ocr/fa8f389b11cae38a22768fbef374a018-MORTGAGE_INTEREST_FORM/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ocr/ee9cebd2714d6451a9a4e3a7afb29ed6-LISA_W2_COMPRESS_MIDDLE_SCHOOL_edit/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ocr/e0ba87c597a5dcb59f516e3b9f1a51fd-BOB_W2_COMPANY_Z_edit/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ocr/b6f78c4b96600ef774620ce528368081-BOB_W2_COMPANY_X_edit/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4369909bc8191b8f6685e4706e7da.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af437f509008191ae473bf2a8408489.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Smith_2024_Individual_Tax_Return_Review_Copy.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-14.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-11.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-12.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-13.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/render_final/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af436daa0148191849e9e0afaee7e18.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af436da9e3c81919e6dbe003864ddad.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4383cddf481919a1355319347a257.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af437e32b088191b7df4d571156b91b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4369908088191852b3cc07a7506d5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4383ce11481918c80552cde9123ef.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af437a6af008191a87d4a0474eeca7a.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ee9cebd2714d6451a9a4e3a7afb29ed6-LISA_W2_COMPRESS_MIDDLE_SCHOOL_edit.pdf",
+    "bytes": 164924,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/9e27ef9b3380e6b4fee70bb3bd0fb306-LISA_STUDENT_LOAN_INTEREST_edit.pdf",
+    "bytes": 152835,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e30b144d2dfb9880b907776c9d9ae2d7-LISA_1099-INT_Rose_edit.pdf",
+    "bytes": 221153,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/20e030457f5f97b08515a80576fb18d6-LISA_1099-DIV_edit.pdf",
+    "bytes": 233485,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/2b37cbf69ec5567a1556f27740a95d03-LISA_1099-B_edit.pdf",
+    "bytes": 224358,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e0ba87c597a5dcb59f516e3b9f1a51fd-BOB_W2_COMPANY_Z_edit.pdf",
+    "bytes": 198603,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/b6f78c4b96600ef774620ce528368081-BOB_W2_COMPANY_X_edit.pdf",
+    "bytes": 170112,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/b3172052db7caff07a7d6e97552e335c-BOB_1099-INT_Rose_Edit.pdf",
+    "bytes": 212664,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/ebad70b4cfe789daf268425c40fbd149-BOB_1099-B_edit.pdf",
+    "bytes": 261891,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/fa8f389b11cae38a22768fbef374a018-MORTGAGE_INTEREST_FORM.pdf",
+    "bytes": 101863,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/0eb1be22d0ce0b15ef3c447d60cd9de7-COMPLETED_2024_Client_Intake_Form_-_Bob_and_Lisa_Smith.pdf",
+    "bytes": 113943,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/02b76a0a9922a695bcf9b24652338272-Bob_and_Lisa_2024_Estimated_Taxes_Paid.pdf",
+    "bytes": 21438,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/c5cef0e57065a790e78b53d5ad5db9ae-BOB_1099-INT.pdf",
+    "bytes": 71061,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/91cda7219b69e6570cc3cd6da2f64a75-Bob_Lisa_SMITH_LTC_PREMIUMS_PAID_2024.pdf",
+    "bytes": 43602,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/96699510fc8969b0ff1dda59c57ce36e-2024_Childcare_Statement.pdf",
+    "bytes": 42884,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "2024 Childcare Statement.pdf",
+   "Bob & Lisa SMITH LTC PREMIUMS PAID 2024.pdf",
+   "BOB 1099-INT.pdf",
+   "Bob and Lisa 2024 Estimated Taxes Paid.pdf",
+   "COMPLETED 2024 Client Intake Form - Bob and Lisa Smith.pdf",
+   "MORTGAGE INTEREST FORM.pdf",
+   "BOB 1099-B edit.pdf",
+   "BOB 1099-INT Rose Edit.pdf",
+   "BOB W2 COMPANY X edit.pdf",
+   "BOB W2 COMPANY Z edit.pdf",
+   "LISA 1099-B edit.pdf",
+   "LISA 1099-DIV edit.pdf",
+   "LISA 1099-INT Rose edit.pdf",
+   "LISA STUDENT LOAN INTEREST edit.pdf",
+   "LISA W2 COMPRESS MIDDLE SCHOOL edit.pdf"
+  ],
+  "expected_deliverables": [
+   "ROBERT & LISA SMITH 2024 COMPLETED 1040 PAGES 1&2.pdf",
+   "ROBERT & LISA SMITH 2024 COMPLETED TAX FORMS AND SCHEDULES REQUIRED FOR E-FILING edits.PDF"
+  ]
+ },
+ {
+  "task_id": "2696757c-1f8a-4959-8f0d-f5597b9e70fc",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "web_tools": true,
+  "web_search_calls": 3,
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 111.3,
+  "usage": {
+   "input_tokens": 35820,
+   "cached_tokens": 5763,
+   "cache_write_tokens": 330,
+   "output_tokens": 6694,
+   "reasoning_tokens": 6613
+  },
+  "cost_usd": 0.1564,
+  "cost_usd_upper_bound": 0.1611,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "VA_VASP_Bankruptcy_Testing_Template_December_2024.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af4308391dc81919da7a05e964bd3e6.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4309435048191b97199daf58cb81e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/VA_VASP_Bankruptcy_Testing_Template_December_2024.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_renders/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_renders2/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "VASP Ch7 BK Test Questions.pdf"
+  ]
+ },
+ {
+  "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "web_tools": true,
+  "web_search_calls": 3,
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 277.5,
+  "usage": {
+   "input_tokens": 47245,
+   "cached_tokens": 0,
+   "cache_write_tokens": 6173,
+   "output_tokens": 22773,
+   "reasoning_tokens": 22615
+  },
+  "cost_usd": 0.1663,
+  "cost_usd_upper_bound": 0.1761,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "SCRA_Audit_Test_Questions.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/outputs/SCRA_Audit_Test_Questions.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+  ]
+ },
+ {
+  "task_id": "a1963a68-1bea-4bb1-b7e0-145c92a57449",
+  "occupation": "Financial Managers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "web_tools": true,
+  "web_search_calls": 14,
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 691.6,
+  "usage": {
+   "input_tokens": 199473,
+   "cached_tokens": 5763,
+   "cache_write_tokens": 401,
+   "output_tokens": 48678,
+   "reasoning_tokens": 48554
+  },
+  "cost_usd": 0.3038,
+  "cost_usd_upper_bound": 0.3353,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "SuperK_T_Korea_Deep_Dive_Strategy.pdf",
+   "SuperK_T_Korea_Deep_Dive_Strategy.pptx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af43257bcdc8191b59d701a7f29b6f3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af432889560819196c6eb308de94c39.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af43288a27481919fd3dd5bb87cf61e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af43288a3fc8191b3742dbeebc1152a.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/final_render/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/build_deck.js",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/debug_deck.js",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af432badb6c819189e1d5742c95e0a1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4327adde08191ae2ae2b98d41116b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af43288a12081919bc3851df2a12c10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af43288a4cc819189c5b529c26a74a8.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af432889cf08191ad01bb8b38540a30.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/SuperK_T_Korea_Deep_Dive_Strategy.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/SuperK_T_Korea_Deep_Dive_Strategy.pptx",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": []
+ },
+ {
+  "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+  "occupation": "Lawyers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "web_tools": true,
+  "web_search_calls": 13,
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "output_cap_recoveries": 0,
+  "api_calls": 1,
+  "seconds": 261.1,
+  "usage": {
+   "input_tokens": 133357,
+   "cached_tokens": 6696,
+   "cache_write_tokens": 0,
+   "output_tokens": 26062,
+   "reasoning_tokens": 21408
+  },
+  "cost_usd": 0.2758,
+  "cost_usd_upper_bound": 0.295,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Avalon_Delaware_Governance_Memo.docx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/rendered_memo_final/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo_final/Avalon_Delaware_Governance_Memo.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo_final/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo_final/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Avalon_Delaware_Governance_Memo.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4375aa09c819185e0b851754d556f.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4375a9f64819196454057dccec610.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4375aa1d88191b686f7ab9dcf52fd.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4375a9ddc8191ae5f7b5c7c00d46e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo/Avalon_Delaware_Governance_Memo.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_memo/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4376a4b308191945d1ef24574b28e.png",
+    "bytes": 237658,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4376a49ec8191981e236588c49fce.png",
+    "bytes": 268749,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4376a45fc8191905dc84b5c81786a.png",
+    "bytes": 244138,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "DRAFT Memo Refusal of Velridge Contract.docx"
+  ]
+ }
+]

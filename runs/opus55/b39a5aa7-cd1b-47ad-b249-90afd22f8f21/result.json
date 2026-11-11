@@ -1,0 +1,26 @@
+{
+ "task_id": "b39a5aa7-cd1b-47ad-b249-90afd22f8f21",
+ "occupation": "Financial Managers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 334.6,
+ "usage": {
+  "input_tokens": 36,
+  "output_tokens": 33510,
+  "cache_creation_input_tokens": 50635,
+  "cache_read_input_tokens": 524843
+ },
+ "cost_usd": 1.0285,
+ "reference_files": [
+  "Orchestra assumptions and roster.xlsx"
+ ],
+ "expected_deliverables": [
+  "Orchestra_Compensation.xlsx"
+ ],
+ "delivered_files": [
+  "RPO_Musician_CBA_Cost_Model.xlsx"
+ ],
+ "error": null
+}

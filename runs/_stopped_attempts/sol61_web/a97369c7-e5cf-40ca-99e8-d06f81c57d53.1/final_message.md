@@ -1,0 +1,4 @@
+I’ll draft a client-facing memo that accounts for the timing of Delaware’s statutory amendments and analyzes the board’s and Marcus’s potential fiduciary duties. I’ll provide it as a Word document and PDF, within the 3,000-word limit.The research confirms two important timing issues: the August 1, 2024 amendment can apply to the January stockholders’ agreement, and later retroactive changes may affect litigation brought now. The memo will distinguish contractual enforceability from fiduciary compliance and address whether Marcus’s veto is an exercise of board-level control or a protected stockholder right.Completed the four-page memo, within the 3,000-word limit, addressing all three issues with linked legal citations and excluding the demand requirement.
+
+- [Download the Word memo](sandbox:/mnt/data/outputs/Avalon_Legal_Memorandum.docx)
+- [Download the PDF memo](sandbox:/mnt/data/outputs/Avalon_Legal_Memorandum.pdf)

@@ -1,0 +1,52 @@
+{
+ "task_id": "83d10b06-26d1-4636-a32c-23f92c57f30b",
+ "occupation": "Accountants and Auditors",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 338.5,
+ "usage": {
+  "input_tokens": 51506,
+  "cached_tokens": 0,
+  "cache_write_tokens": 1814,
+  "output_tokens": 33551,
+  "reasoning_tokens": 33341
+ },
+ "cost_usd": 0.142,
+ "cost_usd_upper_bound": 0.1553,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Sample.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/Sample_build.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Sample.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_recalc/Sample_build.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/f60e25b1179b5eca7561339b780cdb25-Population_v2.xlsx",
+   "bytes": 61470,
+   "source": "user"
+  }
+ ],
+ "error": null,
+ "reference_files": [
+  "Population v2.xlsx"
+ ],
+ "expected_deliverables": [
+  "Sample v2.xlsx"
+ ]
+}

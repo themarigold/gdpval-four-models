@@ -1,0 +1,26 @@
+{
+ "task_id": "dfb4e0cd-a0b7-454e-b943-0dd586c2764c",
+ "occupation": "Compliance Officers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 407.4,
+ "usage": {
+  "input_tokens": 34,
+  "output_tokens": 9826,
+  "cache_creation_input_tokens": 22152,
+  "cache_read_input_tokens": 181510
+ },
+ "cost_usd": 0.3437,
+ "reference_files": [
+  "Award Data Report.xlsx"
+ ],
+ "expected_deliverables": [
+  "Time Elapsed vs Funds Spent Analysis 2025.03.31.xlsx"
+ ],
+ "delivered_files": [
+  "Spending Rate Analysis - Award Data as of 03-31-2025.xlsx"
+ ],
+ "error": null
+}

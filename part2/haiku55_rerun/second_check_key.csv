@@ -1,0 +1,27 @@
+check_id,first_pass_unit,first_pass_class,why_included
+S01,H2-L-1,real,real-failure root cause
+S02,H2-L-2,real,real-failure root cause
+S03,H2-L-3,real,real-failure root cause
+S04,H2-L-4,real,real-failure root cause
+S05,H2-L-5,E5,first-pass reviewer flagged a close call
+S06,H2-L-21,real,real-failure root cause
+S07,H2-L-22,real,real-failure root cause
+S08,H2-F-1,real,real-failure root cause
+S09,H2-F-1,real,real-failure root cause
+S10,H2-F-2,real,real-failure root cause
+S11,H2-F-2,real,real-failure root cause
+S12,H2-F-3,real,real-failure root cause
+S13,H2-F-4,real,real-failure root cause
+S14,E3,E3,first-pass reviewer flagged a close call
+S15,E3,E3,first-pass reviewer flagged a close call
+S16,H2-L-24,E5,first-pass reviewer flagged a close call
+S17,H2-F-6,E5,first-pass reviewer flagged a close call
+S18,H2-F-7,E5,first-pass reviewer flagged a close call
+S19,H2-C-3,real,real-failure root cause
+S20,E3,E3,first-pass reviewer flagged a close call
+S21,H2-A-1,real,real-failure root cause
+S22,H2-A-1,real,real-failure root cause
+S23,H2-A-2,real,real-failure root cause
+S24,H2-A-2,real,real-failure root cause
+S25,H2-A-3,real,real-failure root cause
+S26,H2-A-4,E2,rubric/expert-wrong claim

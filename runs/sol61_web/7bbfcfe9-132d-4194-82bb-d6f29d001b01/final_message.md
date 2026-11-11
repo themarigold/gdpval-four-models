@@ -1,0 +1,3 @@
+I’ll review the cited statutes and build an Excel testing template with the ten requested questions, citations, and Yes/No/Not Applicable response fields.[Download the Excel testing template](sandbox:/mnt/data/outputs/SCRA_Compliance_Testing_Template.xlsx)
+
+The workbook includes all 10 questions with the requested identifiers, statutory citations, Yes/No/Not Applicable dropdowns, reviewer-note fields, and instructions for reuse, including relevant amendment notes.

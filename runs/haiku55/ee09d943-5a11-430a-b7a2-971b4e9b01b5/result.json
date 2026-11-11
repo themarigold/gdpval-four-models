@@ -1,0 +1,42 @@
+{
+ "task_id": "ee09d943-5a11-430a-b7a2-971b4e9b01b5",
+ "occupation": "Accountants and Auditors",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 2,
+ "seconds": 1347.5,
+ "usage": {
+  "input_tokens": 158,
+  "output_tokens": 277524,
+  "cache_creation_input_tokens": 574371,
+  "cache_read_input_tokens": 19031761
+ },
+ "cost_usd": 0.4009,
+ "reference_files": [
+  "Aurisic_Final_TB_4-25-1.txt",
+  "Aurisic_Prepaid_Expenses_4-25-1.xlsx",
+  "Legal_Dump-1.xlsx",
+  "Outstanding_CKs_4-30-25-1.xlsx",
+  "PPD1250-1.xlsx",
+  "Prof_Fee_Dump-1.xlsx",
+  "Accr2011-1.xlsx",
+  "AccrBonus-1.xlsx",
+  "AR_Accrual-1.xlsx",
+  "Aurisic_Corp_Payrolls_April_2025-1.xlsx",
+  "Payroll-1.xlsx",
+  "Rebates-1.xlsx",
+  "Aurisic_Financials_3-25-1.xlsx",
+  "Good Insurance Co - Loan II.xlsx",
+  "Good Insurance Co - Loan.xlsx",
+  "AccrMisc-1.xlsx",
+  "PPD1251-1.xlsx"
+ ],
+ "expected_deliverables": [
+  "Aurisic_Financials_4-25-1.xlsx"
+ ],
+ "delivered_files": [
+  "Aurisic_Financials_4-25-1.xlsx"
+ ],
+ "error": null
+}

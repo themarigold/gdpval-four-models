@@ -1,0 +1,21 @@
+task_id,occupation,n_rubric_items,gold_score,gold_judge_cost,opus55_score,opus55_judge_cost,opus55_cost,opus55_files,opus55_error,opus55_minutes,opus55_vs_expert,haiku55_score,haiku55_judge_cost,haiku55_cost,haiku55_files,haiku55_error,haiku55_minutes,haiku55_vs_expert
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,67,0.595,0.0849,0.8512,0.0906,6.7065,2,,14.6,1.43,0.4463,0.0702,0.339,1,,10.5,0.75
+7b08cd4d-df60-41ae-9102-8aaa49306ba2,Accountants and Auditors,59,0.8652,0.0319,0.8989,0.0679,3.7531,1,,3.7,1.04,0.9101,0.0606,0.0372,1,,4.1,1.05
+7d7fc9a7-21a7-4b83-906f-416dea5ad04f,Accountants and Auditors,56,0.6947,0.0355,0.8842,0.1455,1.3946,1,,6.7,1.27,0.9895,0.1314,0.0837,1,,7.3,1.42
+83d10b06-26d1-4636-a32c-23f92c57f30b,Accountants and Auditors,38,0.5397,0.309,0.7778,0.415,1.5223,2,,6.9,1.44,0.7937,0.6505,0.0898,2,,6.9,1.47
+ee09d943-5a11-430a-b7a2-971b4e9b01b5,Accountants and Auditors,44,0.6949,0.1262,0.7458,0.163,7.6114,1,,17.6,1.07,0.678,0.1977,0.4009,1,,22.5,0.98
+2696757c-1f8a-4959-8f0d-f5597b9e70fc,Compliance Officers,25,0.8205,0.0166,0.641,0.0269,1.3407,1,,1.8,0.78,0.5897,0.0254,0.0066,1,,0.8,0.72
+36d567ba-e205-4313-9756-931c6e4691fe,Compliance Officers,27,0.9259,0.0192,0.7407,0.0284,0.7822,1,,4.8,0.8,0.963,0.0298,0.0247,1,,3.1,1.04
+4c18ebae-dfaa-4b76-b10c-61fcdf26734c,Compliance Officers,50,0.5072,0.184,0.0,0.0275,0.0,0,"APIStatusError: 200 {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'prompt is too long: 1007409 tokens > 1000000 maximum'}, 'request_id': 'req_011CgtjcKiXsrDET44bvBcfJ'}",9.8,0.0,0.8261,0.4031,0.0767,2,,7.3,1.63
+7bbfcfe9-132d-4194-82bb-d6f29d001b01,Compliance Officers,40,0.7358,0.028,0.5094,0.0656,2.4877,1,,6.5,0.69,0.3774,0.0353,0.012,1,,1.3,0.51
+dfb4e0cd-a0b7-454e-b943-0dd586c2764c,Compliance Officers,26,0.6047,0.3546,0.7674,0.0448,0.3437,1,,6.8,1.27,0.814,0.0318,0.0073,1,,0.9,1.35
+4520f882-715a-482d-8e87-1cb3cbdfe975,Financial Managers,88,0.8,0.1668,0.4743,0.3916,4.9958,1,,14.3,0.59,0.0,0.0448,0.0334,0,,5.0,0.0
+5f6c57dd-feb6-4e70-b152-4969d92d1608,Financial Managers,137,,,0.7919,0.4574,2.4051,1,,10.7,,0.8122,0.456,0.1528,1,,11.4,
+a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,48,,,0.9697,0.0555,4.3229,1,,11.8,,0.9545,0.0506,0.1285,1,,9.0,
+b39a5aa7-cd1b-47ad-b249-90afd22f8f21,Financial Managers,32,0.6129,0.4599,0.8387,0.4242,1.0285,1,,5.6,1.37,0.8226,0.4435,0.0775,1,,7.2,1.34
+b78fd844-db76-448e-a783-5e9877cb74c2,Financial Managers,51,0.9079,0.0319,0.8421,0.0694,1.404,2,,8.7,0.93,0.8421,0.0699,0.0537,2,,6.2,0.93
+3f625cb2-f40e-4ead-8a97-6924356d5989,Lawyers,64,0.8026,0.0366,0.7105,0.0502,1.0118,1,,2.8,0.89,0.6053,0.0516,0.0141,1,,1.7,0.75
+8314d1b1-5b0f-42a4-b5d5-91c0867b0913,Lawyers,43,0.7009,0.0251,0.8803,0.0505,5.6034,1,,6.6,1.26,0.7009,0.0447,0.0316,1,,3.6,1.0
+a97369c7-e5cf-40ca-99e8-d06f81c57d53,Lawyers,44,0.8333,0.0292,0.754,0.0678,2.2699,2,,6.5,0.9,0.6984,0.0504,0.0357,1,,4.1,0.84
+aad21e4c-1d43-45fc-899a-97754a1b1b63,Lawyers,84,0.937,0.0505,0.0,0.0333,0.0,0,"APIStatusError: 200 {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'prompt is too long: 1431341 tokens > 1000000 maximum'}, 'request_id': 'req_011CgtksyB5NYVKCMYv7g83P'}",13.4,0.0,0.0,0.0434,0.0325,0,,4.9,0.0
+cd9efc18-d14a-4f69-8531-5d178a08084d,Lawyers,67,,,0.9571,0.0647,5.3953,1,,5.5,,0.9643,0.0655,0.0385,1,,4.2,

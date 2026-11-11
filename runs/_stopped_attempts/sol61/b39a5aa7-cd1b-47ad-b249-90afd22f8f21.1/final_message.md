@@ -1,0 +1,8 @@
+I’ll build a three-year model with quarterly expense summaries, editable CBA and roster inputs, and separate calculation tabs. I’ll also document assumptions the source leaves open, including quarter timing and the treatment of overscale amounts that already include principal pay.The roster has 16 overscale amounts that already include principal pay, so I’ll separate those components to avoid double-counting. It also has two blank service-year fields, which I’ll flag and assume are zero. I’m using 2026 as the current year, with editable 13-week quarters; the projections will carry rates forward unchanged while advancing service years annually.The model is built and checked. Under the documented baseline assumptions, 2026 musician compensation and employer payroll tax total **$16.22 million**. I also tested a combined scenario with changes to rates, media timing, tax caps, participation and a new hire; the workbook matched an independent calculation.[Download the Excel compensation model](sandbox:/mnt/data/outputs/Renaissance_Orchestra_CBA_Model.xlsx)
+
+Includes:
+- Quarterly compensation expense by type for **2026–2028**, with annual totals and quarterly Y/Y growth.
+- Editable CBA, roster and participation inputs for scenario analysis.
+- Separate employee-quarter calculations, validation checks and original source tabs.
+
+Baseline 2026 expense is **$16,220,885**, including employer payroll tax. The **Read Me** tab documents assumptions and source-data gaps.

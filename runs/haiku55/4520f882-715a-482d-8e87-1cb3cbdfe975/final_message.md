@@ -1,0 +1,1 @@
+I'll start by locating the uploaded files and reading the CBA excerpt and sample roster.

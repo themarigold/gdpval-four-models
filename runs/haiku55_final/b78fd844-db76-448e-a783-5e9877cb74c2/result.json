@@ -1,0 +1,27 @@
+{
+ "task_id": "b78fd844-db76-448e-a783-5e9877cb74c2",
+ "occupation": "Financial Managers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 370.7,
+ "usage": {
+  "input_tokens": 46,
+  "output_tokens": 66564,
+  "cache_creation_input_tokens": 87271,
+  "cache_read_input_tokens": 952511
+ },
+ "cost_usd": 0.0537,
+ "reference_files": [
+  "Tiny Rod Hit Inc Reference.pdf"
+ ],
+ "expected_deliverables": [
+  "Tiny Rod Hit Inc Report.pdf"
+ ],
+ "delivered_files": [
+  "Tiny-Rod_Board_Memo_Project_A_vs_B.docx",
+  "Tiny-Rod_Board_Memo_Project_A_vs_B.pdf"
+ ],
+ "error": null
+}

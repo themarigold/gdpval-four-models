@@ -1,0 +1,29 @@
+[
+ {
+  "task_id": "a1963a68-1bea-4bb1-b7e0-145c92a57449",
+  "occupation": "Financial Managers",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "web_tools": true,
+  "compact_at": 500000,
+  "output_cap_recoveries": 0,
+  "stop_reason": "end_turn",
+  "api_calls": 1,
+  "seconds": 792.5,
+  "usage": {
+   "input_tokens": 56,
+   "output_tokens": 71933,
+   "cache_creation_input_tokens": 275323,
+   "cache_read_input_tokens": 4983282,
+   "web_search_requests": 18,
+   "compactions": 0
+  },
+  "cost_usd": 3.9922,
+  "reference_files": [],
+  "expected_deliverables": [],
+  "delivered_files": [
+   "SuperK-Taxi_Korea_Deep_Dive_Strategy_May2024.pdf"
+  ],
+  "error": null
+ }
+]

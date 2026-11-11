@@ -1,0 +1,5 @@
+I’ll build a formula-driven workbook with branch/company dropdowns on all five reporting tabs. I’ll also document the calculation conventions, including annual headcount and backlog treatment, and show Corporate separately so the regional results reconcile to the company total.The five reporting tabs are built and reconcile to the source data. I’ve included a definitions-and-controls tab, favorable/unfavorable variance formatting, sortable branch rankings, and a Corporate bridge for the regional view. I’m now checking that the dropdowns update each schedule correctly and that annual metrics use consistent headcount and backlog averages.[Download the Excel reporting package](sandbox:/mnt/data/outputs/Branch_Performance_Reporting_2023_2024.xlsx)
+
+The workbook includes all five requested schedules, branch/company dropdowns, sortable branch rankings, and a **Guide & Checks** tab documenting assumptions and reconciliation controls.
+
+Select an entity in **C3** on each reporting tab. All validation and reconciliation checks pass.

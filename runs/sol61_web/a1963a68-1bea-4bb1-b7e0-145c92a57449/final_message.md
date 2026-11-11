@@ -1,0 +1,7 @@
+I’ll build a CEO-level strategy deck using information available by May 2024, with a phased plan from August 2024 and clear investment decision gates. I’ll distinguish sourced facts from assumptions and proposed targets.The research points to a supply-first strategy: build reliable service in selected Seoul demand clusters, then scale acquisition—not nationwide discounts ahead of dispatch capacity.
+
+I’m using UT’s March 2024 rebrand to Uber Taxi as the closest public analogue for SuperK-Taxi, without treating its results as SuperK-Taxi internal data. The deck will explicitly flag unverified baselines and exclude post-May 2024 developments.The deck now has six core slides and four appendix pages. A May 11, 2024 report provides a useful warning: the public analogue’s April app MAU remained about 24 times smaller than Kakao’s, despite the rebrand. I’ve incorporated that finding without treating MAU as trip share.
+
+I’m finishing the PDF checks for layout, citations, financial assumptions and the August–December decision gates.[Download the Deep Dive Strategy Presentation (PDF)](sandbox:/mnt/data/outputs/SuperK_Taxi_Korea_Deep_Dive_Strategy.pdf)
+
+Includes six core strategy slides, cover and Q&A, plus four appendix pages covering KPI definitions, capacity sizing, unit economics and dated sources. Proposed targets, investment assumptions and UT/Uber Taxi analogue comparisons are explicitly flagged.

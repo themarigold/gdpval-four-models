@@ -1,0 +1,25 @@
+{
+ "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+ "occupation": "Lawyers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 387.9,
+ "usage": {
+  "input_tokens": 28,
+  "output_tokens": 37064,
+  "cache_creation_input_tokens": 279992,
+  "cache_read_input_tokens": 642570
+ },
+ "cost_usd": 2.2699,
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo Refusal of Velridge Contract.docx"
+ ],
+ "delivered_files": [
+  "Avalon_Memo_Delaware_Law_Analysis.docx",
+  "Avalon_Memo_Delaware_Law_Analysis.pdf"
+ ],
+ "error": null
+}

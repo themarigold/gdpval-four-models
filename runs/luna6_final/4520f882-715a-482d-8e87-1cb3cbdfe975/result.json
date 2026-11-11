@@ -1,0 +1,128 @@
+{
+ "task_id": "4520f882-715a-482d-8e87-1cb3cbdfe975",
+ "occupation": "Financial Managers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 447.9,
+ "usage": {
+  "input_tokens": 67840,
+  "cached_tokens": 1537,
+  "cache_write_tokens": 0,
+  "output_tokens": 45579,
+  "reasoning_tokens": 45287
+ },
+ "cost_usd": 0.1494,
+ "cost_usd_upper_bound": 0.1675,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Weekly_Musician_Payroll_CBA.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af4129fb2948191b317e88ed9a54e0f.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4129faf4c8191b806238ad0e62125.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/page_1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/Weekly_Musician_Payroll_CBA.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/page_12.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/page_2.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/page_4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/page_3.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/qa_pdf/page_5.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/testrecalc/testpayroll.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4129faccc81918bbd0507dcb7d73b.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/recalc/Weekly_Musician_Payroll_CBA.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4129fb1848191998e0bcdfaeb4c31.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/testpayroll.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Weekly_Musician_Payroll_CBA.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4129fb07c8191814d6e02edc0ef36.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af4129fae2c8191bc0bb62a03ad4250.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/5e33ce259532f57f24ce89e22fecd771-CBA_excerpt.docx",
+   "bytes": 13763,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/03c5949a21a4dd91b2fe545f508433ea-Sample_roster_and_schedule.xlsx",
+   "bytes": 6503,
+   "source": "user"
+  }
+ ],
+ "error": null,
+ "reference_files": [
+  "Sample roster and schedule.xlsx",
+  "CBA excerpt.docx"
+ ],
+ "expected_deliverables": [
+  "Theatre CBA.xlsx"
+ ]
+}

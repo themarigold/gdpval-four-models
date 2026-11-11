@@ -1,0 +1,51 @@
+# Cold second check, second run: gpt-6.1-sol, legal and compliance items
+
+> **Cold second check, second run.** Written by a blind review agent (Claude) from a sealed folder that held no first-pass material, and saved by the main session from the agent's final report, unedited. Brief: `SECOND_CHECK_PACKAGE_BRIEF.md`.
+
+```csv
+check_id,met,class,confidence,reason
+S01,N,real,med,"Avalon_Legal_Memorandum.docx sec. I.B: 'Avalon's provision goes further than the statutory default'; the 'general allocation of managerial authority' reading appears only as Marcus's 'substantial counterargument' and 'The cited authorities do not conclusively resolve this exact language' - hedged, not recognised (rule 2). Expert memo, Board Authority para: 'would likely be considered a general statement of § 141(a) authority'. Section 122(18)'s last sentence (delcode) and the S.B. 313 synopsis favour the rubric's reading."
+S02,N,real,med,"Same root cause as S01. Sec. I.B: 'the amendment defeats a simple § 141(a)-only objection, but Avalon should not assume that it overrides the word exclusively. Judicial construction may be needed'; sec. I.C practical conclusion: 'enforceability here remains materially uncertain'. No conclusion that Avalon's clause does not by itself disable the covenant. Expert: consent right 'unlikely to be deemed contrary to Avalon's charter, and therefore remains facially enforceable under § 122(18)'."
+S03,N,E5,med,"Sec. III.C and IV give only a conditional view: 'If managerial fiduciary duties apply ... strongly supports disloyalty or bad faith'; 'Whether Sears's status-quo protection extends to this contractual veto remains uncertain'; bottom line 'substantial but fact- and characterization-dependent controller exposure'. No 'likely breached' (rule 2). The hedge is reasoned and disclosed and rests on Sears (a task-listed case), which per two law-firm summaries holds a controller owes no duties when voting against a proposal to preserve the status quo, so the rubric's 'likely breached' is disputable. Memo also relies on law newer than the rubric (2025 DGCL § 144 amendments, Rutledge 2026). Expert does conclude 'Marcus likely breached his fiduciary duties'."
+S04,N,real,med,"Sec. I.A gives chronology only: 'Before the 2024 amendment, Moelis held ...' then 'Senate Bill 313 was signed July 17, 2024. Its new § 122(18) became effective August 1, 2024'. No sentence says the section was enacted in response to Moelis (text search: no 'response', 'overturn', 'abrogat', 'supersed', 'prompted'). Expert: 'in response to the decision in Moelis, Delaware amended the DGCL and enacted a new § 122(18)'."
+S05,Y,met,low,"Sec. III.C: 'Sears distinguishes exercising managerial power through directors from acting on one's own stockholder rights ... affirmative intervention changing the status quo carries duties not to harm the corporation intentionally or through gross negligence' - the same Sears rule the expert states ('duty of good faith ... duty of care' when exercising stockholder-level voting power), without the labels loyalty/care (rule 3). Imprecision: memo says vetoes that preserve the status quo may fall outside the rule, so it does not endorse the item's 'such as veto or consent rights' example."
+S06,N,real,med,"'Gross' appears twice in the memo: sec. II.A for the board ('supports a duty-of-care claim if the process was grossly negligent') and sec. III.C for the general Sears rule. Nowhere does it say a controller's refusal to consider the merits can be grossly negligent even without intent; sec. III.C applies only disloyalty/bad faith to Marcus ('merits' has 0 hits). Expert, Marcus section: 'even if ... not viewed as intentionally harming Avalon, it likely still meets the threshold of grossly negligent conduct'. Memo notes newer law (2025 § 144 controller protection against monetary care liability)."
+S12,Y,met,low,"SCRA_Compliance_Testing_Template.xlsx 'Test Questions'!B10 (SCRA-12b) is scoped 'For the covered mortgage'; 'Instructions'!B6 defines it for SCRA-12a-12d as 'a pre-service mortgage ... incurred by the servicemember'; the B10 cell note lists 'Note and origination date; service start' as evidence. Pre-service is an applicability gate, as in the expert's MIR-28 ('incurred by servicemembers prior to their military service'). No question text itself says 'before service'."
+S13,Y,met,low,"'Test Questions'!B9 (SCRA-12a) is conditioned on 'When §3937(b)'s notice-and-proof requirements were satisfied'; its cell note lists 'Written notice; military orders and extensions ... receipt and service dates' and points to Instructions; 'Instructions'!B7: 'written notice and copies of call-up orders and any extension orders no later than 180 days after termination or release'. All elements present by reference (rules 3, 4); the 180-day figure is in Instructions, not in the question cell."
+S14,Y,met,low,"'Test Questions'!B9 (SCRA-12a): '... or permitted independent verification was used'; cell note: 'other permitted proof; ... DMDC verification, if used'; 'Instructions'!B8: 'other appropriate service indicators, including a certified commanding-officer letter, and specified creditor DMDC verification ... Its safe harbor requires both an inactive-duty DMDC result at retrieval and no required notice/proof by the 180-day deadline'. If read strictly as N, class is E6: the expert's file has 'other appropriate indicator' but no DMDC anywhere."
+```
+
+## Items classed `real`: does the expert's deliverable meet the item?
+
+- **S01:** Yes. Expert memo, "Board Authority vs. Stockholders' Agreement Provisions": the charter language "would likely be considered a general statement of § 141(a) authority, not an explicit opt-out", and "exclusively" is "rhetorical emphasis". Footnote 13 quotes the synopsis's "general recitation" sentence.
+- **S02:** Yes. Same paragraph: Marcus's consent right "is unlikely to be deemed 'contrary' to Avalon's charter, and therefore remains facially enforceable under § 122(18)".
+- **S04:** Yes. Same paragraph opens "in response to the decision in Moelis, Delaware amended the DGCL and enacted a new § 122(18)".
+- **S06:** Yes. "Fiduciary Duty Implications for Marcus": "Marcus did not consider the merits of the Velridge deal ... even if Marcus' decision ... is not viewed as 'intentionally' harming Avalon, it likely still meets the threshold of 'grossly negligent' conduct".
+
+S01 and S02 are one root cause: the memo treats the word "exclusively" as leaving enforceability open.
+
+## Close calls
+
+- **S01 / S02 (real; considered E5).** The clause is not verbatim § 141(a), and the expert also only says "likely". I kept `real` because the memo gives no likelihood at all, while § 122(18)'s final sentence and the S.B. 313 synopsis point the rubric's way. The memo cites both and still calls the result "materially uncertain".
+- **S03 (E5; considered real).** It is a softened conclusion, which decision rule 1 treats as a failure. I chose E5 because the hedge rests on Sears' status-quo carve-out, which the summaries I read confirm, on unspecified ownership facts, and on 2025–26 law newer than the rubric. If the earlier standard is "any hedge on a legal conclusion is real", this flips.
+- **S05 (met; considered N with E5).** The memo states the Sears rule in substance but doubts it reaches a veto, which is the item's own example. If the example is treated as a required element, it is N, and E5 for the same Sears reason.
+- **S06 (real; considered E5).** Under Sears and the 2025 § 144 care protection the gross-negligence theory is weaker, but the memo never makes that argument about Marcus. The element is simply absent.
+- **S04 (real; considered met).** The sequence "Moelis held … then S.B. 313" implies the link. I held that an implied link is not a statement.
+- **S12 / S13 / S14 (met; considered N).** All three turn on one question: does a condition count as "in a question" when the question invokes it by defined term or statutory reference and the same workbook spells it out (Instructions B6–B8, plus the cell notes on B9 and B10)? I said yes. If the question cell must be self-contained, S12 and S13 are N. I would then class them E5 (a disclosed design choice) rather than real, though real is arguable because the expert's questions carry the wording. S14 would be E6. S12 is the weakest of the three, since "covered mortgage" does not signal pre-service on its face.
+
+## Checks on the brief's claims
+
+- The model's files are consistent with web access: the memo cites 2026 decisions and the workbook links 2023 and 2024 U.S. Code editions.
+- The task's § 3937 link is the 2015 edition. That text has no "other appropriate indicator", commanding-officer letter or DMDC language; these came in with the 2018 amendment (Pub. L. 115-232) and are in the 2024 edition. So S14 asks for content outside the edition the task linked; the model found it anyway.
+- The memo's body is 2,571 words (python-docx count), within the 3,000 limit. The PDF carries the same text as the DOCX.
+
+## Not verified
+
+- UNVERIFIED: the Sears opinion itself. Justia returned 403. I relied on two law-firm summaries (Hughes Hubbard, Dechert), which agree that a controller owes no duties when voting against a change, and owes duties not to harm intentionally or through gross negligence when changing the status quo.
+- UNVERIFIED: verbatim § 122(18) text. The delcode page came back as a paraphrase with one short quote; the "not deemed contrary because the charter authorises the board" sentence is confirmed in substance only.
+- UNVERIFIED: the S.B. 313 synopsis wording against the official bill page. I relied on the expert's footnote 13 quote and secondary commentary.
+- UNVERIFIED against primary sources: the Moelis reversal (Del. Jan. 20, 2026, laches, voidable), the 2025 § 144 amendments and Rutledge (Del. Feb. 27, 2026). Law-firm alerts confirm all three.
+- UNVERIFIED: § 3937 texts verbatim. The 2015 and 2024 govinfo pages were read through a summarising fetch, not raw.
+- UNVERIFIED: the memo's pinpoint cites and its DGCL § 144 subsection numbers.
+- UNVERIFIED: what the rubric's `tags` values ("true" on the lawyer items, "false" on the SCRA items) mean. I did not use them.
+- One fetch (a Sullivan & Cromwell PDF) was saved by the tool under `~/.claude/...`. I did not open it.

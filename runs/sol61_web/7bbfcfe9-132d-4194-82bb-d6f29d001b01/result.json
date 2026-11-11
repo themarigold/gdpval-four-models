@@ -1,0 +1,307 @@
+{
+ "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+ "occupation": "Compliance Officers",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "web_tools": true,
+ "web_search_calls": 6,
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 276.8,
+ "usage": {
+  "input_tokens": 49403,
+  "cached_tokens": 5763,
+  "cache_write_tokens": 410,
+  "output_tokens": 13823,
+  "reasoning_tokens": 13722
+ },
+ "cost_usd": 0.4063,
+ "cost_usd_upper_bound": 0.5624,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "SCRA_Compliance_Testing_Template.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/outputs/SCRA_Compliance_Testing_Template.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/SCRA_Compliance_Testing_Template.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/basic/Standard/dialog.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/basic/Standard/Module1.xba",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/basic/Standard/script.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/basic/dialog.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/basic/script.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/GraphicsRenderTests.log",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/config/autotbl.fmt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/config/javasettings_Linux_X86_64.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/autotext/mytexts.bau",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/gallery/sg30.sdv",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/gallery/sg30.thm",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/database/biblio.odb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/database/biblio/biblio.dbf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/database/biblio/biblio.dbt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/buildid",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu3707lxv.tmp/Filter.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu3707lxx.tmp/Paths.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu3707lxu.tmp/OptionsDialog.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/configmgr.ini",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend/unorc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/bundled/extensions.pmap",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/shared/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/registrymodifications.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/basic/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/basic/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/basic/Standard/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/basic/Standard/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/basic/Standard/Module1.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/config/javasettings_Linux_X86_64.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/config/autotbl.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/autotext/mytexts.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/database/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/database/biblio/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/ExtensionInfo.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/lo_profile/user/pack/registrymodifications.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/SCRA_Compliance_Testing_Template.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42dc9cdb481919ea2b461dce70064.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42dc9cfb881918646984717f10924.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42de4e0c881918faae1fab57ffff8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42de4debc8191b7d88438df999ec4.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42dc5a6f081919d8c92c2039950ba.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af42dbb0908819192aacdeb124079c7.png",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+ ]
+}

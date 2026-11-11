@@ -1,0 +1,27 @@
+{
+ "task_id": "4520f882-715a-482d-8e87-1cb3cbdfe975",
+ "occupation": "Financial Managers",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 858.1,
+ "usage": {
+  "input_tokens": 38,
+  "output_tokens": 92513,
+  "cache_creation_input_tokens": 560900,
+  "cache_read_input_tokens": 1704509
+ },
+ "cost_usd": 4.9958,
+ "reference_files": [
+  "Sample roster and schedule.xlsx",
+  "CBA excerpt.docx"
+ ],
+ "expected_deliverables": [
+  "Theatre CBA.xlsx"
+ ],
+ "delivered_files": [
+  "Local_Musician_Weekly_Payroll.xlsx"
+ ],
+ "error": null
+}

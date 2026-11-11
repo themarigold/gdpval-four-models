@@ -1,0 +1,29 @@
+{
+ "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "web_tools": true,
+ "web_search_calls": 12,
+ "stop_reason": "incomplete",
+ "incomplete_reason": "max_output_tokens",
+ "api_calls": 1,
+ "seconds": 1518.1,
+ "usage": {
+  "input_tokens": 118137,
+  "cached_tokens": 5763,
+  "cache_write_tokens": 933,
+  "output_tokens": 142999,
+  "reasoning_tokens": 142999
+ },
+ "cost_usd": 0.4428,
+ "cost_usd_upper_bound": 0.4898,
+ "container_usd": 0.24,
+ "delivered_files": [],
+ "container_files": [],
+ "error": "incomplete: max_output_tokens",
+ "reference_files": [],
+ "expected_deliverables": [
+  "DRAFT Memo Refusal of Velridge Contract.docx"
+ ]
+}

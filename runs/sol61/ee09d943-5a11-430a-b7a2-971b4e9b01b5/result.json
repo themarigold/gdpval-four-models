@@ -1,0 +1,658 @@
+{
+ "task_id": "ee09d943-5a11-430a-b7a2-971b4e9b01b5",
+ "occupation": "Accountants and Auditors",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 658.5,
+ "usage": {
+  "input_tokens": 120051,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 720,
+  "output_tokens": 29773,
+  "reasoning_tokens": 29408
+ },
+ "cost_usd": 0.6556,
+ "cost_usd_upper_bound": 1.0404,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "Aurisic_Financials_4-25-1.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/cfile_6af40b26e3248191a37354bdd41c9291.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/outputs/Aurisic_Financials_4-25-1.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/recalc/Aurisic_Financials_4-25-1.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/gallery/sg30.thm",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/gallery/sg30.sdv",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/config/autotbl.fmt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/config/javasettings_Linux_X86_64.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/config/autotbl.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/config/javasettings_Linux_X86_64.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/ExtensionInfo.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/Standard/Module1.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/Standard/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/Standard/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/basic/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/autotext/mytexts.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/database/biblio/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/database/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/pack/registrymodifications.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/script.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/Standard/Module1.xba",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/Standard/script.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/Standard/dialog.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/basic/dialog.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/autotext/mytexts.bau",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/database/biblio/biblio.dbf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/database/biblio/biblio.dbt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/database/biblio.odb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/shared/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu5359tc9.tmp/OptionsDialog.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu5359tca.tmp/Filter.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/configmgr.ini",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu5359tcc.tmp/Paths.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend/unorc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/bundled/extensions.pmap",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/extensions/buildid",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/GraphicsRenderTests.log",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile/user/registrymodifications.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40aea157c8191a0ffb8ac085ba2e0.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/gallery/sg30.thm",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/gallery/sg30.sdv",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/config/autotbl.fmt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/config/javasettings_Linux_X86_64.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/config/autotbl.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/config/javasettings_Linux_X86_64.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/ExtensionInfo.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/basic/Standard/Module1.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/basic/Standard/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/basic/Standard/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/basic/dialog.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/basic/script.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/autotext/mytexts.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/database/biblio/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/database/biblio.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/pack/registrymodifications.pack",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/basic/script.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/basic/Standard/Module1.xba",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/basic/Standard/script.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/basic/Standard/dialog.xlb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/basic/dialog.xlc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/autotext/mytexts.bau",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/database/biblio/biblio.dbf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/database/biblio/biblio.dbt",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/database/biblio.odb",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/shared/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu908c508.tmp/Filter.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu908c507.tmp/OptionsDialog.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/configmgr.ini",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend/lu908c50a.tmp/Paths.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend/backenddb.xml",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend/unorc",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/lastsynchronized",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/bundled/extensions.pmap",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/extensions/buildid",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/GraphicsRenderTests.log",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/lo_profile_preview/user/registrymodifications.xcu",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/work/Aurisic_Financials_4-25-1.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_1.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/Aurisic_Financials_4-25-1.pdf",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_8.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_43.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/preview/page_6.png",
+   "bytes": null,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40afca9048191ad511d3721b5fb45.png",
+   "bytes": 105855,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40afca7f88191b701342e1b006beb.png",
+   "bytes": 119535,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/cfile_6af40afca4548191ab43ce9a4f769177.png",
+   "bytes": 115292,
+   "source": "assistant"
+  },
+  {
+   "path": "/mnt/data/e7441b68bbba1ce9d5afa112358b53b8-PPD1251-1.xlsx",
+   "bytes": 18683,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/5558ec145aab23e8981fffca519fcb8b-AccrMisc-1.xlsx",
+   "bytes": 10401,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/e1df4f53f723cfb1eee332165641c584-Good_Insurance_Co_-_Loan.xlsx",
+   "bytes": 18460,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/408e3aade14969bf7884917a98f7cb31-Good_Insurance_Co_-_Loan_II.xlsx",
+   "bytes": 13719,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/d6748de630ab11532e4b014fdff6b546-Aurisic_Financials_3-25-1.xlsx",
+   "bytes": 86735,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/9c91efd7a42116562eeaf5e337f0793e-Rebates-1.xlsx",
+   "bytes": 9746,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/91e4e52445fe94e48a39ffb0317fc295-Payroll-1.xlsx",
+   "bytes": 11252,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/bb17717f6cf763003f60c7597c9317b1-Aurisic_Corp_Payrolls_April_2025-1.xlsx",
+   "bytes": 13680,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/323b4c4308a4deae27112a5f65a76a3a-AR_Accrual-1.xlsx",
+   "bytes": 9686,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/e2f1b07f9d272a20d09defe1b8989b62-AccrBonus-1.xlsx",
+   "bytes": 10564,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/6f63fdc985f101bb8f6e073994408500-Accr2011-1.xlsx",
+   "bytes": 9640,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/ecde7ffece24bc6310cf0179c232a7b7-Prof_Fee_Dump-1.xlsx",
+   "bytes": 11272,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/47effdbf1462078a89d38a6d1ca89187-PPD1250-1.xlsx",
+   "bytes": 30651,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/fcba1141d35a48ae9dd07115732c2f57-Outstanding_CKs_4-30-25-1.xlsx",
+   "bytes": 12370,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/1aeea1126cf2481925fa8e0ab90556e0-Legal_Dump-1.xlsx",
+   "bytes": 14929,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/4f559e60b327b6a9f6a0778cf6641141-Aurisic_Prepaid_Expenses_4-25-1.xlsx",
+   "bytes": 43084,
+   "source": "user"
+  },
+  {
+   "path": "/mnt/data/e17098d88131252675e7f7902def0241-Aurisic_Final_TB_4-25-1.txt",
+   "bytes": 12423,
+   "source": "user"
+  }
+ ],
+ "error": null,
+ "reference_files": [
+  "Aurisic_Final_TB_4-25-1.txt",
+  "Aurisic_Prepaid_Expenses_4-25-1.xlsx",
+  "Legal_Dump-1.xlsx",
+  "Outstanding_CKs_4-30-25-1.xlsx",
+  "PPD1250-1.xlsx",
+  "Prof_Fee_Dump-1.xlsx",
+  "Accr2011-1.xlsx",
+  "AccrBonus-1.xlsx",
+  "AR_Accrual-1.xlsx",
+  "Aurisic_Corp_Payrolls_April_2025-1.xlsx",
+  "Payroll-1.xlsx",
+  "Rebates-1.xlsx",
+  "Aurisic_Financials_3-25-1.xlsx",
+  "Good Insurance Co - Loan II.xlsx",
+  "Good Insurance Co - Loan.xlsx",
+  "AccrMisc-1.xlsx",
+  "PPD1251-1.xlsx"
+ ],
+ "expected_deliverables": [
+  "Aurisic_Financials_4-25-1.xlsx"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "task_id": "b39a5aa7-cd1b-47ad-b249-90afd22f8f21",
+ "occupation": "Financial Managers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 1,
+ "seconds": 433.7,
+ "usage": {
+  "input_tokens": 60,
+  "output_tokens": 84820,
+  "cache_creation_input_tokens": 109443,
+  "cache_read_input_tokens": 2145024
+ },
+ "cost_usd": 0.0775,
+ "reference_files": [
+  "Orchestra assumptions and roster.xlsx"
+ ],
+ "expected_deliverables": [
+  "Orchestra_Compensation.xlsx"
+ ],
+ "delivered_files": [
+  "Renaissance_Orchestra_CBA_Compensation_Model.xlsx"
+ ],
+ "error": null
+}

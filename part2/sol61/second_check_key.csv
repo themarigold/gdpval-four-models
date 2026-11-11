@@ -1,0 +1,54 @@
+check_id,first_pass_unit,first_pass_class,why_included
+S01,S-A-1,real,real-failure root cause
+S02,S-A-1,real,real-failure root cause
+S03,S-A-2,real,real-failure root cause
+S04,S-A-2,real,real-failure root cause
+S05,S-A-3,E2,rubric/expert-wrong claim
+S06,S-A-7,E2,rubric/expert-wrong claim
+S07,S-A-1,real,first pass: table-dependent tax line (real or harness limit)
+S08,E3,E3,first pass: own-design tax form facsimile judged clean as a whole
+S09,S-A-5,E1,first pass: sample entity not in the population (rubric mismatch or real)
+S10,S-A-9,E6,first pass: period label missing on added reference tabs
+S11,E3,E3,first pass: book balance shown under another label (met
+S12,S-C-9,real,real-failure root cause
+S13,S-C-1,E4,first pass: placeholder question with no content (harness limit or real)
+S14,E3,E3,first pass: placeholder questions judged closed yes/no questions
+S15,E3,E3,first pass: formatting of a placeholder draft judged as a whole
+S16,E3,E3,first pass: open-source findings tied to the address (met on substance)
+S17,S-C-8,E5,first pass: SAR amount is cash deposits only (defensible or real)
+S18,E3,E3,first pass: interest definition partly in the question cell
+S19,E3,E3,first pass: deadline stated in a cell note (met or real)
+S20,S-C-7,E6,first pass: court-relief standard on the instructions sheet only
+S21,S-F-1,E2,rubric/expert-wrong claim
+S22,S-F-3,real,real-failure root cause
+S23,S-F-3,real,real-failure root cause
+S24,S-F-6,real,real-failure root cause
+S25,S-F-6,real,real-failure root cause
+S26,S-F-14,real,real-failure root cause
+S27,S-F-14,real,real-failure root cause
+S28,E3,E3,first pass: audits paid at the performance rate (met
+S29,S-F-5,E5,first pass: short rehearsal paid at minimum call
+S30,S-F-4,E5,first pass: substitute premium reading (defensible
+S31,S-F-2,E5,first pass: doubling base (defensible)
+S32,S-F-6,real,first pass: percentage view exists on other tabs
+S33,E3,E3,first pass: one comparison table (met
+S34,S-F-10,E4,first pass: no competitor fee figure offline (harness or real)
+S35,E3,E3,first pass: market-position goal stated as conditional (met
+S36,S-F-12,E5,first pass: regulation handled as compliance (defensible or met)
+S37,S-F-15,E5,first pass: no introduction section (style or real)
+S38,S-L-6,real,real-failure root cause
+S39,S-L-7,real,real-failure root cause
+S40,S-L-7,real,real-failure root cause
+S41,S-L-8,real,real-failure root cause
+S42,S-L-8,real,real-failure root cause
+S43,S-L-10,real,real-failure root cause
+S44,S-L-10,real,real-failure root cause
+S45,S-L-11,real,real-failure root cause
+S46,S-L-12,real,real-failure root cause
+S47,S-L-14,real,real-failure root cause
+S48,S-L-18,real,real-failure root cause
+S49,S-L-19,real,real-failure root cause
+S50,E3,E3,first pass: two-sentence statement of facts (met or style)
+S51,S-L-5,E5,first pass: state-law violation summary (defensible or rubric wrong)
+S52,S-L-15,E6,first pass: top-up applies to exempt issuances (shared with expert or met)
+S53,S-L-16,E5,first pass: fee recovery by indemnity (defensible or real)

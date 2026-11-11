@@ -1,0 +1,35 @@
+{
+ "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+ "occupation": "Compliance Officers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "completed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 124.2,
+ "usage": {
+  "input_tokens": 20503,
+  "cached_tokens": 1389,
+  "cache_write_tokens": 410,
+  "output_tokens": 13803,
+  "reasoning_tokens": 13707
+ },
+ "cost_usd": 0.1288,
+ "cost_usd_upper_bound": 0.1342,
+ "container_usd": 0.12,
+ "delivered_files": [
+  "SCRA_Audit_Test_Questions.xlsx"
+ ],
+ "container_files": [
+  {
+   "path": "/mnt/data/outputs/SCRA_Audit_Test_Questions.xlsx",
+   "bytes": null,
+   "source": "assistant"
+  }
+ ],
+ "error": null,
+ "reference_files": [],
+ "expected_deliverables": [
+  "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+ ]
+}

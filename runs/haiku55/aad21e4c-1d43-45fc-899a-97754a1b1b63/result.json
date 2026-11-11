@@ -1,0 +1,22 @@
+{
+ "task_id": "aad21e4c-1d43-45fc-899a-97754a1b1b63",
+ "occupation": "Lawyers",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "max_tokens",
+ "api_calls": 1,
+ "seconds": 296.9,
+ "usage": {
+  "input_tokens": 4,
+  "output_tokens": 64000,
+  "cache_creation_input_tokens": 4006,
+  "cache_read_input_tokens": 0
+ },
+ "cost_usd": 0.0325,
+ "reference_files": [],
+ "expected_deliverables": [
+  "Share Subscription Agreement (Draft).docx"
+ ],
+ "delivered_files": [],
+ "error": null
+}

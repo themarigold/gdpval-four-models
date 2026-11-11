@@ -1,0 +1,9 @@
+I’ll use the March workbook’s structure and reconcile the April schedules to the final trial balance. I’ll also include a CFO review log for any missing support or unresolved differences, so the package’s readiness is clear.I found several items that need CFO resolution before sign-off: `AP_TB-1.xlsx` was not supplied, the bank reconciliation has no independent statement balance, and the prepaid insurance, payroll accrual, and division 12 A/R support do not agree with the final trial balance. April’s trial balance also implies prior-period changes relative to the March package.
+
+I’ll complete the supported schedules and clearly flag these items in the TOC and CFO review log. The workbook will be marked “Pending CFO resolution,” not approved.The April package is assembled, and the supported schedules have been reconciled. Full recalculation also exposed inherited source-formula errors, which I corrected and documented in the change log.
+
+The workbook includes 20 reconciliation checks and a CFO action register. It remains pending resolution of the missing support and the insurance, payroll, and division 12 A/R differences; no balancing entries have been invented to force agreement.[Download Aurisic_Financials_4-25-1.xlsx](sandbox:/mnt/data/outputs/Aurisic_Financials_4-25-1.xlsx)
+
+The consolidated April workbook includes the updated TOC, April schedules, new supporting tabs, reconciliation controls, and a documented change log. Reserved CFO tabs are excluded.
+
+**Status: Pending CFO resolution.** Tab 21 details missing AP and bank support, insurance/payroll/A/R discrepancies, and opening-balance revisions requiring review. No unsupported balancing entries were assumed.

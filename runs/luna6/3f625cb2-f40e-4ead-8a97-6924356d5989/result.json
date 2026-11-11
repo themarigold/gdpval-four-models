@@ -1,0 +1,27 @@
+{
+ "task_id": "3f625cb2-f40e-4ead-8a97-6924356d5989",
+ "occupation": "Lawyers",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "stop_reason": "failed",
+ "incomplete_reason": null,
+ "api_calls": 1,
+ "seconds": 109.4,
+ "usage": {
+  "input_tokens": 0,
+  "cached_tokens": 0,
+  "cache_write_tokens": 0,
+  "output_tokens": 0,
+  "reasoning_tokens": 0
+ },
+ "cost_usd": 0.12,
+ "cost_usd_upper_bound": 0.12,
+ "container_usd": 0.12,
+ "delivered_files": [],
+ "container_files": [],
+ "error": "failed: invalid_prompt Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+ "reference_files": [],
+ "expected_deliverables": [
+  "Legal Concerns Regarding VueVid Collection of Child Personal Information.pdf"
+ ]
+}

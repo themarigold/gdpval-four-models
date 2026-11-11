@@ -1,0 +1,27 @@
+{
+ "task_id": "83d10b06-26d1-4636-a32c-23f92c57f30b",
+ "occupation": "Accountants and Auditors",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "api_calls": 2,
+ "seconds": 413.8,
+ "usage": {
+  "input_tokens": 108,
+  "output_tokens": 70897,
+  "cache_creation_input_tokens": 119941,
+  "cache_read_input_tokens": 3938107
+ },
+ "cost_usd": 0.0898,
+ "reference_files": [
+  "Population v2.xlsx"
+ ],
+ "expected_deliverables": [
+  "Sample v2.xlsx"
+ ],
+ "delivered_files": [
+  "Population v2 - Audit Testing.xlsx",
+  "Sample.xlsx"
+ ],
+ "error": null
+}

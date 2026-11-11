@@ -1,0 +1,21 @@
+task_id,sector,occupation,n_reference_files,n_rubric_items,rubric_points
+43dc9778-450b-4b46-b77e-b6d82b202035,"Professional, Scientific, and Technical Services",Accountants and Auditors,15,67,121
+7b08cd4d-df60-41ae-9102-8aaa49306ba2,"Professional, Scientific, and Technical Services",Accountants and Auditors,1,59,89
+7d7fc9a7-21a7-4b83-906f-416dea5ad04f,"Professional, Scientific, and Technical Services",Accountants and Auditors,6,56,95
+83d10b06-26d1-4636-a32c-23f92c57f30b,"Professional, Scientific, and Technical Services",Accountants and Auditors,1,38,63
+ee09d943-5a11-430a-b7a2-971b4e9b01b5,"Professional, Scientific, and Technical Services",Accountants and Auditors,17,44,59
+2696757c-1f8a-4959-8f0d-f5597b9e70fc,Government,Compliance Officers,0,25,39
+36d567ba-e205-4313-9756-931c6e4691fe,Government,Compliance Officers,0,27,54
+4c18ebae-dfaa-4b76-b10c-61fcdf26734c,Government,Compliance Officers,1,50,69
+7bbfcfe9-132d-4194-82bb-d6f29d001b01,Government,Compliance Officers,0,40,53
+dfb4e0cd-a0b7-454e-b943-0dd586c2764c,Government,Compliance Officers,1,26,43
+4520f882-715a-482d-8e87-1cb3cbdfe975,Finance and Insurance,Financial Managers,2,88,175
+5f6c57dd-feb6-4e70-b152-4969d92d1608,Finance and Insurance,Financial Managers,1,137,197
+a1963a68-1bea-4bb1-b7e0-145c92a57449,Finance and Insurance,Financial Managers,0,48,66
+b39a5aa7-cd1b-47ad-b249-90afd22f8f21,Finance and Insurance,Financial Managers,1,32,62
+b78fd844-db76-448e-a783-5e9877cb74c2,Finance and Insurance,Financial Managers,1,51,76
+3f625cb2-f40e-4ead-8a97-6924356d5989,"Professional, Scientific, and Technical Services",Lawyers,0,64,76
+8314d1b1-5b0f-42a4-b5d5-91c0867b0913,"Professional, Scientific, and Technical Services",Lawyers,0,43,117
+a97369c7-e5cf-40ca-99e8-d06f81c57d53,"Professional, Scientific, and Technical Services",Lawyers,0,44,126
+aad21e4c-1d43-45fc-899a-97754a1b1b63,"Professional, Scientific, and Technical Services",Lawyers,0,84,127
+cd9efc18-d14a-4f69-8531-5d178a08084d,"Professional, Scientific, and Technical Services",Lawyers,0,67,140

