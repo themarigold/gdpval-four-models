@@ -124,6 +124,8 @@ Commands, in order:
 
 ### 3a. Two model judges
 
+I meant to use OpenAI's experimental automated grader (evals.openai.com) as well, but on 2026-11-09 it loaded as a blank page for me, so I graded with two model judges and checked both against my own hand labels (section 3b).
+
 Both judges run the same code (`src/judge.py`; `src/judge_claude.py` only swaps the model), at reasoning effort `medium`. A judge gets:
 - the task prompt;
 - the reference-file names, not their contents;

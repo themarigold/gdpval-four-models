@@ -60,6 +60,15 @@ I used coding agents throughout: Claude Code for the code, the review passes and
 
 The whole thing cost about $161 in API calls. `results/cost_by_model.csv` has the split.
 
+## How I used the coding agent
+
+I worked with the agent the way I would with a small team, and kept the checks for myself.
+
+- I wrote the rules down: ten grading rules for "is the item met", and decision rules for "is it a model failure". The agents worked to them. When a case showed a rule was missing, I added it and re-applied it to the earlier rows. Each second check went to reviewers who could not see the first pass.
+- I used a reviewer from a second vendor (OpenAI's codex CLI) on part of the second check, so that Claude agents were not the only readers.
+- Every number on the page is filled from the tables by a script, and a second script recomputes 74 of them and fails on an altered copy.
+- I looked for the agents' mistakes as well as the models'. The first pass turned out to be measuring my own setup (no web access, no context handling), so I re-ran those tasks. An early version of one table counted judge errors twice. Some rulings had been applied differently between models; two further readers re-read each one and I settled them in one batch. All of these are in `part2/DECISIONS.md`.
+
 ## Limits
 
 This is 20 tasks and one run per model, so what it shows are patterns, not rates. The judges are models, and one of them is from the same family as two of the models under test. The failure lists start from two different judges: the gpt-6.1-sol judge for Opus and Haiku, and the Claude judge for gpt-6.1-sol. Nothing was trained, so what I say about data is my reading of the failures. Section 6 of `EVALUATION_RECORD.md` has the full list, and so does the page.

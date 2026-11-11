@@ -649,6 +649,7 @@
         <summary>How the failures were classified</summary>
         <div>
           <ol>
+            <li><b>Two model judges.</b> OpenAI's experimental automated grader loaded as a blank page when I tried it, so a gpt-6.1-sol judge and a Claude Opus 5.5 judge graded every rubric item from extracted text.</li>
             <li><b>A check of the judges against hand labels.</b> I graded 40 rubric items (30 from Opus, 10 from expert files) from the actual files under ten written rules (listed in the next section), with an AI summary of the evidence and a suggested reading beside each and the judges' verdicts hidden. The first judge agreed on 29, the second on 37.</li>
             <li><b>First pass.</b> Review agents checked every item a judge failed against the deliverable, the source files and the expert's file, and grouped the items by root cause. On the re-run tasks each reviewer saw all three models on the same task, so one rubric item was read one way.</li>
             <li><b>Blind second check.</b> Fresh reviewers re-judged the items the conclusions depend on, without seeing the first pass: 51 to 66 items per round. OpenAI's codex did part of gpt-6.1-sol's.</li>
@@ -663,7 +664,7 @@
       <details id="d-tasks">
         <summary>The 20 tasks</summary>
         <div>
-          <p>Every GDPval gold task in four occupations, five each. The full prompts, rubrics and expert files are GDPval's own, in the repository's <code>data/</code> folder.</p>
+          <p>Every GDPval gold task in four occupations, five each. I chose accounting, finance, compliance and law because they mix spreadsheet work with long legal and regulatory prose, every deliverable is an office file a code sandbox can produce, and they are close enough to what I know that I could check a grader's call myself. The full prompts, rubrics and expert files are GDPval's own, in the repository's <code>data/</code> folder.</p>
         </div>
         <div class="scroll">
           <table>
